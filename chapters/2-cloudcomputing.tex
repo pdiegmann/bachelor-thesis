@@ -1,0 +1,126 @@
+\section{Cloud Computing}
+\label{sec:Cloud}
+
+% 2.1 DEFINITION (2 Seiten)
+\subsection{Definition}
+\CC bezeichnet den Ansatz, Server-Infrastruktur oder Software-Dienste skalierbar, einfach und jeder Zeit abrufbar, für verschiedenste Kunden zur Verfügung zu stellen.\footnote{Dieser Abschnitt folgt \cite{Mell.2011}, S. 2.}
+Zudem müssen die Computer-Ressourcen so dynamisch und elastisch nutzbar sein, dass es dem Kunden möglich ist, automatisch, in Sekundenschnelle, seinen Ressourcenbedarf, durch Hoch- und Herunterskalierung, zu decken.\footnote{\cite{Boss.2007}, S. 7.}
+Die Bereitstellung oder Freigabe der Ressourcen soll ohne Eingriff eines Mitarbeiters des \CSPs erfolgen.\footnote{\cite{Mell.2011}, S. 2.}\saveFN{\Mell}
+Die Interaktion mit dem \CS soll über das Internet möglich sein und über standarisierte Protokolle über einen Web-Service zugänglich sein.
+Für den \CSP bedeutet das Bedürfnis nach schneller Ressourcenallokation enorme Anforderungen an seine \CC Infrastruktur.\footnote{Vgl. \cite{Badger.2011}, S. 7-4.} 
+Um Ressourcen automatisch zur Verfügung zu stellen, können einzelne physikalische Server nicht mehr schnell genug der Infrastruktur hinzugefügt werden.\footnote{Bis zum Ende des Abschnitts vgl. \cite{Boss.2007}, S. 4.} 
+Es muss zusätzlich eine virtuelle Infrastruktur bereitstehen.
+Virtuelle Maschinen bieten den Vorteil schnell einsatzfähig und duplizierbar zu sein.
+Dadurch lassen sich \CSs einfacher skalieren, als durch das statischere Installieren und Hinzuschalten von pysikalischen Hardwareressourcen.
+\CC bedeutet also für \CSP mehr als nur das Provisionieren von Ressourcen, da die Ressourcenallokation auch durch den \CSU konfigurierbar und automatisierbar sein muss.\footnote{\cite{Xiao.2012}, S. 1.}
+\newline
+Durch dieses dynamische Provisionieren und Allozieren von Ressourcen ist es dem \CSP und \CSU  möglich eine gleichmäßige und nahezu optimale Lastverteilung auf die gerade aktiven Ressourcen zu gewährleisten und bei Bedarf weitere hinzuzuschalten oder freizugeben.\footnote{\cite{Xiao.2012}, S. 3-4} Für den \CSU und seine, in der Cloud aktiven Anwendungen, bedeutet dies eine gleichmäßigere Lastverteilung bei hoher Ressourcenauslastung und damit höhere Ausfallsicherheit, also Verfügbarkeit.
+
+% 2.2 SERVICEMODELLE (2 Seiten)
+\subsection{Servicemodelle}
+Es existieren drei Servicemodelle die durch einen \CSP zur Verfügung gestellt werden können. Allen drei Modellen ist ähnlich, dass üblicherweise eine Abrechnung der tatsächlich genutzten Ressourcen, aufgeschlüsselt nach Zeit oder Nutzenumfang, stattfindet.\footnote{Vgl. \cite{He.2012}, S. 1345.}
+
+% 2.2.1 Software as a Service
+\subsubsection{Software as a Service}
+\label{sec:SaaS}
+\acf{SaaS} bezeichnet die Bereitstellung von Software Dienstleistungen über das Internet.\footnote{Dieser Abschnitt folgt \cite{Mell.2011}, S. 2.} 
+Der Nutzer dieser Dienste muss sich weder um die Verfügbarkeit von Hardwareressourcen noch um die Pflege der Software kümmern. Er greift über einen Web-Service oder eine Web-Schnittstelle auf den \CS zu und nutzt den \CS entweder für einen bestimmten Zeitraum über ein Lizensierungsmodell oder bezahlt für den Nutzenumfang, wie zum Beispiel die Anzahl von Kontaktbucheinträgen in einem \acf{CRM} System.
+Lediglich der \CSP kümmert sich um die Bereitstellung der nötigen Ressourcen der \CC Infrastruktur, wie Server, Netzwerkbandbreite und Speicherkapazität.\footnote{Vgl. \cite{Marston.2011}, S. 183.} Ein Beispiel für einen \acs{SaaS}-Angebot ist der E-Mail Dienst \emph{Gmail}\footnote{\url{http://gmail.com}}
+des US-amerikanischen Unternehmens \emph{Google}. 
+\newline
+Auf der Weboberfläche von \emph{Gmail} kann der \CSU seine E-Mail Aktivitäten verwalten, muss sich aber keinesfalls um die Bereitstellung oder Verfügbarkeit der genutzten \CC Infrastruktur kümmern.
+
+% 2.2.2 Platform as a Service
+\subsubsection{Platform as a Service}
+Die charakteristischen Eigenschaften eines Platform as a Service (\acs{PaaS}) Modells sind die Bereitstellung von vorinstallierter Software, wie Datenbanken oder Programmbibliotheken, die bereits elaborierten Quelltext enthalten.\footnote{Dieser Abschnitt folgt \cite{Mell.2011}, S. 2.}\saveFN{\MellAbsatz}
+Der \CSU kann diese vorinstallierte Software über fest definierte und dokumentierte Schnittstellen nutzen. 
+Der \CSU entwickelt also die in der Cloud betriebene Software selbst, nutzt aber bei der Implementierung die gegebenen Schnittstellen des \CSPsDot
+Der Vorteil ist auch hier, dass der \CSU sich nicht um die Bereitstellung der \CC Infrastruktur kümmern muss und zusätzlich nicht um die Wartung der verwendeten Software, die Lastverteilung von Nutzeranfragen oder das Skalieren der Ressourcen.\footnote{Vgl. \cite{Marston.2011}, S. 183.}
+\newline
+Ein bekanntes \acs{PaaS} Angebot ist \emph{Google App Engine}\footnote{\url{https://developers.google.com/appengine/}}. \emph{Google App Engine} bietet sowohl die Ausführung von Webanwendungen auf der Google Infrastruktur, als auch zusätzliche Dienste wie E-Mail Versand, Caching\footnote{Caching bezeichnet das Speichern von Daten oder Teilen von Datensätzen auf Speichermedien mit sehr schnellen Zugriffszeiten, um diese Daten in Zukunft wieder schnell zugriffsbereit zu haben. Üblicherweise wird Caching im Hauptspeicher von Datenbanksystemen genutzt. Oft genutzte Daten können direkt aus dem Cache geladen werden und erfordern keinen langsameren  Festplattenzugriff auf den Datenbestand des Datenbanksystems. (Vgl. \cite{Wessels.2001}, S. 1-2.)} oder Bildbearbeitung als \CS für seine \CSU an.\footnote{\url{https://developers.google.com/appengine/docs/whatisgoogleappengine?hl=de}}
+
+% 2.2.3 Infrastructure as a Service
+\subsubsection{Infrastructure as a Service}
+Infrastructure as a Service (\acs{IaaS}) bietet dem \CSU Rechenleistung, Speicherkapazität, Netzwerkbandbreite und andere Infrastruktur-Ressourcen zur Nutzung an.\useFN{\MellAbsatz} Bei diesem Servicemodell liegt es aber nur in der Verantwortung des \CSPs die \CC Infrastruktur sicherzustellen. Die Instandhaltung der Software sowie die Implementierung und Bereitstellung der Anwendung, die auf dieser Infrastruktur betrieben werden soll, liegt vollkommen auf der Seite des \CSUsDot
+\acs{IaaS} ist damit am besten mit klassischen Server-Hosting Angeboten zu vergleichen, da nur die Infrastruktur  bereitgestellt wird. Möchte der \CSU tiefergreifende Informationen oder Hilfestellung zur Nutzung des \CSs erhalten, muss es sich, sofern dieses Angebot vorhanden ist, an den Support des \CSPs wenden. \acs{IaaS} bietet aber im Gegensatz zu klassischem Server-Hosting üblicherweise, wie auch alle anderen Servicemodelle, ein Abrechnungssystem, dass nur die genutzten Ressourcen in Rechnung stellt und einfacher zu skalieren ist.
+\newline
+Als eines der prominentesten Beispiele ist hier \emph{Amazon Web Services (\acs{AWS})}\footnote{\url{http://aws.amazon.com/de/}}
+zu nennen. AWS bietet als \CSP Rechenleistung über seinen \CS \emph{Elastic Compute Cloud (\acs{EC2})}, sowie Speicherkapazität über \emph{Simple Storage Service (\acs{S3})} und weitere \acs{IaaS}-Dienste für seine \CSU an.
+
+% 2.3 STAKEHOLDER (1 Seite)
+\subsection{Stakeholder}
+\cite{Marston.2011} unterscheiden zwischen vier verschiedenen Stakeholdern im Themengebiet Cloud Computing: \CSUComma \CSPComma Cloud-\linebreak Service-Ermöglicher und Cloud-Service-Regulatoren.\footnote{Dieser Abschnitt folgt \cite{Marston.2011}, S. 183.}\saveFN{\Marston}
+Im Rahmen dieser Bachelorarbeit wird aber, aus Gründen des Umfangs, nur auf die Stakeholder \CSU und \CSP eingegangen.
+\newline
+Aus Sicht des \CSUs gibt es immer nur einen \CSP zu dem er für einen \CS in Beziehung steht. Der \CSP bietet seinen \CS jedoch mehreren \CSUn an und muss damit auch mehreren Qualitätsanforderungen gerecht werden.\footnote{Vgl. \cite{Schneider.2013}, S. 7.}
+
+% 2.3.1 Cloud-Service-User
+\subsubsection{\CSU}
+\CSU konsumieren die durch \CSP angebotenen \CSs und sind damit weder für die Wartung, Instandhaltung noch die Qualitätssicherung des \CSs verantwortlich.\footnote{Dieser und der folgende Satz folgen \cite{Marston.2011}, S. 183.} Das entlastet die IT-Abteilung (falls eine IT-Abteilung beim \CSU existiert) und schafft Raum für den Fokus auf neue Innovationen\footnote{\cite{Boss.2007}, S. 4.}.
+Üblicherweise definiert ein \CSU die gewünschten Qualitätsanforderungen der, durch den \CSP angebotenen, Cloud Computing Ressourcen und beide Parteien vereinbaren diese Anforderungen bindend in einer \acf{DLV}.\footnote{Vgl. \cite{Badger.2011}, S. 3-1, 3-2.}
+
+% 2.3.2 Cloud-Service-Provider
+\subsubsection{\CSP}
+Der \CSP stellt \CC Ressourcen zur Verfügung und wartet die einzelnen Komponenten, wie zum Beispiel Server oder die Netzwerkinfrastruktur.\footnote{\cite{Marston.2011}, S. 183.}
+Außerdem führt er Software Updates durch und legt die Preise für die Nutzung der Ressourcen fest.\footnote{Vgl. \cite{Marston.2011}, S. 183.} 
+Der \CSP ist ständig bemüht die optimale Ressourcenprovisionierung zu gewährleisten\footnote{Vgl. \cite{Zhu.2012}, S. 497-498.}
+und versucht, zum Beispiel durch permanentes Monitoring der Ressourcennutzung, die kostengünstigste und effektivste Ressourcen-Provisionierungsstrategie und Ressourcenauslastung zu erzielen.\footnote{Vgl. \cite{Meng.2012}, S. 1.}
+
+% 2.4 BEREITSTELLUNGSMODELLE (1 Seite)
+\subsection{Bereitstellungsmodelle}
+\label{sec:Bereitstellungsmodelle}
+Für Cloud Computing lässt sich zwischen vier verschiedenen Bereitstellungsmodellen unterscheiden.\footnote{Dieser Abschnitt folgt \cite{Mell.2011}, S. 3.}\saveFN{\Mell3} Die jeweiligen Bereitstellungsmodelle zeichnet hauptsächlich der Grad der alleinigen Nutzung von Ressourcen durch ein oder mehrere \CSU aus. Im Folgenden werden die verschiedenen Bereitstellungsmodelle erläutert.
+
+% 2.4.1 Private Cloud
+\subsubsection{Private Cloud}
+\label{sec:PrivateCloud}
+Eine Private Cloud zeichnet aus, dass die komplette \CC Infrastruktur dediziert für einen \CSU bereitgestellt wird.\useFN{\Mell3} Die eingesetzten Ressourcen werden also zu keinem Zeitpunkt mit einem anderen \CSU geteilt. Der \CSP kann zum Beispiel die interne IT-Abteilung des Unternehmens sein, ein externer \CSP oder eine Mischung aus beiden Modellen. Entscheidend ist hier, ob der \CSU seine sensiblen Daten an externe \CSP auslagern möchte, oder diese lieber geographisch nah speichert.\footnote{\cite{Marston.2011}, S. 180.}
+
+% 2.4.2 Community Cloud
+\subsubsection{Community Cloud}
+Wird eine \CC Infrastruktur nur für eine bestimmte Gruppe, deren Mitglieder beispielsweise die gleichen Interessen vertreten, freigegeben und genutzt, spricht man von einer Community Cloud.\useFN{\Mell3} Üblicherweise ist der \CSP ein Unternehmen innerhalb der Interessengruppe oder seltener ein externer \CSPDot Auch hier entscheidet der Grad an Vertraulichkeit der Daten über den Grad der Auslagerung der Daten zu einem externen \CSPDot
+
+% 2.4.3 Public Cloud
+\subsubsection{Public Cloud}
+Eine Public Cloud bietet Zugriff auf seine \CC Infrastruktur über eine öffentliche Web-Schnittstelle.\footnote{Dieser Abschnitt folgt \cite{Marston.2011}, S. 180.} Für den \CSU bietet die Public Cloud eine kostengünstige Möglichkeit seine Anwendungen zu realisieren, da die Ressourcen nicht selber verwaltet und gewartet werden müssen, sondern der \CSP diese Aufgabe übernimmt. Mögliche \CSU sind vor allem kleine bis mittelgroße Unternehmen, akademische Einrichtungen oder Regierungseinrichtungen, da sich in den meisten Fällen das Betreiben einer eigenen IT-Infrastruktur für diese Interessengruppen nicht lohnt.
+
+% 2.4.4 Hybrid Cloud
+\subsubsection{Hybrid Cloud}
+Eine Hybrid Cloud entsteht durch die Verknüpfung von zwei oder mehreren der Bereitstellungsmodelle Private Cloud, Community Cloud oder Public Cloud.
+Verknüpft man zwei oder mehr der Bereitstellungsmodelle Private Cloud, Community Cloud oder Public Cloud ergibt sich ein System, das man Hybrid Cloud nennt.\footnote{Dieser Abschnitt folgt \cite{Mell.2011}, S. 3.}
+Die Besonderheit einer Hybrid Cloud ist, dass die verbundenen Bereitstellungsmodelle auch einzeln existieren können, hier aber über standarisierte Schnittstellen miteinander verknüpft werden, sodass sie zusammen ein neues \CC System bilden.
+Vorteilhaft bei diesem Bereitstellungsmodell ist die Tatsache, dass sicherheitsrelevante Daten innerhalb des Unternehmens (beispielsweise in einer Private Cloud) gehalten werden können und weniger sensible Daten einfach in den Public Cloud Bereich der Hybrid Cloud ausgelagert werden können.\footnote{\cite{Marston.2011}, S. 180.}
+
+% 2.5 LEBENSZYKLUS (1 Seite)
+\subsection{Lebenszyklus}
+\label{sec:Lebenszyklus}
+In diesem Abschnitt wird das von \cite{Schneider.2013} vorgestellte Lebenszyklus Modell für \CSs erläutert.\footnote{Dieser Abschnitt folgt \cite{Schneider.2013}, S. 6-8.}
+\cite{Schneider.2013} identifizieren fünf verschiedene Phasen im Lebenszyklus des Cloud Computing: Akquisephase, Entwicklungsphase, Integrationsphase, Operationsphase und Außerdienststellungsphase.
+Im Folgenden werden die verschiedenen Phasen und die in ihrem Rahmen ausgeführten Tätigkeiten beschrieben.
+
+% 2.5.1 Akquisephase
+\subsubsection{Akquisephase}
+In der Akquisephase führt der \CSU sowohl eine Marktanalyse\footnote{\cite{Cullen.2005}, S. 233.} 
+als auch eine Machbarkeitsstudie\footnote{\cite{Cullen.2005}, S. 235.} des geplanten \CC Projekts durch und wählt, je nach Sicherheitsrelevanz, eine Auslagerungsstrategie für seine Daten.\footnote{Dieser und der folgende Satz folgen \cite{Lindner.2011}, S. 23-24.}
+Der \CSP legt die Preise für seine \CSs fest und geht in die Vertragsverhandlungen mit potentiellen \CSUnDot Außerdem sollte sowohl der \CSP als auch der \CSU mit der Projektplanung und der Vorbereitung der nächsten Phasen beginnen.\footnote{\cite{Cullen.2005}, S. 239.}
+
+% 2.5.2 Entwicklungsphase
+\subsubsection{Entwicklungsphase}
+An der Entwicklungsphase ist nach \cite{Schneider.2013} nur der \CSP beteiligt. Er prüft das Potential des Marktes und die Wünsche des Kunden auf Machbarkeit.\footnote{\cite{Jin.2008}, S. 3, 9.}\saveFN{\Jin}  Nach einer Risikoanalyse\footnote{\cite{Taylor.2007}, S. 201-202.} und der Einschätzung, dass das \CC Projekt erfolgreich\useFN{\Jin} durchgeführt werden kann, beginnt der \CSP mit dem Prototyping\footnote{Prototyping bezeichnet das schnelle Entwickeln einer experimentellen Version eines Systems die zu Präsentations- und Analysezwecken genutzt werden kann. (\cite{Laudon.2010}, S. 936.)}
+seines \Cs s.\footnote{\cite{Sommerville.2012}, S. 72-73.}
+Eine wichtige Aufgabe ist hier die Sicherheitsrichtlinien und -anforderungen\footnote{Vgl. \cite{Taylor.2007}, S. 36.} des \CSs zu definieren, implementieren und zu kommunizieren, damit sich zukünftige \CSU für den \CS entscheiden.
+
+% 2.5.3 Integrationsphase
+\subsubsection{Integrationsphase}
+Der \CSP passt in der Integrationsphase seinen Dienst an die speziellen Bedürfnisse des \CSUs an\footnote{\cite{Esteves.2007}, S. 393.}\saveFN{\Esteves} und transferiert sein Wissen, zum Beispiel über Schulungen\useFN{\Esteves}, an die Cloud-Service-Nutzer.\footnote{\cite{Cullen.2005}, S. 232-233.}
+Der \CSU schult seine Mitarbeiter im Umgang mit dem neuen Cloud-Service\useFN{\Esteves} um diesen in seine IT-Landschaft zu integrieren.\footnote{Vgl. \cite{Lindner.2011}, S. 25.}
+
+% 2.5.4 Operationsphase
+\subsubsection{Operationsphase}
+Während der Operationsphase, also der aktiven Nutzung des \Cs s, prüft der \CSP periodisch ob sein \CS noch den Sicherheitsstandards genügt.\footnote{\cite{Ahmad.2011}, S. 372-380.} Er wartet und aktualisiert\footnote{Vgl. \cite{Esteves.2007}, S. 393.} den \CS und überwacht die Infrastruktur\footnote{Vgl. \cite{Taylor.2007}, S. 184.} um größtmögliche Stabilität zu gewährleisten.
+Der \CSU überwacht die Nutzung\footnote{\cite{Cullen.2005}, S. 233.}\saveFN{\Cullen} des \CS ebenfalls, da er an einer Risikominimierung\footnote{\cite{Cullen.2005}, S. 232.}, also einer hohen Verfügbarkeit des \Cs s, interessiert ist.
+
+% 2.5.5 Außerdienststellungsphase
+\subsubsection{Außerdienststellungsphase}
+In der letzten Phase des Lebenszyklus, der Außerdienststellungsphase, sorgt der \CSP für die sichere Löschung aller Daten\footnote{Vgl. \cite{Badger.2011}, S. 7-8.}, die durch die \CSU generiert oder gespeichert wurden.
+Der \CSU reflektiert die Nutzung des \CSs und überlegt sich wie er in Zukunft mit seinen Daten vorgehen wird.\useFN{\Cullen} Die Benutzung des \CSs wird vom \CSU eingestellt\footnote{\cite{Praeg.2006}, S. 4.}.
