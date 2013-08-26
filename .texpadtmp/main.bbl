@@ -1,0 +1,140 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{nty}
+    \entry{Badashian.2008}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=c493d330555c06feb1c8ced8e3dae36f}{Badashian}{B\bibinitperiod}{Ali\bibnamedelima Sajedi}{A\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=194219f34c6cf241aaed15a9b5f65746}{Mahdavi}{M\bibinitperiod}{Mehregan}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6a371fe6162be3609a09202f697ac44f}{Pourshirmohammadi}{P\bibinitperiod}{Amir}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ac27756bb58a142e387aa31b85557300}{nejad}{n\bibinitperiod}{Minoo\bibnamedelima Monajjemi}{M\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=c493d330555c06feb1c8ced8e3dae36f}{Badashian}{B\bibinitperiod}{Ali\bibnamedelima Sajedi}{A\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=194219f34c6cf241aaed15a9b5f65746}{Mahdavi}{M\bibinitperiod}{Mehregan}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=6a371fe6162be3609a09202f697ac44f}{Pourshirmohammadi}{P\bibinitperiod}{Amir}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ac27756bb58a142e387aa31b85557300}{nejad}{n\bibinitperiod}{Minoo\bibnamedelima Monajjemi}{M\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{3}{%
+        {Los Alamitos}%
+        {CA}%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Computer Society}%
+      }
+      \strng{namehash}{978342431afb40e5bb59ad07693101a8}
+      \strng{fullhash}{363446c251b109dec8dc682197a979b2}
+      \field{sortinit}{B}
+      \field{labelyear}{2008}
+      \field{labeltitle}{Fundamental Usability Guidelines for User Interface Design}
+      \field{abstract}{Efficient programs are characterized by several parameters including the User Interface Design (UID). From the end-user's point of view, the user interface is the representative of the program. Therefore, friendlier software with limited capabilities is viewed to be more useable than a comprehensive software; in other words, the UI has a great impact on the software to choose. There has been a great amount of work on UID guidelines. In this paper, we introduce the fundamental guidelines that a designer should consider to increase usability. We consider new aspects including user access, language selection and other technical options in the forms.The subjects are studied independently from the application and are applicable to all kinds of environments such as web based, desktop, and embedded software. Following these guidelines results in a software which is friendlier, easier to understand and use, more reusable and less tedious.}
+      \field{isbn}{978-0-7695-3243-1}
+      \field{journaltitle}{Computational Sciences and Its Applications, 2008. ICCSA '08. International Conference on}
+      \field{title}{Fundamental Usability Guidelines for User Interface Design}
+      \field{year}{2008}
+      \field{pages}{106\bibrangedash 113}
+      \verb{doi}
+      \verb 10.1109/ICCSA.2008.45
+      \endverb
+    \endentry
+    \entry{Dehling.2013}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=97ca1de0ff6a0a6e4a793f28b19fa9ea}{Dehling}{D\bibinitperiod}{Tobias}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0aace507a7fdfb4a9fb1cef030e81151}{Sunyaev}{S\bibinitperiod}{Ali}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=97ca1de0ff6a0a6e4a793f28b19fa9ea}{Dehling}{D\bibinitperiod}{Tobias}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0aace507a7fdfb4a9fb1cef030e81151}{Sunyaev}{S\bibinitperiod}{Ali}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4927171b608c83e1a94953a8bb263f62}
+      \strng{fullhash}{4927171b608c83e1a94953a8bb263f62}
+      \field{sortinit}{D}
+      \field{labelyear}{2013}
+      \field{labeltitle}{Information Security and Privacy Implications of mHealth Apps: An Overview}
+      \field{title}{Information Security and Privacy Implications of mHealth Apps: An Overview}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 12}
+    \endentry
+    \entry{FutureofPrivacyForumCenterforDemocracy&Technology.2011}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=2e3bcfb932f715c7137ba978eb7698fb}{{Future\bibnamedelimb of\bibnamedelimb Privacy\bibnamedelimb Forum,\bibnamedelimb Center\bibnamedelimb for\bibnamedelimb Democracy\bibnamedelimb {\&}\bibnamedelimb Technology}}{F\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=2e3bcfb932f715c7137ba978eb7698fb}{{Future\bibnamedelimb of\bibnamedelimb Privacy\bibnamedelimb Forum,\bibnamedelimb Center\bibnamedelimb for\bibnamedelimb Democracy\bibnamedelimb {\&}\bibnamedelimb Technology}}{F\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{2e3bcfb932f715c7137ba978eb7698fb}
+      \strng{fullhash}{2e3bcfb932f715c7137ba978eb7698fb}
+      \field{sortinit}{F}
+      \field{labelyear}{2011}
+      \field{labeltitle}{Best Practices for Mobile Application Developers: App Privacy Guidelines}
+      \field{journaltitle}{Future of Privacy Forum and the Center for Democracy {\&} Technology}
+      \field{title}{Best Practices for Mobile Application Developers: App Privacy Guidelines}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 20}
+    \endentry
+    \entry{Njie.2013}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=3ea55fa9183251284140db739151fb2f}{Njie}{N\bibinitperiod}{C.M.L.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=3ea55fa9183251284140db739151fb2f}{Njie}{N\bibinitperiod}{C.M.L.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3ea55fa9183251284140db739151fb2f}
+      \strng{fullhash}{3ea55fa9183251284140db739151fb2f}
+      \field{sortinit}{N}
+      \field{labelyear}{2013}
+      \field{labeltitle}{Technical Analysis of the Data Practices and Privacy Risks of 43 Popular Mobile Health and Fitness Applications}
+      \field{journaltitle}{Privacy Rights Clearinghouse}
+      \field{title}{Technical Analysis of the Data Practices and Privacy Risks of 43 Popular Mobile Health and Fitness Applications}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 31}
+    \endentry
+    \entry{Yeh.2012}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=1dd332f2590bd43dec9c891cc2549fa0}{Yeh}{Y\bibinitperiod}{Shea-Tinn}{S\bibinithyphendelim T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=69a855d8c443bc100174eb0d8398d363}{Fontenelle}{F\bibinitperiod}{Cathalina}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=1dd332f2590bd43dec9c891cc2549fa0}{Yeh}{Y\bibinitperiod}{Shea-Tinn}{S\bibinithyphendelim T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=69a855d8c443bc100174eb0d8398d363}{Fontenelle}{F\bibinitperiod}{Cathalina}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{58c522c8d9e09f2ff34d9ab3551e1c90}
+      \strng{fullhash}{58c522c8d9e09f2ff34d9ab3551e1c90}
+      \field{sortinit}{Y}
+      \field{labelyear}{2012}
+      \field{labeltitle}{Usability study of a mobile website: the Health Sciences Library, University of Colorado Anschutz Medical Campus, experience}
+      \field{abstract}{The article discusses research which was conducted to evaluate the usability of a mobile web site that was developed at the Health Sciences Library at the University of Colorado Anschutz Medical Campus and featured the use of smartphones. After reviewing the research results the researchers concluded that an improvement in the effectiveness and efficiency of information retrieval was seen by individuals who used the mobile web site. A discussion of an increase in popularity which mobile devices which can access the Internet have seen is discussed.}
+      \field{issn}{15365050}
+      \field{journaltitle}{Journal of the Medical Library Association}
+      \field{number}{1}
+      \field{title}{Usability study of a mobile website: the Health Sciences Library, University of Colorado Anschutz Medical Campus, experience}
+      \field{volume}{100}
+      \field{year}{2012}
+      \field{pages}{64\bibrangedash 68}
+      \verb{url}
+      \verb http://search.ebscohost.com/login.aspx?direct=true%5C&db=a9h%5C&AN=71633369%5C&site=ehost-live
+      \endverb
+      \keyw{MEDICAL libraries;INFORMATION retrieval;INTERVIEWING;WEB development;T-test (Statistics);USER interfaces (Computer systems);WIRELESS communication systems;COLORADO}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

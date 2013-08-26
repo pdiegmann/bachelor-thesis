@@ -16,12 +16,15 @@
 	12pt,
 	liststotocnumbered
 ]{article}
+
 \usepackage{times}            % Times New Roman
+\usepackage{newclude}
+\usepackage[ampersand]{easylist}
 
 \usepackage[utf8]{inputenc}   % utf-8
 \usepackage[T1]{fontenc}      % Umlauttrennung
-\usepackage[german]{babel}    % deutsche Silbentrennung
-\selectlanguage{german}       % deutsche Betitelung
+\usepackage[english]{babel}    % englische Silbentrennung
+\selectlanguage{english}       % englische Betitelung
 \usepackage{nicefrac}
 
 % Titel-Font-Größen
@@ -46,15 +49,18 @@
 \usepackage{savefnmark}
 
 % Abkürzungen
-\usepackage[printonlyused]{acronym}    
+%[printonlyused]
+\usepackage{acronym}
 \renewcommand{\bflabel}[1]{{#1\hfill}}
 
 % Seitennummerierung oben\usepackage{scrpage2} 
 \usepackage[dvips]{color}\clearscrheadfoot \chead[\pagemark]{\textcolor[gray]{0.5}{\pagemark}} \pagestyle{scrheadings}
 
 % TOC, LOF, FIG Styles
+\usepackage{needspace}
 \usepackage{tocloft, titletoc}  
 \setlength{\cftaftertoctitleskip}{0em}
+\usepackage[colorlinks=false]{hyperref}
 \renewcommand{\cftloftitlefont}{\bfseries}
 %\renewcommand{\cftfigfont}{\bfseries}
 \renewcommand{\cfttoctitlefont}{\bfseries}
@@ -97,13 +103,13 @@
 
 % Literaturverzeichnis
 \usepackage[
-    bibstyle=authortitle,   %  in Verzeichnis das Jahr nicht hinter Autoren anzeigen
-    citestyle=authoryear,   % in Fussnote das Jahr mit anzeigen
-    isbn=false,             % keine ISBN-Nummer
-    url=false,              % keine URLs
-    doi=false,              % keine DOI
-    maxcitenames=1,         % nur einen Autor in Fussnote anzeigen
-    maxbibnames=30          % alle Autoren vor Titel anzeigen
+    bibstyle=authortitle,
+    citestyle=authoryear,
+    isbn=false,
+    url=false,
+    doi=false,
+    maxcitenames=3,
+    maxbibnames=30
 ]{biblatex}
 \addbibresource{literature.bib}
 \let\cite\textcite
@@ -118,6 +124,7 @@
 \usepackage{setspace}
 \counterwithin{table}{section}
 \usepackage{multirow}
+\usepackage{longtable}
 
 % Grafiken anzeigen
 \usepackage[pdftex]{graphicx}
@@ -125,9 +132,10 @@
 \counterwithin{figure}{section}
 \usepackage[absolute,overlay]{textpos}
 
-\begin{document}
+\setlength{\parindent}{0in}
 
-\shorthandoff{"}
+\begin{document}
+%\shorthandoff{"}
 
 % Renews
 \renewcommand{\figurename}{Abb.}
@@ -135,34 +143,7 @@
 \renewcommand\thefigure{\arabic{section}-\arabic{figure}}
 \renewcommand\thetable{Tab. \arabic{section}-\arabic{table}}
 \newcommand{\todo}[1]{\textbf{\textsc{\textcolor{red}{TODO: #1}}}}
-
-% Variables
-\newcommand{\CC}{Cloud Computing }
-\newcommand{\CCs}{Cloud Computings }
-\newcommand{\CCComma}{Cloud Computing, }
-\newcommand{\TCC}{Themengebiet Cloud Computing }
-\newcommand{\HiTCC}{Herausforderungen im Themengebiet Cloud Computing }
-\newcommand{\TCCComma}{Themengebiet Cloud Computing, }
-\newcommand{\CSP}{Cloud-Service-Provider }
-\newcommand{\CSPComma}{Cloud-Service-Provider, }
-\newcommand{\CSPDot}{Cloud-Service-Provider. }
-\newcommand{\CSPn}{Cloud-Service-Providern }
-\newcommand{\CSp}{Cloud-Service-Provider}
-\newcommand{\CSPs}{Cloud-Service-Providers }
-\newcommand{\CSPsDot}{Cloud-Service-Providers. }
-\newcommand{\CSPsComma}{Cloud-Service-Providers, }
-\newcommand{\CSU}{Cloud-Service-Nutzer }
-\newcommand{\CSUDot}{Cloud-Service-Nutzer. }
-\newcommand{\CSUs}{Cloud-Service-Nutzers }
-\newcommand{\CSUn}{Cloud-Service-Nutzern }
-\newcommand{\CSUComma}{Cloud-Service-Nutzer, }
-\newcommand{\CSUsComma}{Cloud-Service-Nutzers, }
-\newcommand{\CSUsDot}{Cloud-Service-Nutzers. }
-\newcommand{\CSUnDot}{Cloud-Service-Nutzern. }
-\newcommand{\CS}{Cloud-Service }
-\newcommand{\Cs}{Cloud-Service}
-\newcommand{\CSComma}{Cloud-Service, }
-\newcommand{\CSs}{Cloud-Services }
+\renewcommand{\contentsname}{Table of Contents}
 
 \pagenumbering{Roman}
 
@@ -186,9 +167,9 @@
 % -------------------
 % Tabellenverzeichnis
 % -------------------
-\listoftables
-\addcontentsline{toc}{section}{Tabellenverzeichnis}
-\newpage
+%\listoftables
+%\addcontentsline{toc}{section}{Index of Tables}
+%\newpage
 
 \normalsize
 \setstretch{1,5}
@@ -197,15 +178,17 @@
 % ------
 % Inhalt
 % ---------
-\include{chapters/1-einleitung}
+\include{chapters/1-introduction}
 \newpage
 \include{chapters/2-ePill}
 \newpage
-\include{chapters/3-mobileDevelopment}
+\include{chapters/3-mHealth}
 \newpage
-\include{chapters/4-developmentOfTheClient}
+\include{chapters/4-developmentOfTheMobileClient}
 \newpage
-\include{chapters/5-conclusion}
+\include{chapters/5-lessonsLearned}
+\newpage
+\include{chapters/6-conclusion}
 \newpage
 
 % --------------------
@@ -213,9 +196,9 @@
 % --------------------
 \newpage
 \patchcmd{\bibsetup}{\interlinepenalty=5000}{\interlinepenalty=10000}{}{}
-\printbibliography[title={Literaturverzeichnis}]
-\addcontentsline{toc}{section}{Literaturverzeichnis}
-\newpage
+\printbibliography[title={Bibliography}]
+\addcontentsline{toc}{section}{Bibliography}
+
 
 % ---------
 % Anhang

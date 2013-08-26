@@ -1,0 +1,35 @@
+\BOOKMARK [1][-]{Doc-Start}{Index of Abbreviations}{}% 1
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 2
+\BOOKMARK [2][-]{subsection.1.1}{Research Problem}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.2}{Objectives of this Thesis}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{The ePill-Prototype}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{The System in general}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.2}{The Web Application}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{What is mHealth}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Definition}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.2}{mHealth App Categories}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.3}{Classification of the ePill Web Application}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.4}{Why is a special Focus on mHealth Apps warranted?}{section.3}% 12
+\BOOKMARK [1][-]{section.4}{The Development of the mobile Client}{}% 13
+\BOOKMARK [2][-]{subsection.4.1}{Preconditions}{section.4}% 14
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Norms for mobile Apps}{subsection.4.1}% 15
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Best Practices}{subsection.4.1}% 16
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Internal requirements}{subsection.4.1}% 17
+\BOOKMARK [2][-]{subsection.4.2}{Analysis}{section.4}% 18
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Assignment of a mHealth App Category}{subsection.4.2}% 19
+\BOOKMARK [3][-]{subsubsection.4.2.2}{The different Operation Systems}{subsection.4.2}% 20
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Android}{subsection.4.2}% 21
+\BOOKMARK [3][-]{subsubsection.4.2.4}{iOS}{subsection.4.2}% 22
+\BOOKMARK [3][-]{subsubsection.4.2.5}{Windows Phone 7 and 8}{subsection.4.2}% 23
+\BOOKMARK [3][-]{subsubsection.4.2.6}{other}{subsection.4.2}% 24
+\BOOKMARK [3][-]{subsubsection.4.2.7}{Possible Frameworks and Technologies}{subsection.4.2}% 25
+\BOOKMARK [3][-]{subsubsection.4.2.8}{The Choice for Framework XYZ}{subsection.4.2}% 26
+\BOOKMARK [2][-]{subsection.4.3}{The Planning Process}{section.4}% 27
+\BOOKMARK [2][-]{subsection.4.4}{\(The Design Process\)}{section.4}% 28
+\BOOKMARK [2][-]{subsection.4.5}{The Implementation Process}{section.4}% 29
+\BOOKMARK [2][-]{subsection.4.6}{Validation of the mobile Client}{section.4}% 30
+\BOOKMARK [1][-]{section.5}{Lessons Learned}{}% 31
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 32
+\BOOKMARK [1][-]{section.6}{Bibliography}{}% 33
+\BOOKMARK [1][-]{section.6}{Erkl\344rung}{}% 34
+\BOOKMARK [1][-]{section.6}{Curriculum Vitae}{}% 35
