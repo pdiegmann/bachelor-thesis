@@ -1,14 +1,14 @@
 [0] Config.pm:425> INFO - This is Biber 1.7
 [0] Config.pm:428> INFO - Logfile is '/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.blg'
-[78] biber-darwin:252> INFO - === Mon Aug 26, 2013, 11:16:32
+[79] biber-darwin:252> INFO - === Thu Aug 29, 2013, 11:14:29
 [79] Biber.pm:333> INFO - Reading '/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bcf'
-[147] Biber.pm:630> INFO - Found 5 citekeys in bib section 0
-[165] Biber.pm:2997> INFO - Processing section 0
-[179] Biber.pm:3134> INFO - Looking for bibtex format file 'literature.bib' for section 0
-[187] bibtex.pm:911> INFO - Decoding LaTeX character macros into UTF-8
-[196] bibtex.pm:786> INFO - Found BibTeX data source 'literature.bib'
-[274] Biber.pm:2883> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[274] Biber.pm:2889> INFO - Sorting 'entry' list 'nty' keys
-[274] Biber.pm:2893> INFO - No sort tailoring available for locale 'en_US.UTF-8'
-[313] bbl.pm:479> INFO - Writing '/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bbl' with encoding 'UTF-8'
-[314] bbl.pm:552> INFO - Output to /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bbl
+[149] Biber.pm:630> INFO - Found 5 citekeys in bib section 0
+[168] Biber.pm:2997> INFO - Processing section 0
+[182] Biber.pm:3134> INFO - Looking for bibtex format file 'literature.bib' for section 0
+[190] bibtex.pm:911> INFO - Decoding LaTeX character macros into UTF-8
+[199] bibtex.pm:786> INFO - Found BibTeX data source 'literature.bib'
+[284] Biber.pm:2883> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[284] Biber.pm:2889> INFO - Sorting 'entry' list 'nty' keys
+[284] Biber.pm:2893> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[324] bbl.pm:479> INFO - Writing '/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bbl' with encoding 'UTF-8'
+[325] bbl.pm:552> INFO - Output to /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bbl
