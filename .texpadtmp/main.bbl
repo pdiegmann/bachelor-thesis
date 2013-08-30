@@ -55,6 +55,28 @@
       \verb 10.1109/ICCSA.2008.45
       \endverb
     \endentry
+    \entry{Dehling.2012}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=97ca1de0ff6a0a6e4a793f28b19fa9ea}{Dehling}{D\bibinitperiod}{Tobias}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0aace507a7fdfb4a9fb1cef030e81151}{Sunyaev}{S\bibinitperiod}{Ali}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=97ca1de0ff6a0a6e4a793f28b19fa9ea}{Dehling}{D\bibinitperiod}{Tobias}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0aace507a7fdfb4a9fb1cef030e81151}{Sunyaev}{S\bibinitperiod}{Ali}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4927171b608c83e1a94953a8bb263f62}
+      \strng{fullhash}{4927171b608c83e1a94953a8bb263f62}
+      \field{sortinit}{D}
+      \field{labelyear}{2012}
+      \field{labeltitle}{Architecture and Design of a Patient-Friendly eHealth Web Application: Patient Information Leaflets and Supplementary Services}
+      \field{journaltitle}{AMCIS 2012 Proceedings}
+      \field{title}{Architecture and Design of a Patient-Friendly eHealth Web Application: Patient Information Leaflets and Supplementary Services}
+      \field{year}{2012}
+      \field{pages}{1\bibrangedash 8}
+      \verb{url}
+      \verb http://aisel.aisnet.org/amcis2012/proceedings/ISHealthcare/5
+      \endverb
+    \endentry
     \entry{Dehling.2013}{article}{}
       \name{labelname}{2}{}{%
         {{uniquename=0,hash=97ca1de0ff6a0a6e4a793f28b19fa9ea}{Dehling}{D\bibinitperiod}{Tobias}{T\bibinitperiod}{}{}{}{}}%
@@ -90,6 +112,56 @@
       \field{year}{2011}
       \field{pages}{1\bibrangedash 20}
     \endentry
+    \entry{Kaletsch.2011}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=64075f5d4278acbd9abd0dda0d832f98}{Kaletsch}{K\bibinitperiod}{Alexander}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0aace507a7fdfb4a9fb1cef030e81151}{Sunyaev}{S\bibinitperiod}{Ali}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=64075f5d4278acbd9abd0dda0d832f98}{Kaletsch}{K\bibinitperiod}{Alexander}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0aace507a7fdfb4a9fb1cef030e81151}{Sunyaev}{S\bibinitperiod}{Ali}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ca6319638b008ce187b17df74b36bf9d}
+      \strng{fullhash}{ca6319638b008ce187b17df74b36bf9d}
+      \field{sortinit}{K}
+      \field{labelyear}{2011}
+      \field{labeltitle}{Privacy Engineering: Personal Health Records in Cloud Computing Environments}
+      \field{journaltitle}{ICIS 2011 Proceedings}
+      \field{title}{Privacy Engineering: Personal Health Records in Cloud Computing Environments}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 11}
+      \verb{url}
+      \verb http://aisel.aisnet.org/icis2011/proceedings/ISsecurity/2
+      \endverb
+    \endentry
+    \entry{MartinezPerez.2013}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=3fa279fc294c47c5cfd06ecf529a6c2b}{Martínez-Pérez}{M\bibinithyphendelim P\bibinitperiod}{Borja}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=092bb53529ce7bfd0a242761939c05ce}{{de\bibnamedelimb la\bibnamedelimb Torre-Díez,\bibnamedelimb Isabel}}{d\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=fea471f359dcb99ee7849a2a289cd387}{López-Coronado}{L\bibinithyphendelim C\bibinitperiod}{Miguel}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=3fa279fc294c47c5cfd06ecf529a6c2b}{Martínez-Pérez}{M\bibinithyphendelim P\bibinitperiod}{Borja}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=092bb53529ce7bfd0a242761939c05ce}{{de\bibnamedelimb la\bibnamedelimb Torre-Díez,\bibnamedelimb Isabel}}{d\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=fea471f359dcb99ee7849a2a289cd387}{López-Coronado}{L\bibinithyphendelim C\bibinitperiod}{Miguel}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3d98d78fb3db9999c0735076d225993e}
+      \strng{fullhash}{3d98d78fb3db9999c0735076d225993e}
+      \field{sortinit}{M}
+      \field{labelyear}{2013}
+      \field{labeltitle}{Mobile health applications for the most prevalent conditions by the World Health Organization: review and analysis}
+      \field{abstract}{BACKGROUND: New possibilities for mHealth have arisen by means of the latest advances in mobile communications and technologies. With more than 1 billion smartphones and 100 million tablets around the world, these devices can be a valuable tool in health care management. Every aid for health care is welcome and necessary as shown by the more than 50 million estimated deaths caused by illnesses or health conditions in 2008. Some of these conditions have additional importance depending on their prevalence. OBJECTIVE: To study the existing applications for mobile devices exclusively dedicated to the eight most prevalent health conditions by the latest update (2004) of the Global Burden of Disease (GBD) of the World Health Organization (WHO): iron-deficiency anemia, hearing loss, migraine, low vision, asthma, diabetes mellitus, osteoarthritis (OA), and unipolar depressive disorders. METHODS: Two reviews have been carried out. The first one is a review of mobile applications in published articles retrieved from the following systems: IEEE Xplore, Scopus, ScienceDirect, Web of Knowledge, and PubMed. The second review is carried out by searching the most important commercial app stores: Google play, iTunes, BlackBerry World, Windows Phone Apps+Games, and Nokia's Ovi store. Finally, two applications for each condition, one for each review, were selected for an in-depth analysis. RESULTS: Search queries up to April 2013 located 247 papers and more than 3673 apps related to the most prevalent conditions. The conditions in descending order by the number of applications found in literature are diabetes, asthma, depression, hearing loss, low vision, OA, anemia, and migraine. However when ordered by the number of commercial apps found, the list is diabetes, depression, migraine, asthma, low vision, hearing loss, OA, and anemia. Excluding OA from the former list, the four most prevalent conditions have fewer apps and research than the final four. Several results are extracted from the in-depth analysis: most of the apps are designed for monitoring, assisting, or informing about the condition. Typically an Internet connection is not required, and most of the apps are aimed for the general public and for nonclinical use. The preferred type of data visualization is text followed by charts and pictures. Assistive and monitoring apps are shown to be frequently used, whereas informative and educational apps are only occasionally used. CONCLUSIONS: Distribution of work on mobile applications is not equal for the eight most prevalent conditions. Whereas some conditions such as diabetes and depression have an overwhelming number of apps and research, there is a lack of apps related to other conditions, such as anemia, hearing loss, or low vision, which must be filled.}
+      \field{issn}{1438-8871}
+      \field{journaltitle}{Journal of medical Internet research}
+      \field{number}{6}
+      \field{title}{Mobile health applications for the most prevalent conditions by the World Health Organization: review and analysis}
+      \field{volume}{15}
+      \field{year}{2013}
+      \field{pages}{e120}
+      \verb{doi}
+      \verb 10.2196/jmir.2600
+      \endverb
+    \endentry
     \entry{Njie.2013}{article}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=3ea55fa9183251284140db739151fb2f}{Njie}{N\bibinitperiod}{C.M.L.}{C\bibinitperiod}{}{}{}{}}%
@@ -106,6 +178,28 @@
       \field{title}{Technical Analysis of the Data Practices and Privacy Risks of 43 Popular Mobile Health and Fitness Applications}
       \field{year}{2013}
       \field{pages}{1\bibrangedash 31}
+    \endentry
+    \entry{WorldHealthOrganization.2011}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=5d292a222024f1b13e98a059c94a9b75}{{World\bibnamedelimb Health\bibnamedelimb Organization}}{W\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=5d292a222024f1b13e98a059c94a9b75}{{World\bibnamedelimb Health\bibnamedelimb Organization}}{W\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{5d292a222024f1b13e98a059c94a9b75}
+      \strng{fullhash}{5d292a222024f1b13e98a059c94a9b75}
+      \field{sortinit}{W}
+      \field{labelyear}{2011}
+      \field{labeltitle}{mHealth: New horizons for health through mobile technologies}
+      \field{abstract}{Based on the Findings of the Second Global Survey on eHealth (Global Observatory for eHealth Series, Volume 3)}
+      \field{title}{mHealth: New horizons for health through mobile technologies}
+      \field{urlday}{30}
+      \field{urlmonth}{08}
+      \field{urlyear}{2013}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://whqlibdoc.who.int/publications/2011/9789241564250_eng.pdf
+      \endverb
     \endentry
     \entry{Yeh.2012}{article}{}
       \name{labelname}{2}{}{%

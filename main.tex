@@ -41,12 +41,23 @@
 ]{geometry} 
 
 % Fussnoten
+% multiple
 \usepackage[hang,flushmargin]{footmisc}    
 \renewcommand*{\footnotelayout}{\footnotesize} % size of text
 \renewcommand{\footnotemargin}{2.2em}          % margin between text and number
 \setlength{\footnotesep}{1.3em}                % space between footnotes
 \setlength{\skip\footins}{2.5em}               % space between text & footnotes
 \usepackage{savefnmark}
+
+% Mehrere Fussnoten mit Komma separieren
+\let\oldFootnote\footnote
+\newcommand\nextToken\relax
+
+\renewcommand\footnote[1]{%
+    \oldFootnote{#1}\futurelet\nextToken\isFootnote}
+
+\newcommand\isFootnote{%
+    \ifx\footnote\nextToken\textsuperscript{, }\fi}
 
 % Abkürzungen
 %[printonlyused]
@@ -60,6 +71,7 @@
 \usepackage{needspace}
 \usepackage{tocloft, titletoc}  
 \setlength{\cftaftertoctitleskip}{0em}
+%,hyperfootnotes=false
 \usepackage[colorlinks=false]{hyperref}
 \renewcommand{\cftloftitlefont}{\bfseries}
 %\renewcommand{\cftfigfont}{\bfseries}
@@ -106,7 +118,7 @@
     bibstyle=authortitle,
     citestyle=authoryear,
     isbn=false,
-    url=false,
+    url=true,
     doi=false,
     maxcitenames=3,
     maxbibnames=30
@@ -194,6 +206,7 @@
 % --------------------
 % Literaturverzeichnis
 % --------------------
+
 \newpage
 \patchcmd{\bibsetup}{\interlinepenalty=5000}{\interlinepenalty=10000}{}{}
 \printbibliography[title={Bibliography}]
@@ -204,6 +217,6 @@
 % Anhang
 % ---------
 \include{titlepages/erklaerung}
-\include{titlepages/lebenslauf}
+%\include{titlepages/lebenslauf}
 
 \end{document}

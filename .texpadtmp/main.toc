@@ -3,7 +3,7 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Index of Abbreviations}{IV}{Doc-Start}
+\contentsline {section}{Index of Abbreviations}{III}{Doc-Start}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}
 \defcounter {refsection}{0}\relax 
@@ -11,7 +11,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2}Objectives of this Thesis}{2}{subsection.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}The ePill-Prototype}{4}{section.2}
+\contentsline {section}{\numberline {2}The ePill System}{4}{section.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1}The System in general}{4}{subsection.2.1}
 \defcounter {refsection}{0}\relax 
@@ -43,41 +43,39 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.2}The different Operation Systems}{6}{subsubsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3}Android}{6}{subsubsection.4.2.3}
+\contentsline {paragraph}{Android}{6}{paragraph*.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.4}iOS}{6}{subsubsection.4.2.4}
+\contentsline {paragraph}{iOS}{6}{paragraph*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.5}Windows Phone 7 and 8}{6}{subsubsection.4.2.5}
+\contentsline {paragraph}{Windows Phone 7 and 8}{6}{paragraph*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.6}other}{6}{subsubsection.4.2.6}
+\contentsline {paragraph}{other}{6}{paragraph*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.7}Possible Frameworks and Technologies}{6}{subsubsection.4.2.7}
+\contentsline {subsubsection}{\numberline {4.2.3}Possible Frameworks and Technologies}{6}{subsubsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Xamarin}{6}{paragraph*.1}
+\contentsline {paragraph}{Xamarin}{6}{paragraph*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Vaadin}{6}{paragraph*.2}
+\contentsline {paragraph}{Vaadin}{6}{paragraph*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{HTML 5, jQuery mobile and Phone Gap}{6}{paragraph*.3}
+\contentsline {paragraph}{HTML 5, jQuery mobile and Phone Gap}{6}{paragraph*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Completely native}{6}{paragraph*.4}
+\contentsline {paragraph}{Completely native}{6}{paragraph*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.8}The Choice for Framework XYZ}{6}{subsubsection.4.2.8}
+\contentsline {subsubsection}{\numberline {4.2.4}The Choice for Framework XYZ}{7}{subsubsection.4.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}The Planning Process}{6}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.3}The Planning Process}{7}{subsection.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}(The Design Process)}{6}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.4}(The Design Process)}{7}{subsection.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5}The Implementation Process}{6}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.5}The Implementation Process}{7}{subsection.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6}Validation of the mobile Client}{6}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.6}Validation of the mobile Client}{7}{subsection.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Lessons Learned}{7}{section.5}
+\contentsline {section}{\numberline {5}Lessons Learned}{8}{section.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Conclusion}{8}{section.6}
+\contentsline {section}{\numberline {6}Conclusion}{9}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Bibliography}{9}{section.6}
+\contentsline {section}{Bibliography}{11}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Erkl\IeC {\"a}rung}{10}{section.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{Curriculum Vitae}{11}{section.6}
+\contentsline {section}{Erkl\IeC {\"a}rung}{12}{section.6}
 \contentsfinish 
