@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  30 AUG 2013 15:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  31 AUG 2013 18:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1055,12 +1055,12 @@ Overfull \vbox (2.60004pt too high) has occurred while \output is active []
 [2
 
 ] (./titlepages/acronyms.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 8.
 LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 7.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 14.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 14.
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 22.
 )
 Overfull \vbox (2.60004pt too high) has occurred while \output is active []
 
@@ -1113,42 +1113,56 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 [3] (./chapters/2-ePill.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 11--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--200
+
+ []
+
+
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 [4
 
 
-] (./chapters/3-mHealth.tex)
+]
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[5
-
-
-] (./chapters/4-developmentOfTheMobileClient.tex)
+[5] (./chapters/3-mHealth.tex)
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 [6
 
 
+] (./chapters/4-developmentOfTheMobileClient.tex)
+Overfull \vbox (11.09991pt too high) has occurred while \output is active []
+
+
+[7
+
+
 ]
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[7] (./chapters/5-lessonsLearned.tex)
+[8] (./chapters/5-lessonsLearned.tex)
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[8
+[9
 
 
 ] (./chapters/6-conclusion.tex)
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[9
+[10
 
 
 ]
@@ -1202,7 +1216,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 216--216
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[10
+[11
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 216--216
@@ -1218,7 +1232,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 216--216
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[11] (./titlepages/erklaerung.tex
+[12] (./titlepages/erklaerung.tex
 Overfull \hbox (3.21236pt too wide) in paragraph at lines 4--7
 \T1/ptm/m/n/12 ohne die Be-nutzung an-derer als der angegebe-nen Hil-f-s-mit-te
 l ange-fer-tigt habe. Alle Stellen,
@@ -1228,7 +1242,7 @@ l ange-fer-tigt habe. Alle Stellen,
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[12
+[13
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
@@ -1244,15 +1258,21 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 226.
  ) 
 Here is how much of TeX's memory you used:
- 15583 strings out of 493311
- 244316 string characters out of 6137850
- 715951 words of memory out of 5000000
- 18688 multiletter control sequences out of 15000+600000
+ 15588 strings out of 493311
+ 244369 string characters out of 6137850
+ 716962 words of memory out of 5000000
+ 18690 multiletter control sequences out of 15000+600000
  33723 words of font info for 42 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 42i,11n,57p,2876b,1635s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.12} has been referenced but does not ex
+ 43i,11n,57p,2876b,1635s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.12} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exis
 t, replaced by a fixed one
@@ -1292,10 +1312,10 @@ live/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
 Output written on /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.pdf
- (15 pages, 69997 bytes).
+ (16 pages, 72041 bytes).
 PDF statistics:
- 339 PDF objects out of 1000 (max. 8388607)
- 286 compressed objects within 3 object streams
- 73 named destinations out of 1000 (max. 500000)
+ 349 PDF objects out of 1000 (max. 8388607)
+ 295 compressed objects within 3 object streams
+ 76 named destinations out of 1000 (max. 500000)
  241 words of extra memory for PDF output out of 10000 (max. 10000000)
 

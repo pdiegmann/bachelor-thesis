@@ -17,65 +17,65 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2}The Web Application}{4}{subsection.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}What is mHealth?}{5}{section.3}
+\contentsline {section}{\numberline {3}What is mHealth?}{6}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Definition}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.1}Definition}{6}{subsection.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}mHealth App Categories}{5}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.2}mHealth App Categories}{6}{subsection.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Classification of the ePill Web Application}{5}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.3}Classification of the ePill Web Application}{6}{subsection.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Why is a special Focus on mHealth Apps warranted?}{5}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.4}Why is a special Focus on mHealth Apps warranted?}{6}{subsection.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}The Development of the mobile Client}{6}{section.4}
+\contentsline {section}{\numberline {4}The Development of the mobile Client}{7}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Preconditions}{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.1}Preconditions}{7}{subsection.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1}Norms for mobile Apps}{6}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Norms for mobile Apps}{7}{subsubsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2}Best Practices}{6}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2}Best Practices}{7}{subsubsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.3}Internal requirements}{6}{subsubsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.3}Internal requirements}{7}{subsubsection.4.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Analysis}{6}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.2}Analysis}{7}{subsection.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1}Assignment of a mHealth App Category}{6}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1}Assignment of a mHealth App Category}{7}{subsubsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2}The different Operation Systems}{6}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2}The different Operation Systems}{7}{subsubsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Android}{6}{paragraph*.1}
+\contentsline {paragraph}{Android}{7}{paragraph*.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{iOS}{6}{paragraph*.2}
+\contentsline {paragraph}{iOS}{7}{paragraph*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Windows Phone 7 and 8}{6}{paragraph*.3}
+\contentsline {paragraph}{Windows Phone 7 and 8}{7}{paragraph*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{other}{6}{paragraph*.4}
+\contentsline {paragraph}{other}{7}{paragraph*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3}Possible Frameworks and Technologies}{6}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3}Possible Frameworks and Technologies}{7}{subsubsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Xamarin}{6}{paragraph*.5}
+\contentsline {paragraph}{Xamarin}{7}{paragraph*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Vaadin}{6}{paragraph*.6}
+\contentsline {paragraph}{Vaadin}{7}{paragraph*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{HTML 5, jQuery mobile and Phone Gap}{6}{paragraph*.7}
+\contentsline {paragraph}{HTML 5, jQuery mobile and Phone Gap}{7}{paragraph*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Completely native}{6}{paragraph*.8}
+\contentsline {paragraph}{Completely native}{7}{paragraph*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.4}The Choice for Framework XYZ}{7}{subsubsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.4}The Choice for Framework XYZ}{8}{subsubsection.4.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}The Planning Process}{7}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.3}The Planning Process}{8}{subsection.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}(The Design Process)}{7}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.4}(The Design Process)}{8}{subsection.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5}The Implementation Process}{7}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.5}The Implementation Process}{8}{subsection.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6}Validation of the mobile Client}{7}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.6}Validation of the mobile Client}{8}{subsection.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Lessons Learned}{8}{section.5}
+\contentsline {section}{\numberline {5}Lessons Learned}{9}{section.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Conclusion}{9}{section.6}
+\contentsline {section}{\numberline {6}Conclusion}{10}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Bibliography}{11}{section.6}
+\contentsline {section}{Bibliography}{12}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Erkl\IeC {\"a}rung}{12}{section.6}
+\contentsline {section}{Erkl\IeC {\"a}rung}{13}{section.6}
 \contentsfinish 

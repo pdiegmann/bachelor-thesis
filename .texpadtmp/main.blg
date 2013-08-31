@@ -1,14 +1,14 @@
 [0] Config.pm:425> INFO - This is Biber 1.7
 [0] Config.pm:428> INFO - Logfile is '/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.blg'
-[92] biber-darwin:252> INFO - === Fri Aug 30, 2013, 15:26:40
-[92] Biber.pm:333> INFO - Reading '/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bcf'
-[171] Biber.pm:630> INFO - Found 9 citekeys in bib section 0
-[194] Biber.pm:2997> INFO - Processing section 0
-[215] Biber.pm:3134> INFO - Looking for bibtex format file 'literature.bib' for section 0
-[224] bibtex.pm:911> INFO - Decoding LaTeX character macros into UTF-8
-[234] bibtex.pm:786> INFO - Found BibTeX data source 'literature.bib'
-[368] Biber.pm:2883> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[369] Biber.pm:2889> INFO - Sorting 'entry' list 'nty' keys
-[369] Biber.pm:2893> INFO - No sort tailoring available for locale 'en_US.UTF-8'
-[445] bbl.pm:479> INFO - Writing '/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bbl' with encoding 'UTF-8'
-[447] bbl.pm:552> INFO - Output to /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bbl
+[89] biber-darwin:252> INFO - === Sat Aug 31, 2013, 18:49:04
+[89] Biber.pm:333> INFO - Reading '/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bcf'
+[158] Biber.pm:630> INFO - Found 9 citekeys in bib section 0
+[183] Biber.pm:2997> INFO - Processing section 0
+[203] Biber.pm:3134> INFO - Looking for bibtex format file 'literature.bib' for section 0
+[212] bibtex.pm:911> INFO - Decoding LaTeX character macros into UTF-8
+[222] bibtex.pm:786> INFO - Found BibTeX data source 'literature.bib'
+[362] Biber.pm:2883> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[362] Biber.pm:2889> INFO - Sorting 'entry' list 'nty' keys
+[362] Biber.pm:2893> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[438] bbl.pm:479> INFO - Writing '/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bbl' with encoding 'UTF-8'
+[440] bbl.pm:552> INFO - Output to /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bbl
