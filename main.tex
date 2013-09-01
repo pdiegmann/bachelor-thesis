@@ -30,6 +30,11 @@
 \usepackage{newclude}
 \usepackage[ampersand]{easylist}
 
+\usepackage{tabularx}
+\usepackage{footnote}
+%\makesavenoteenv{table}
+%\makesavenoteenv{tabular}
+%\makesavenoteenv{tabularx}
 \usepackage[utf8]{inputenc}   % utf-8
 \usepackage[T1]{fontenc}      % Umlauttrennung
 \usepackage[english]{babel}    % englische Silbentrennung
@@ -74,7 +79,7 @@
 \renewcommand{\bflabel}[1]{{#1\hfill}}
 
 % Seitennummerierung oben\usepackage{scrpage2} 
-\usepackage[dvips]{color}\clearscrheadfoot \chead[\pagemark]{\textcolor[gray]{0.5}{\pagemark}} \pagestyle{scrheadings}
+\usepackage[dvipsnames,usenames]{color}\clearscrheadfoot \chead[\pagemark]{\textcolor[gray]{0.5}{\pagemark}} \pagestyle{scrheadings}
 
 % TOC, LOF, FIG Styles
 \usepackage{needspace}
@@ -144,6 +149,8 @@
 \counterwithin{table}{section}
 \usepackage{multirow}
 \usepackage{longtable}
+\usepackage{float}
+\restylefloat{table}
 
 % Grafiken anzeigen
 \usepackage[pdftex]{graphicx}
@@ -152,6 +159,7 @@
 \usepackage[absolute,overlay]{textpos}
 
 \setlength{\parindent}{0in}
+\interfootnotelinepenalty=10000
 
 \begin{document}
 %\shorthandoff{"}
@@ -161,8 +169,10 @@
 \renewcommand{\tablename}{}
 \renewcommand\thefigure{\arabic{section}-\arabic{figure}}
 \renewcommand\thetable{Tab. \arabic{section}-\arabic{table}}
-\newcommand{\todo}[1]{\textbf{\textsc{\textcolor{red}{TODO: #1}}}}
+\newcommand{\todo}[1]{\textbf{\textsc{\textcolor{Red}{TODO: #1}}}}
+\newcommand{\note}[1]{\textbf{\textsc{\textcolor{Cyan}{NOTE: #1}}}}
 \renewcommand{\contentsname}{Table of Contents}
+\renewcommand{\arraystretch}{1.5}
 
 \pagenumbering{Roman}
 
@@ -186,9 +196,9 @@
 % -------------------
 % Tabellenverzeichnis
 % -------------------
-%\listoftables
-%\addcontentsline{toc}{section}{Index of Tables}
-%\newpage
+\listoftables
+\addcontentsline{toc}{section}{Index of Tables}
+\newpage
 
 \normalsize
 \setstretch{1,5}
@@ -209,6 +219,8 @@
 \newpage
 \include{chapters/6-conclusion}
 \newpage
+
+\renewcommand{\arraystretch}{1.0}
 
 % --------------------
 % Literaturverzeichnis

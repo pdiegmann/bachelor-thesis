@@ -112,6 +112,35 @@
       \field{year}{2011}
       \field{pages}{1\bibrangedash 20}
     \endentry
+    \entry{Istepanian.2004}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=76d6cd2016d3b302c327c9922a11d24f}{Istepanian}{I\bibinitperiod}{R.S.H.}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1046e8bf22fda9b5797dd79b1655a057}{Jovanov}{J\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8ec83f942d7dc783b4173261d3568752}{Zhang}{Z\bibinitperiod}{Y.T.}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=76d6cd2016d3b302c327c9922a11d24f}{Istepanian}{I\bibinitperiod}{R.S.H.}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1046e8bf22fda9b5797dd79b1655a057}{Jovanov}{J\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8ec83f942d7dc783b4173261d3568752}{Zhang}{Z\bibinitperiod}{Y.T.}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a6cfcf586c58f59cd86fa391e691909f}
+      \strng{fullhash}{a6cfcf586c58f59cd86fa391e691909f}
+      \field{sortinit}{I}
+      \field{labelyear}{2004}
+      \field{labeltitle}{Guest Editorial Introduction to the Special Section on M-Health: Beyond Seamless Mobility and Global Wireless Health-Care Connectivity}
+      \field{abstract}{M-Health can be defined as ``mobile computing, medical sensor, and communications technologies for health-care.'' This emerging concept represents the evolution of e-health systems from traditional desktop ``telemedicine'' platforms to wireless and mobile configurations. Current and emerging developments in wireless communications integrated with developments in pervasive and wearable technologies will have a radical impact on future health-care delivery systems. This editorial paper presents a snapshot of recent developments in these areas and addresses some of the challenges and future implementation issues from the m-Health perspective. The contributions presented in this special section represent some of these recent developments and illustrate the multidisciplinary nature of this important and emerging concept.}
+      \field{issn}{1089-7771}
+      \field{journaltitle}{IEEE Transactions on Information Technology in Biomedicine}
+      \field{number}{4}
+      \field{title}{Guest Editorial Introduction to the Special Section on M-Health: Beyond Seamless Mobility and Global Wireless Health-Care Connectivity}
+      \field{volume}{8}
+      \field{year}{2004}
+      \field{pages}{405\bibrangedash 414}
+      \verb{doi}
+      \verb 10.1109/TITB.2004.840019
+      \endverb
+      \keyw{Activities of Daily Living;Biomedical monitoring;Body area networks;Communications technology;Condition monitoring;Database Management Systems;Information Storage;Retrieval;Internationality;Internet;m-Health;Medical Records Systems;Computerized;mobile technologies;Monitoring;Ambulatory;Network servers;Patient monitoring;Pharmaceutical technology;Sensor systems;sensors;Systems Integration;Telecommunications;Telemedicine;Telemetry;Transducers;Wearable sensors;Wireless communication;Wireless sensor networks;wireless technologies}
+    \endentry
     \entry{Kaletsch.2011}{article}{}
       \name{labelname}{2}{}{%
         {{uniquename=0,hash=64075f5d4278acbd9abd0dda0d832f98}{Kaletsch}{K\bibinitperiod}{Alexander}{A\bibinitperiod}{}{}{}{}}%
@@ -178,6 +207,45 @@
       \field{title}{Technical Analysis of the Data Practices and Privacy Risks of 43 Popular Mobile Health and Fitness Applications}
       \field{year}{2013}
       \field{pages}{1\bibrangedash 31}
+    \endentry
+    \entry{West.2012}{article}{}
+      \name{labelname}{6}{}{%
+        {{uniquename=0,hash=b3195071c0086ddd6ee9bad8da8657a5}{West}{W\bibinitperiod}{Joshua\bibnamedelima H.}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=395f0b190698265b25e0e5036e5fea3c}{Hall}{H\bibinitperiod}{P.\bibnamedelimi Cougar}{P\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0046bea379ea376f0da56f7ca603a494}{Hanson}{H\bibinitperiod}{Carl\bibnamedelima L.}{C\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c5fe2274c406fc2a89fd95474f6680dc}{Barnes}{B\bibinitperiod}{Michael\bibnamedelima D.}{M\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=815710755ca37779c5cb4f409a32b5bd}{Giraud-Carrier}{G\bibinithyphendelim C\bibinitperiod}{Christophe}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a8b13dd0ba5ee5e86be8b1fc01e6741e}{Barrett}{B\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=b3195071c0086ddd6ee9bad8da8657a5}{West}{W\bibinitperiod}{Joshua\bibnamedelima H.}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=395f0b190698265b25e0e5036e5fea3c}{Hall}{H\bibinitperiod}{P.\bibnamedelimi Cougar}{P\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0046bea379ea376f0da56f7ca603a494}{Hanson}{H\bibinitperiod}{Carl\bibnamedelima L.}{C\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c5fe2274c406fc2a89fd95474f6680dc}{Barnes}{B\bibinitperiod}{Michael\bibnamedelima D.}{M\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=815710755ca37779c5cb4f409a32b5bd}{Giraud-Carrier}{G\bibinithyphendelim C\bibinitperiod}{Christophe}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a8b13dd0ba5ee5e86be8b1fc01e6741e}{Barrett}{B\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ec8b432e5e5a620f76e3a721817a8aeb}
+      \strng{fullhash}{d6b984bad4e397bfaf7150355fe0324f}
+      \field{sortinit}{W}
+      \field{labelyear}{2012}
+      \field{labeltitle}{There's an App for That: Content Analysis of Paid Health and Fitness Apps}
+      \field{issn}{1438-8871}
+      \field{journaltitle}{Journal of medical Internet research}
+      \field{number}{3}
+      \field{title}{There's an App for That: Content Analysis of Paid Health and Fitness Apps}
+      \field{urlday}{01}
+      \field{urlmonth}{09}
+      \field{urlyear}{2013}
+      \field{volume}{14}
+      \field{year}{2012}
+      \field{pages}{1\bibrangedash 11}
+      \verb{doi}
+      \verb 10.2196/jmir.1977
+      \endverb
+      \verb{url}
+      \verb http://www.jmir.org/2012/3/e72/
+      \endverb
     \endentry
     \entry{WorldHealthOrganization.2011}{misc}{}
       \name{labelname}{1}{}{%
