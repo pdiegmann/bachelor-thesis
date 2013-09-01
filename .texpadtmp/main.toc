@@ -43,23 +43,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.2}The different Operation Systems}{7}{subsubsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Android}{7}{paragraph*.1}
+\contentsline {paragraph}{Android}{7}{subsubsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{iOS}{7}{paragraph*.2}
+\contentsline {paragraph}{iOS}{7}{subsubsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Windows Phone 7 and 8}{7}{paragraph*.3}
+\contentsline {paragraph}{Windows Phone 7 and 8}{7}{subsubsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{other}{7}{paragraph*.4}
+\contentsline {paragraph}{other}{7}{subsubsection.4.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.3}Possible Frameworks and Technologies}{7}{subsubsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Xamarin}{7}{paragraph*.5}
+\contentsline {paragraph}{Xamarin}{7}{subsubsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Vaadin}{7}{paragraph*.6}
+\contentsline {paragraph}{Vaadin}{7}{subsubsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{HTML 5, jQuery mobile and Phone Gap}{7}{paragraph*.7}
+\contentsline {paragraph}{HTML 5, jQuery mobile and Phone Gap}{7}{subsubsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Completely native}{7}{paragraph*.8}
+\contentsline {paragraph}{Completely native}{7}{subsubsection.4.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.4}The Choice for Framework XYZ}{8}{subsubsection.4.2.4}
 \defcounter {refsection}{0}\relax 
@@ -78,4 +78,6 @@
 \contentsline {section}{Bibliography}{12}{section.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Erkl\IeC {\"a}rung}{13}{section.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Curriculum Vitae}{14}{section.6}
 \contentsfinish 
