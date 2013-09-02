@@ -7,7 +7,7 @@ eHealth is defined as "a paradigm involving the concepts of health, technology, 
 \\
 Telehealth means the delivery of medical- or health-related information or services via telecommunication technologies.
 \\
-mHealth in detail is defined as "medical and public health practice supported by mobile devices, such as mobile phones, patient monitoring devices, personal digital assistants (PDAs), and other wireless devices".\footnote{\cite{WorldHealthOrganization.2011} cited by \cite{MartinezPerez.2013}, p. 2} The introduction of smart phones like the Apple iPhone or any Android device led to a greater audience and the evolution of mobile tablets further increased the audience for mHealth purposes. A study\footnote{cf. \cite{West.2012}} relied on the Health Education Curriculum Analysis Tool (HECAT)\footnote{\url{http://www.cdc.gov/HealthyYouth/HECAT/}} to group different mHealth apps together. This study illustrates the distribution of apps in different categories. As ~\ref{tab:HECAT} illustrates, most of the available apps in 2011 in the Apple App Store in the United States of America belonged to the Physical Activity area, whereas drug-related and safety-related apps (like ePill) are the least two. 
+mHealth in detail is defined as "medical and public health practice supported by mobile devices, such as mobile phones, patient monitoring devices, personal digital assistants (PDAs), and other wireless devices".\footnote{\cite{WorldHealthOrganization.2011} cited by \cite{MartinezPerez.2013}, p. 2} The introduction of smart phones like the Apple iPhone or any Android device led to a greater audience and the evolution of mobile tablets further increased the audience for mHealth purposes. A study\footnote{cf. for this and the first following sentence \cite{West.2012}} relied on the Health Education Curriculum Analysis Tool (HECAT)\footnote{\url{http://www.cdc.gov/HealthyYouth/HECAT/}} to group different mHealth apps together. This study illustrates the distribution of apps in different categories. As \ref{tab:HECAT} illustrates, most of the available apps in 2011 in the Apple App Store in the United States of America belonged to the Physical Activity area, whereas drug-related and safety-related apps (like ePill) are the least two. 
 
 \begin{table}[!htb]
     \center
@@ -37,11 +37,10 @@ mHealth in detail is defined as "medical and public health practice supported by
 \footnotetext{cf. \cite{West.2012}, p. 5, Table 2}
 
 \subsection{mHealth App Categories}
-Although the ~\ref{tab:HECAT} listed categories for mHealth apps, it focusses on content and less on the specifics for mHealth apps on other possibly important topics, such as information security or usability. Other literature focusses on data practices and privacy risks with a more technical aspect\footnote{cf. \cite{Njie.2013}, pp. 13-14} \todo{More Details on information security risks}
-or into administrative connectivity, financial connectivity or medical connectivity.\footnote{cf. \cite{Istepanian.2004}, p. 6} The third categorization was stated already in 2004, so this article cannot take the recent development in mobile devices into account. Nevertheless the categorization is still appropriate. The administrative connectivity handles appointments, electronic patient records and any non-financial transactions, the financial connectivity handles all financial transactions like purchases, billing or any financial services. The third connectivity, the medical connectivity, handles mobile monitoring and diagnostics.
+Although the \ref{tab:HECAT} listed categories for mHealth apps, it focusses on content and less on the specifics for mHealth apps on other possibly important topics, such as information security or usability. Other literature focusses on data practices and privacy risks with a more technical aspect\footnote{cf. for this and the following three sentences \cite{Njie.2013}, pp. 13-14}. \cite{Njie.2013} concludes that most of the mHealth apps deal in any way with directly or indirectly (e.g. via usage behavior) with sensitive information. Therefor ten levels of privacy risks were developed and a sample of 43 mHealth and fitness apps were assigned to the different levels. \ref{tab:RiskLevelsmHealth} illustrates the characteristics of every level as well as the distribution of the 43 analyzed apps.
 \\
+As stated by \cite{Istepanian.2004}, another categorization is possible. They categorized mHealth applications into administrative connectivity, financial connectivity or medical connectivity.\footnote{cf. \cite{Istepanian.2004}, p. 6} Because of the lack of smart phones and a far lesser availability of mobile devices in 2004 compared to today, this article cannot take the recent development in mobile devices into account. Nevertheless the categorization is still appropriate. The administrative connectivity handles appointments, electronic patient records and any non-financial transactions, the financial connectivity handles all financial transactions like purchases, billing or any financial services.\footnote{cf. for this and the first following sentence \cite{Istepanian.2004}, p. 13} The third connectivity, the medical connectivity, handles mobile monitoring and diagnostics.
 \\
-\todo{Detail for Table from Njie}
 \begin{table}[!htb]
     \center
     \begin{tabular}{c | c | p{22.5em} | c}
@@ -72,10 +71,19 @@ or into administrative connectivity, financial connectivity or medical connectiv
 \end{table}
 \footnotetext{cf. \cite{Njie.2013}, p. 13}
 \\
-\\
-There are there different sub-categories for mHealth applications: The content, the information security risk-level and the overall connectivity function. For the content-category as well as the connectivity-category, multiple assignments are possible. Combined these sub-categories form a specific grouping of mHealth apps.
-
+There are there different sub-categories for mHealth applications: The content, the information security risk-level and the overall connectivity function. For the content-category as well as the connectivity-category, multiple assignments are possible. Combined these sub-categories form a specific grouping of mHealth apps. Depending on the categorization in the privacy risk, one can easily take care for precautions. With the categorization into a HECAT content area, one can identify the target audience more precisely as well as with the help of the connectivity category.
 
 \subsection{Classification of the ePill Web Application}
+\todo{Categorization: HECAT content area}
+\\
+\\
+The ePill web application is not connected to any electronic patient records, nor does it store any user related information, like the last searched pharmaceuticals. But it does not utilize SSL-encryption. Therefor it might not be collecting information or storing anything, but third parties could collect user specific information by monitoring.
+\\
+Setting this information into context with the risk levels developed by \cite{Njie.2013}, the ePill web application could be categorized as level three, if SSL-encryption would be utilized. If that would be the case, third parties could retrieve browser and OS specific information, but not data sent and retrieved with each request like pharmaceutical information. Without encryption, all data sent and retrieved is visible to possible eavesdropper. With information about searched pharmaceuticals, one could assemble a overall picture of the ingested drugs and therefor extrapolate possible diseases. Still, all data is anonymized.
+\\
+\todo{Final categorization: privacy risks}
+\\
+\\
+\todo{Categorization: Connectivity}
 
 \subsection{Why is a special Focus on mHealth Apps warranted?}
