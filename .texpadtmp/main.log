@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  2 SEP 2013 12:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  2 SEP 2013 15:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1176,22 +1176,23 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 [7]
-
-Package xcolor Warning: Incompatible color definition on input line 79.
-
-
-Package xcolor Warning: Incompatible color definition on input line 86.
-
-
-Package xcolor Warning: Incompatible color definition on input line 89.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--90
+Underfull \hbox (badness 10000) in paragraph at lines 79--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--90
+Overfull \hbox (7.18413pt too wide) in paragraph at lines 79--93
+\T1/ptm/m/n/12 Having in mind, that ePill still is in early pro-to-typ-ing and 
+as-sum-ing, that the SSL-encryption
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--93
 
  []
 
@@ -1450,7 +1451,7 @@ live/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
 Output written on /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.pdf
- (22 pages, 304215 bytes).
+ (22 pages, 304425 bytes).
 PDF statistics:
  432 PDF objects out of 1000 (max. 8388607)
  364 compressed objects within 4 object streams

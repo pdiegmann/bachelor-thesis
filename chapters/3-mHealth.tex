@@ -74,16 +74,19 @@ As stated by \cite{Istepanian.2004}, another categorization is possible. They ca
 There are there different sub-categories for mHealth applications: The content, the information security risk-level and the overall connectivity function. For the content-category as well as the connectivity-category, multiple assignments are possible. Combined these sub-categories form a specific grouping of mHealth apps. Depending on the categorization in the privacy risk, one can easily take care for precautions. With the categorization into a HECAT content area, one can identify the target audience more precisely as well as with the help of the connectivity category.
 
 \subsection{Classification of the ePill Web Application}
-\todo{Categorization: HECAT content area}
+ePill is to be categorized in the beforehand mentioned HECAT content areas mainly as "Alcohol, tobacco, and other drugs", because of the purpose to inform about (medical) drugs. Additionally, ePill informs about adverse effects and interactions, so it also belongs to the content area of "Violence prevention and safety".
 \\
 \\
 The ePill web application is not connected to any electronic patient records, nor does it store any user related information, like the last searched pharmaceuticals. But it does not utilize SSL-encryption. Therefor it might not be collecting information or storing anything, but third parties could collect user specific information by monitoring.
 \\
 Setting this information into context with the risk levels developed by \cite{Njie.2013}, the ePill web application could be categorized as level three, if SSL-encryption would be utilized. If that would be the case, third parties could retrieve browser and OS specific information, but not data sent and retrieved with each request like pharmaceutical information. Without encryption, all data sent and retrieved is visible to possible eavesdropper. With information about searched pharmaceuticals, one could assemble a overall picture of the ingested drugs and therefor extrapolate possible diseases. Still, all data is anonymized.
 \\
-\todo{Final categorization: privacy risks}
+Having in mind, that ePill still is in early prototyping and assuming, that the SSL-encryption will follow, the risk is more of a medium to low level. Dealing with only anonymous data and protecting them with encryption leaves only very less room for serious risks. We would therefor categorize ePill in terms of privacy risk levels as a level two.
 \\
 \\
-\todo{Categorization: Connectivity}
+Although ePill does not fit absolutely in any of the connectivity categories, it fits best into the medical connectivity. Because of the aim to provide pharmaceutical (therefor medical) information, it belongs definitely to the medical connectivity category.
+\\
+\\
+Concluding this categorization, we would suggest to categorize the ePill web application as a low privacy risk, drug- and safety-related medical connectivity mHealth application.
 
 \subsection{Why is a special Focus on mHealth Apps warranted?}
