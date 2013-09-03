@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  2 SEP 2013 15:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  3 SEP 2013 15:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1100,22 +1100,26 @@ Overfull \vbox (2.60004pt too high) has occurred while \output is active []
 [5
 
 ] (./chapters/1-introduction.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--17
+
+Package xcolor Warning: Incompatible color definition on input line 4.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--17
+Underfull \hbox (badness 10000) in paragraph at lines 4--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--17
+Underfull \hbox (badness 10000) in paragraph at lines 4--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--17
+Underfull \hbox (badness 10000) in paragraph at lines 4--19
 
  []
 
@@ -1125,13 +1129,17 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 [1
 
-])
-Underfull \hbox (badness 10000) in paragraph at lines 19--215
+]
+
+Package xcolor Warning: Incompatible color definition on input line 21.
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 21--215
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--215
+Underfull \hbox (badness 10000) in paragraph at lines 21--215
 
  []
 
@@ -1143,13 +1151,37 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[3] (./chapters/2-ePill.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 11--217
+[3] (./chapters/2-ePill.tex
+
+Package xcolor Warning: Incompatible color definition on input line 13.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--14
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--217
+Underfull \hbox (badness 10000) in paragraph at lines 4--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--14
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 16--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--217
 
  []
 
@@ -1165,6 +1197,30 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 [5] (./chapters/3-mHealth.tex
+
+Package xcolor Warning: Incompatible color definition on input line 4.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--17
+
+ []
+
+
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
@@ -1172,27 +1228,36 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 ]
-Overfull \vbox (11.09991pt too high) has occurred while \output is active []
-
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 79--93
+Underfull \hbox (badness 10000) in paragraph at lines 46--84
 
  []
 
 
-Overfull \hbox (7.18413pt too wide) in paragraph at lines 79--93
+Overfull \vbox (11.09991pt too high) has occurred while \output is active []
+
+
+[7]
+Overfull \vbox (11.09991pt too high) has occurred while \output is active []
+
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 86--102
+
+ []
+
+
+Overfull \hbox (7.18413pt too wide) in paragraph at lines 86--102
 \T1/ptm/m/n/12 Having in mind, that ePill still is in early pro-to-typ-ing and 
 as-sum-ing, that the SSL-encryption
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--93
+Underfull \hbox (badness 10000) in paragraph at lines 86--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--93
+Underfull \hbox (badness 10000) in paragraph at lines 86--102
 
  []
 
@@ -1200,33 +1265,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--93
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[8])
+[9])
+Overfull \hbox (0.10431pt too wide) in paragraph at lines 104--219
+\T1/ptm/m/n/12 mHealth apps dif-fer in some way from gen-eral (mo-bile) ap-pli-
+ca-tions but also from eHealth
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--219
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--219
+
+ []
+
+
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[9] (./chapters/4-developmentOfTheMobileClient.tex)
+[10] (./chapters/4-developmentOfTheMobileClient.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--14
+
+ []
+
+
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[10
+[11
 
 
-]
+])
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[11] (./chapters/5-lessonsLearned.tex)
+[12] (./chapters/5-lessonsLearned.tex)
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[12
+[13
 
 
 ] (./chapters/6-conclusion.tex)
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[13
+[14
 
 
 ]
@@ -1280,7 +1366,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 235--235
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[14
+[15
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 235--235
@@ -1306,7 +1392,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 235--235
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[15] (./titlepages/erklaerung.tex
+[16] (./titlepages/erklaerung.tex
 Overfull \hbox (3.21236pt too wide) in paragraph at lines 4--7
 \T1/ptm/m/n/12 ohne die Be-nutzung an-derer als der angegebe-nen Hil-f-s-mit-te
 l ange-fer-tigt habe. Alle Stellen,
@@ -1316,10 +1402,10 @@ l ange-fer-tigt habe. Alle Stellen,
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[16
+[17
 
 ] (./titlepages/lebenslauf.tex
-<figures/passfoto.jpg, id=392, 803.0pt x 942.52126pt>
+<figures/passfoto.jpg, id=405, 803.0pt x 942.52126pt>
 File: figures/passfoto.jpg Graphic file (type jpg)
 
 <use figures/passfoto.jpg>
@@ -1343,7 +1429,7 @@ Overfull \hbox (11.20865pt too wide) in paragraph at lines 48--57
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[17
+[18
 
 
  <./figures/passfoto.jpg>]
@@ -1361,15 +1447,21 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 245.
  ) 
 Here is how much of TeX's memory you used:
- 15848 strings out of 493311
- 248282 string characters out of 6137850
- 728681 words of memory out of 5000000
- 18930 multiletter control sequences out of 15000+600000
+ 15855 strings out of 493311
+ 248361 string characters out of 6137850
+ 727703 words of memory out of 5000000
+ 18934 multiletter control sequences out of 15000+600000
  33723 words of font info for 42 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  43i,13n,57p,2876b,1603s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.26} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.28} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.27} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.26} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.25} has been referenced but does not exis
 t, replaced by a fixed one
@@ -1451,10 +1543,10 @@ live/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
 Output written on /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.pdf
- (22 pages, 304425 bytes).
+ (23 pages, 307430 bytes).
 PDF statistics:
- 432 PDF objects out of 1000 (max. 8388607)
- 364 compressed objects within 4 object streams
- 90 named destinations out of 1000 (max. 500000)
+ 446 PDF objects out of 1000 (max. 8388607)
+ 377 compressed objects within 4 object streams
+ 93 named destinations out of 1000 (max. 500000)
  262 words of extra memory for PDF output out of 10000 (max. 10000000)
 
