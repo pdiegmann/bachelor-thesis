@@ -95,6 +95,43 @@
       \field{year}{2013}
       \field{pages}{1\bibrangedash 12}
     \endentry
+    \entry{dHeureuse.2012}{article}{}
+      \name{labelname}{6}{}{%
+        {{uniquename=0,hash=67cf6d740275d1f019400ede5bad202d}{d'Heureuse}{d\bibinitperiod}{Nico}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ba4e7b3b2fac4bbefa96f528d09f0cde}{Huici}{H\bibinitperiod}{Felipe}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=868e08c7259ae2186b684fc65ef0d5ba}{Arumaithurai}{A\bibinitperiod}{Mayutan}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=64e73acbafa5c9887dd1d5bf6d412588}{Ahmed}{A\bibinitperiod}{Mohamed}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d548f2f9d3c14800f049e0c9f0847568}{Papagiannaki}{P\bibinitperiod}{Konstantina}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=877712aa5a092ac2746aa0948ba35a90}{Niccolini}{N\bibinitperiod}{Saverio}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=67cf6d740275d1f019400ede5bad202d}{d'Heureuse}{d\bibinitperiod}{Nico}{N\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ba4e7b3b2fac4bbefa96f528d09f0cde}{Huici}{H\bibinitperiod}{Felipe}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=868e08c7259ae2186b684fc65ef0d5ba}{Arumaithurai}{A\bibinitperiod}{Mayutan}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=64e73acbafa5c9887dd1d5bf6d412588}{Ahmed}{A\bibinitperiod}{Mohamed}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d548f2f9d3c14800f049e0c9f0847568}{Papagiannaki}{P\bibinitperiod}{Konstantina}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=877712aa5a092ac2746aa0948ba35a90}{Niccolini}{N\bibinitperiod}{Saverio}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{576f31f1267972a6504b4e5f47431575}
+      \strng{fullhash}{446a1747ea129b5e28fb4fedfe642de1}
+      \field{sortinit}{d}
+      \field{labelyear}{2012}
+      \field{labeltitle}{What's app?: a wide-scale measurement study of smart phone markets}
+      \field{abstract}{In the last few years, smartphones have been gaining ground, both in terms of units shipped as well as in the amount of revenue that companies make selling apps for them. In this paper we present a large-scale study of the application markets where these apps are sold. To the best of our knowledge, this study constitutes the largest public, cross-market, temporal measurement analysis of app statistics to date. We provide insights into a number of areas, including market growth (during our crawl 22{\%} more apps were added to the Google market than the Apple one), app pricing (the BlackBerry and Apple markets are the most expensive on average), as well as a number of other topics such as app sizes, ratings, downloads and top vendors.}
+      \field{issn}{1559-1662}
+      \field{journaltitle}{SIGMOBILE Mob. Comput. Commun. Rev.}
+      \field{number}{2}
+      \field{title}{What's app?: a wide-scale measurement study of smart phone markets}
+      \field{volume}{16}
+      \field{year}{2012}
+      \field{pages}{16\bibrangedash 27}
+      \verb{doi}
+      \verb 10.1145/2396756.2396759
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/2396756.2396759
+      \endverb
+    \endentry
     \entry{FutureofPrivacyForumCenterforDemocracy&Technology.2011}{article}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=2e3bcfb932f715c7137ba978eb7698fb}{{Future\bibnamedelimb of\bibnamedelimb Privacy\bibnamedelimb Forum,\bibnamedelimb Center\bibnamedelimb for\bibnamedelimb Democracy\bibnamedelimb {\&}\bibnamedelimb Technology}}{F\bibinitperiod}{}{}{}{}{}{}}%
