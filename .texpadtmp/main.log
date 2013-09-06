@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  5 SEP 2013 11:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  6 SEP 2013 22:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1174,12 +1174,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--16
  []
 
 
-Overfull \hbox (3.93248pt too wide) in paragraph at lines 4--16
-\T1/ptm/m/n/12 an atomic way. Prod-ucts are any phar-ma-ceu-ti-cals, whereas th
-ey con-tain spe-cific molecules,
- []
-
-
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
@@ -1214,22 +1208,17 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 Package xcolor Warning: Incompatible color definition on input line 4.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--45
+Underfull \hbox (badness 10000) in paragraph at lines 4--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--45
+Underfull \hbox (badness 10000) in paragraph at lines 4--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--45
+Underfull \hbox (badness 10000) in paragraph at lines 4--44
 
  []
 
@@ -1241,7 +1230,12 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 47--85
+Underfull \hbox (badness 10000) in paragraph at lines 46--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--89
 
  []
 
@@ -1250,23 +1244,23 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 87--103
+Underfull \hbox (badness 10000) in paragraph at lines 91--107
 
  []
 
 
-Overfull \hbox (7.18413pt too wide) in paragraph at lines 87--103
+Overfull \hbox (7.18413pt too wide) in paragraph at lines 91--107
 \T1/ptm/m/n/12 Having in mind, that ePill still is in early pro-to-typ-ing and 
 as-sum-ing, that the SSL-encryption
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--103
+Underfull \hbox (badness 10000) in paragraph at lines 91--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--103
+Underfull \hbox (badness 10000) in paragraph at lines 91--107
 
  []
 
@@ -1279,23 +1273,23 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 [10])
-Overfull \hbox (0.10431pt too wide) in paragraph at lines 105--219
+Overfull \hbox (0.10431pt too wide) in paragraph at lines 109--219
 \T1/ptm/m/n/12 mHealth apps dif-fer in some way from gen-eral (mo-bile) ap-pli-
 ca-tions but also from eHealth
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--219
+Underfull \hbox (badness 10000) in paragraph at lines 109--219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--219
+Underfull \hbox (badness 10000) in paragraph at lines 109--219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--219
+Underfull \hbox (badness 10000) in paragraph at lines 109--219
 
  []
 
@@ -1592,7 +1586,7 @@ live/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
 Output written on /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.pdf
- (26 pages, 311644 bytes).
+ (26 pages, 311753 bytes).
 PDF statistics:
  475 PDF objects out of 1000 (max. 8388607)
  402 compressed objects within 5 object streams
