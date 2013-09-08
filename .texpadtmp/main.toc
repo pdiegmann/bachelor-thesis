@@ -53,13 +53,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{other}{13}{subsubsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3}Possible Frameworks and Technologies}{13}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3}Possible Frameworks and Technologies}{14}{subsubsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Xamarin}{13}{subsubsection.4.2.3}
+\contentsline {paragraph}{Xamarin}{14}{subsubsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Vaadin}{13}{subsubsection.4.2.3}
+\contentsline {paragraph}{Vaadin}{14}{subsubsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{HTML 5, jQuery mobile and Phone Gap}{13}{subsubsection.4.2.3}
+\contentsline {paragraph}{HTML 5, jQuery mobile and Phone Gap}{14}{subsubsection.4.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Completely native}{14}{subsubsection.4.2.3}
 \defcounter {refsection}{0}\relax 

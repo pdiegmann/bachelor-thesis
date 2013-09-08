@@ -55,6 +55,48 @@
       \verb 10.1109/ICCSA.2008.45
       \endverb
     \endentry
+    \entry{BundesregierungderBundesrepublikDeutschland.01.08.1996}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=e2da0f78bf33da2ecfd6834e013cb085}{{Bundesregierung\bibnamedelimb der\bibnamedelimb Bundesrepublik\bibnamedelimb Deutschland}}{B\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=e2da0f78bf33da2ecfd6834e013cb085}{{Bundesregierung\bibnamedelimb der\bibnamedelimb Bundesrepublik\bibnamedelimb Deutschland}}{B\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{e2da0f78bf33da2ecfd6834e013cb085}
+      \strng{fullhash}{e2da0f78bf33da2ecfd6834e013cb085}
+      \field{sortinit}{B}
+      \field{labelyear}{1996}
+      \field{labeltitle}{Telekommunikationsgesetz: TKG}
+      \field{title}{Telekommunikationsgesetz: TKG}
+      \field{urlday}{07}
+      \field{urlmonth}{09}
+      \field{urlyear}{2013}
+      \field{year}{1996}
+      \verb{url}
+      \verb http://www.gesetze-im-internet.de/tkg_2004/
+      \endverb
+    \endentry
+    \entry{BundesregierungderBundesrepublikDeutschland.01.03.2007}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=e2da0f78bf33da2ecfd6834e013cb085}{{Bundesregierung\bibnamedelimb der\bibnamedelimb Bundesrepublik\bibnamedelimb Deutschland}}{B\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=e2da0f78bf33da2ecfd6834e013cb085}{{Bundesregierung\bibnamedelimb der\bibnamedelimb Bundesrepublik\bibnamedelimb Deutschland}}{B\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{e2da0f78bf33da2ecfd6834e013cb085}
+      \strng{fullhash}{e2da0f78bf33da2ecfd6834e013cb085}
+      \field{sortinit}{B}
+      \field{labelyear}{2007}
+      \field{labeltitle}{Telemediengesetz: TMG}
+      \field{title}{Telemediengesetz: TMG}
+      \field{urlday}{07}
+      \field{urlmonth}{09}
+      \field{urlyear}{2013}
+      \field{year}{2007}
+      \verb{url}
+      \verb http://www.gesetze-im-internet.de/tmg/
+      \endverb
+    \endentry
     \entry{Dehling.2012}{article}{}
       \name{labelname}{2}{}{%
         {{uniquename=0,hash=97ca1de0ff6a0a6e4a793f28b19fa9ea}{Dehling}{D\bibinitperiod}{Tobias}{T\bibinitperiod}{}{}{}{}}%
