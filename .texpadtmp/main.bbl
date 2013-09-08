@@ -137,6 +137,27 @@
       \field{year}{2013}
       \field{pages}{1\bibrangedash 12}
     \endentry
+    \entry{DerInnenministerdesLandesNordrheinWestfalen.09.06.2000}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=c3899ea13e6c44ac15ea06b1f4e82af3}{{Der\bibnamedelimb Innenminister\bibnamedelimb des\bibnamedelimb Landes\bibnamedelimb Nordrhein-Westfalen}}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=c3899ea13e6c44ac15ea06b1f4e82af3}{{Der\bibnamedelimb Innenminister\bibnamedelimb des\bibnamedelimb Landes\bibnamedelimb Nordrhein-Westfalen}}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{c3899ea13e6c44ac15ea06b1f4e82af3}
+      \strng{fullhash}{c3899ea13e6c44ac15ea06b1f4e82af3}
+      \field{sortinit}{D}
+      \field{labelyear}{2000}
+      \field{labeltitle}{Gesetz zum Schutz personenbezogener Daten: DSG NRW}
+      \field{title}{Gesetz zum Schutz personenbezogener Daten: DSG NRW}
+      \field{urlday}{08}
+      \field{urlmonth}{09}
+      \field{urlyear}{2013}
+      \field{year}{2000}
+      \verb{url}
+      \verb https://recht.nrw.de/lmi/owa/br_bes_text?anw_nr=2%5C&gld_nr=2%5C&ugl_nr=20061%5C&bes_id=4908%5C&aufgehoben=N%5C&menu=1%5C&sg=0
+      \endverb
+    \endentry
     \entry{dHeureuse.2012}{article}{}
       \name{labelname}{6}{}{%
         {{uniquename=0,hash=67cf6d740275d1f019400ede5bad202d}{d'Heureuse}{d\bibinitperiod}{Nico}{N\bibinitperiod}{}{}{}{}}%
@@ -286,6 +307,27 @@
       \field{title}{Technical Analysis of the Data Practices and Privacy Risks of 43 Popular Mobile Health and Fitness Applications}
       \field{year}{2013}
       \field{pages}{1\bibrangedash 31}
+    \endentry
+    \entry{TheEuropeanParliamentandtheCounciloftheEuropeanUnion.24.10.1995}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=eb8bfc08e2a8d789dcd5659676cd32f2}{{The\bibnamedelimb European\bibnamedelimb Parliament\bibnamedelimb and\bibnamedelimb the\bibnamedelimb Council\bibnamedelimb of\bibnamedelimb the\bibnamedelimb European\bibnamedelimb Union}}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=eb8bfc08e2a8d789dcd5659676cd32f2}{{The\bibnamedelimb European\bibnamedelimb Parliament\bibnamedelimb and\bibnamedelimb the\bibnamedelimb Council\bibnamedelimb of\bibnamedelimb the\bibnamedelimb European\bibnamedelimb Union}}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{eb8bfc08e2a8d789dcd5659676cd32f2}
+      \strng{fullhash}{eb8bfc08e2a8d789dcd5659676cd32f2}
+      \field{sortinit}{T}
+      \field{labelyear}{1995}
+      \field{labeltitle}{Directive 95/46/EC}
+      \field{title}{Directive 95/46/EC}
+      \field{urlday}{08}
+      \field{urlmonth}{09}
+      \field{urlyear}{2013}
+      \field{year}{1995}
+      \verb{url}
+      \verb http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:en:NOT
+      \endverb
     \endentry
     \entry{West.2012}{article}{}
       \name{labelname}{6}{}{%
