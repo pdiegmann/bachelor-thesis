@@ -19,6 +19,40 @@
 
 \refsection{0}
   \sortlist{entry}{nty}
+    \entry{AyobNurulZakiahbinti.2009}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=9466093913494581f167e64136e85a4d}{{Ayob,\bibnamedelimb Nurul\bibnamedelimb Zakiah\bibnamedelimb binti}}{A\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=c0d680373649ebd79e3b2ccb44fe2fa0}{{Hussin,\bibnamedelimb Ab\bibnamedelimb Razak\bibnamedelimb Che}}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=ae256becd75a839427146f6b1d2096fd}{Dahlan}{D\bibinitperiod}{Halina\bibnamedelima Mohamed}{H\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=9466093913494581f167e64136e85a4d}{{Ayob,\bibnamedelimb Nurul\bibnamedelimb Zakiah\bibnamedelimb binti}}{A\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=c0d680373649ebd79e3b2ccb44fe2fa0}{{Hussin,\bibnamedelimb Ab\bibnamedelimb Razak\bibnamedelimb Che}}{H\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=ae256becd75a839427146f6b1d2096fd}{Dahlan}{D\bibinitperiod}{Halina\bibnamedelima Mohamed}{H\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{3}{%
+        {Los Alamitos}%
+        {CA}%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Computer Society}%
+      }
+      \strng{namehash}{468839f838e65dce9164ed5d61026d6d}
+      \strng{fullhash}{468839f838e65dce9164ed5d61026d6d}
+      \field{sortinit}{A}
+      \field{labelyear}{2009}
+      \field{labeltitle}{Three Layers Design Guideline for Mobile Application}
+      \field{abstract}{User interface is one of the main challenges for designing mobile application. The importance of user interface is all about to retain user's loyalty which can be gained by offer user friendly interface and usability. The research focus on main issues of designing mobile application which is {\dq}how to display all the information and elements on the small screen of mobile device?{\dq}. This research aims to study and understand mobile human-computer interaction and other issues associated with mobile commerce application by understanding the mobile commerce environment to propose framework for mobile application. In terms of designing for mobile application, the authors has adopt the four existing guideline. There are Shneiderman's Golden Rules of Interface Design for Mobile, Seven Usability Guideline for Mobile Device, Human-Centred Design and W3C Mobile Web Best Practices . This paper ends with future work that based on the proposed framework.}
+      \field{booktitle}{Information Management and Engineering, International Conference on}
+      \field{isbn}{978-0-7695-3595-1}
+      \field{title}{Three Layers Design Guideline for Mobile Application}
+      \field{year}{2009}
+      \field{pages}{427\bibrangedash 431}
+      \verb{doi}
+      \verb 10.1109/ICIME.2009.99
+      \endverb
+    \endentry
     \entry{Badashian.2008}{inproceedings}{}
       \name{labelname}{4}{}{%
         {{uniquename=0,hash=c493d330555c06feb1c8ced8e3dae36f}{Badashian}{B\bibinitperiod}{Ali\bibnamedelima Sajedi}{A\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
@@ -96,6 +130,42 @@
       \verb{url}
       \verb http://www.gesetze-im-internet.de/tmg/
       \endverb
+    \endentry
+    \entry{Dahanayake.2010}{article}{}
+      \name{labelname}{5}{}{%
+        {{uniquename=0,hash=4a1620127f613018f9938a8d01c66e05}{Dahanayake}{D\bibinitperiod}{Ajantha}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ba526f630100e003650a75a5f6344931}{Collier}{C\bibinitperiod}{Caroline}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8cf8aed5fdfb7c6ad8127037f24c4e31}{Glenzer}{G\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=da24c3533e3afd9e8870a7f8c0115d9a}{Goette}{G\bibinitperiod}{Tanya}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2ec4407819e3c3baefe1d2ae2feb5ab8}{Welke}{W\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=4a1620127f613018f9938a8d01c66e05}{Dahanayake}{D\bibinitperiod}{Ajantha}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ba526f630100e003650a75a5f6344931}{Collier}{C\bibinitperiod}{Caroline}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8cf8aed5fdfb7c6ad8127037f24c4e31}{Glenzer}{G\bibinitperiod}{Daniel}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=da24c3533e3afd9e8870a7f8c0115d9a}{Goette}{G\bibinitperiod}{Tanya}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2ec4407819e3c3baefe1d2ae2feb5ab8}{Welke}{W\bibinitperiod}{Richard}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{388b2911e35537295dd5ee5043494247}
+      \strng{fullhash}{f8a618eb7ea80bef452fefd613ebe35c}
+      \field{sortinit}{D}
+      \field{labelyear}{2010}
+      \field{labeltitle}{Mobile Website Engineering and Mobile Web Best Practices Guidelines: A Reality Check}
+      \field{abstract}{The number of users using mobile handheld devices to access mobile websites has grown exponentially within a few years. However, the quality of mobile websites is poor and contributes to unsatisfying user experiences. The W3C's Mobile Web Best Practices are de facto standards to improve the quality of mobile websites. This paper examines the impact of the W3C Standards on delivering web content to mobile devices, as well as the impact of mobile usability on website design. As no prior research exists that aims to answer these questions, this paper will be extremely valuable to people who develop web standards, as well as to web engineers. In the context of web development, such answers are critical, since all other major aspects of the Internet are already standardized. With our assessment we explore the issues and challenges associated with W3C Mobile Web standards implementation, as well as suggestions for future research. [PUBLICATION ABSTRACT]}
+      \field{issn}{15435962}
+      \field{journaltitle}{Journal of International Technology and Information Management}
+      \field{number}{2}
+      \field{title}{Mobile Website Engineering and Mobile Web Best Practices Guidelines: A Reality Check}
+      \field{urlday}{08}
+      \field{urlmonth}{09}
+      \field{urlyear}{2013}
+      \field{volume}{19}
+      \field{year}{2010}
+      \field{pages}{79\bibrangedash IV}
+      \verb{url}
+      \verb http://search.proquest.com/abicomplete/docview/847661916/14064A5A5EDB901A9D/4?accountid=10218
+      \endverb
+      \keyw{Computers--Information Science And Information Theory;Impact analysis;Quality standards;Studies;Web content delivery;Web sites}
     \endentry
     \entry{Dehling.2012}{article}{}
       \name{labelname}{2}{}{%
@@ -263,6 +333,34 @@
       \verb http://aisel.aisnet.org/icis2011/proceedings/ISsecurity/2
       \endverb
     \endentry
+    \entry{Lica.2010}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=159fec4440bd7f97f93b6055de13e462}{Lica}{L\bibinitperiod}{Liviu}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=159fec4440bd7f97f93b6055de13e462}{Lica}{L\bibinitperiod}{Liviu}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{159fec4440bd7f97f93b6055de13e462}
+      \strng{fullhash}{159fec4440bd7f97f93b6055de13e462}
+      \field{sortinit}{L}
+      \field{labelyear}{2010}
+      \field{labeltitle}{Mobile and Social: Ten Best Practices for Designing Mobile Applications}
+      \field{abstract}{This paper gives ten best practices for designing mobile applications that have social-networking functions. The need for such an approach is given by the rapid growth in importance of both social networks and mobile applications. In order to make it easy to follow where the best practices come from, the paper starts with a look at why social networks are more than just a buzz word and at how the field of mobile applications is evolving. It also shows how and why the two fields go together so well. To further make the point, there is a case study of four interesting mobile applications that are textbooks examples of successful applications. The best practices are based on research done for this article and on the extensive knowledge of the author. [PUBLICATION ABSTRACT]}
+      \field{issn}{1453-1305}
+      \field{journaltitle}{Informatica Economica}
+      \field{number}{3}
+      \field{title}{Mobile and Social: Ten Best Practices for Designing Mobile Applications}
+      \field{urlday}{12}
+      \field{urlmonth}{08}
+      \field{urlyear}{2013}
+      \field{volume}{14}
+      \field{year}{2010}
+      \field{pages}{60\bibrangedash 74}
+      \verb{url}
+      \verb http://search.proquest.com/abicomplete/docview/757877243/13FD6BCF97A11F6E0DB/7?accountid=10218
+      \endverb
+      \keyw{Best practice;Cellular telephones;COMPUTERS;SOCIAL networks;Studies;SYSTEMS design;Systems development}
+    \endentry
     \entry{MartinezPerez.2013}{article}{}
       \name{labelname}{3}{}{%
         {{uniquename=0,hash=3fa279fc294c47c5cfd06ecf529a6c2b}{Martínez-Pérez}{M\bibinithyphendelim P\bibinitperiod}{Borja}{B\bibinitperiod}{}{}{}{}}%
@@ -290,6 +388,37 @@
       \verb{doi}
       \verb 10.2196/jmir.2600
       \endverb
+    \endentry
+    \entry{Nicolaou.2013}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=8daa213bb4f7e6283aefe7712a6d8d7f}{Nicolaou}{N\bibinitperiod}{Alex}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=8daa213bb4f7e6283aefe7712a6d8d7f}{Nicolaou}{N\bibinitperiod}{Alex}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8daa213bb4f7e6283aefe7712a6d8d7f}
+      \strng{fullhash}{8daa213bb4f7e6283aefe7712a6d8d7f}
+      \field{sortinit}{N}
+      \field{labelyear}{2013}
+      \field{labeltitle}{Best Practices on the Move: Building Web Apps for Mobile Devices}
+      \field{abstract}{The article discusses the construction of web applications for mobile devices, focusing on best practices for website performance optimization as of August 2013. Recommendations include minimizing HTTP requests, using compression on content that is not an image or a video, preloading components, and managing caches. Topics include website design, software applications, the JavaScript computer program language, cascading style sheets (CSS), and the potential differences between desktop and mobile design.}
+      \field{issn}{00010782}
+      \field{journaltitle}{Communications of the ACM}
+      \field{number}{8}
+      \field{title}{Best Practices on the Move: Building Web Apps for Mobile Devices}
+      \field{urlday}{08}
+      \field{urlmonth}{09}
+      \field{urlyear}{2013}
+      \field{volume}{56}
+      \field{year}{2013}
+      \field{pages}{45\bibrangedash 51}
+      \verb{doi}
+      \verb 10.1145/2492007.2492023
+      \endverb
+      \verb{url}
+      \verb http://search.ebscohost.com/login.aspx?direct=true%5C&db=a9h%5C&AN=89594090%5C&site=ehost-live
+      \endverb
+      \keyw{APPLICATION software;BEST practices;CACHE memory;CASCADING style sheets;DESIGN {\&} construction;JAVASCRIPT (Computer program language);PROGRAM transformation (Computer programming);WEB-based user interfaces}
     \endentry
     \entry{Njie.2013}{article}{}
       \name{labelname}{1}{}{%
@@ -328,6 +457,41 @@
       \verb{url}
       \verb http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:en:NOT
       \endverb
+    \endentry
+    \entry{Wessels.2011}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=a803e23cdbf0d2bb64217b7f44d2014a}{Wessels}{W\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d53b7d1d00a3b761fd092aa388996c7d}{Purvis}{P\bibinitperiod}{Mike}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e43443a092977e6cd5cc0d56e93e2bb6}{Rahman}{R\bibinitperiod}{Syed}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=a803e23cdbf0d2bb64217b7f44d2014a}{Wessels}{W\bibinitperiod}{Andrew}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d53b7d1d00a3b761fd092aa388996c7d}{Purvis}{P\bibinitperiod}{Mike}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e43443a092977e6cd5cc0d56e93e2bb6}{Rahman}{R\bibinitperiod}{Syed}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{3}{%
+        {Los Alamitos}%
+        {CA}%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Computer Society}%
+      }
+      \strng{namehash}{8bc46b981e48bddd7c2f9a3f1cc375f3}
+      \strng{fullhash}{8bc46b981e48bddd7c2f9a3f1cc375f3}
+      \field{sortinit}{W}
+      \field{labelyear}{2011}
+      \field{labeltitle}{Usability of Web Interfaces on Mobile Devices}
+      \field{abstract}{This paper describes the challenges and benefits of bringing web applications to mobile devices. It covers many guidelines, and best practices offered to developers to ease the transition to mobile devices. By using techniques such as changing the Delivery Context through Content Adaptation, developers can provide users with an improved experience on their device of choice.}
+      \field{booktitle}{Information Technology: New Generations, Third International Conference on}
+      \field{isbn}{978-0-7695-4367-3}
+      \field{title}{Usability of Web Interfaces on Mobile Devices}
+      \field{year}{2011}
+      \field{pages}{1066\bibrangedash 1067}
+      \verb{doi}
+      \verb 10.1109/ITNG.2011.190
+      \endverb
+      \keyw{android;Internet;iphone;mobile;web}
     \endentry
     \entry{West.2012}{article}{}
       \name{labelname}{6}{}{%
@@ -388,6 +552,30 @@
       \field{year}{2011}
       \verb{url}
       \verb http://whqlibdoc.who.int/publications/2011/9789241564250_eng.pdf
+      \endverb
+    \endentry
+    \entry{WorldWideWebConsortium.2008}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=d992271dfda5e460de90c311b0bd97d9}{{World\bibnamedelimb Wide\bibnamedelimb Web\bibnamedelimb Consortium}}{W\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d992271dfda5e460de90c311b0bd97d9}{{World\bibnamedelimb Wide\bibnamedelimb Web\bibnamedelimb Consortium}}{W\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=d992271dfda5e460de90c311b0bd97d9}{{World\bibnamedelimb Wide\bibnamedelimb Web\bibnamedelimb Consortium}}{W\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{d992271dfda5e460de90c311b0bd97d9}
+      \strng{fullhash}{d992271dfda5e460de90c311b0bd97d9}
+      \field{sortinit}{W}
+      \field{labelyear}{2008}
+      \field{labeltitle}{Mobile Web Best Practices 1.0: Basic Guidelines, W3C Recommendation}
+      \field{title}{Mobile Web Best Practices 1.0: Basic Guidelines, W3C Recommendation}
+      \field{urlday}{09}
+      \field{urlmonth}{09}
+      \field{urlyear}{2013}
+      \field{year}{2008}
+      \verb{url}
+      \verb http://www.w3.org/TR/2008/REC-mobile-bp-20080729/
       \endverb
     \endentry
     \entry{Yeh.2012}{article}{}
