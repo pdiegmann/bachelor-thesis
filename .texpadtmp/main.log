@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  9 SEP 2013 13:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  9 SEP 2013 19:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -859,6 +859,14 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 \@float@every@table=\toks29
 
+(/usr/local/texlive/2013/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip95
+\enit@outerparindent=\dimen143
+\enit@toks=\toks30
+\enit@inbox=\box36
+\enitdp@description=\count293
+)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -873,8 +881,8 @@ File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
-\Gin@req@height=\dimen143
-\Gin@req@width=\dimen144
+\Gin@req@height=\dimen144
+\Gin@req@width=\dimen145
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/textpos/textpos.sty
 Package: textpos 2012/11/13 v1.7i
@@ -883,19 +891,19 @@ Package: textpos 2012/11/13 1.7i, absolute positioning of text on the page
 (/usr/local/texlive/2013/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )
-\TP@textbox=\box36
-\TP@holdbox=\box37
-\TPHorizModule=\dimen145
-\TPVertModule=\dimen146
-\TP@margin=\dimen147
-\TP@absmargin=\dimen148
+\TP@textbox=\box37
+\TP@holdbox=\box38
+\TPHorizModule=\dimen146
+\TPVertModule=\dimen147
+\TP@margin=\dimen148
+\TP@absmargin=\dimen149
 
 Grid set 16 x 16 = 37.34424pt x 52.81541pt
-\TPboxrulesize=\dimen149
-\TP@ox=\dimen150
-\TP@oy=\dimen151
-\TP@tbargs=\toks30
-\TP@prevdepth=\dimen152
+\TPboxrulesize=\dimen150
+\TP@ox=\dimen151
+\TP@oy=\dimen152
+\TP@tbargs=\toks31
+\TP@prevdepth=\dimen153
 TextBlockOrigin set to 0pt x 0pt
 )
 Package biblatex Info: Trying to load language 'english'...
@@ -907,8 +915,8 @@ File: english.lbx 2013/07/15 v2.7a biblatex localization (PK/JW/AB)
 Package biblatex Warning: 'babel' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count293
-\@quotereset=\count294
+\@quotelevel=\count294
+\@quotereset=\count295
 
 LaTeX Warning: Unused global option(s):
     [liststotocnumbered].
@@ -916,27 +924,27 @@ LaTeX Warning: Unused global option(s):
 (/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 168.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 170.
+LaTeX Font Info:    ... okay on input line 170.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 170.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-\AtBeginShipoutBox=\box38
-Package hyperref Info: Link coloring OFF on input line 168.
+\AtBeginShipoutBox=\box39
+Package hyperref Info: Link coloring OFF on input line 170.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -944,11 +952,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count295
+\c@section@level=\count296
 )
-LaTeX Info: Redefining \ref on input line 168.
-LaTeX Info: Redefining \pageref on input line 168.
-LaTeX Info: Redefining \nameref on input line 168.
+LaTeX Info: Redefining \ref on input line 170.
+LaTeX Info: Redefining \pageref on input line 170.
+LaTeX Info: Redefining \nameref on input line 170.
 
 (/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.out)
 (/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.out)
@@ -999,17 +1007,17 @@ Package scrpage2 Warning: seems you are using a constant headheight.
 
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count296
-\scratchdimen=\dimen153
-\scratchbox=\box39
-\nofMPsegments=\count297
-\nofMParguments=\count298
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count299
-\MPscratchDim=\dimen154
-\MPnumerator=\count300
-\makeMPintoPDFobject=\count301
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count297
+\scratchdimen=\dimen154
+\scratchbox=\box40
+\nofMPsegments=\count298
+\nofMParguments=\count299
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count300
+\MPscratchDim=\dimen155
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
+\everyMPtoPDFconversion=\toks33
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -1019,8 +1027,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bbl)
-Package biblatex Info: Reference section=0 on input line 168.
-Package biblatex Info: Reference segment=0 on input line 168.
+Package biblatex Info: Reference section=0 on input line 170.
+Package biblatex Info: Reference segment=0 on input line 170.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: longtable package is loaded.
@@ -1057,11 +1065,11 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 \openout6 = `main.toc'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 208.
+(Font)              <12> on input line 210.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 208.
+(Font)              <8> on input line 210.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 208.
+(Font)              <6> on input line 210.
 
 Overfull \vbox (2.60004pt too high) has occurred while \output is active []
 
@@ -1069,18 +1077,36 @@ Overfull \vbox (2.60004pt too high) has occurred while \output is active []
 [2
 
 ] (./titlepages/acronyms.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 8.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 8.
 LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 16.
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 7.
 
+
+Package xcolor Warning: Incompatible color definition on input line 7.
+
+
+Package xcolor Warning: Incompatible color definition on input line 8.
+
+
+Package xcolor Warning: Incompatible color definition on input line 9.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 11.
 
 Package xcolor Warning: Incompatible color definition on input line 16.
 
 
-Package xcolor Warning: Incompatible color definition on input line 24.
+Package xcolor Warning: Incompatible color definition on input line 18.
+
+
+Package xcolor Warning: Incompatible color definition on input line 21.
+
+
+Package xcolor Warning: Incompatible color definition on input line 29.
+
+
+Package xcolor Warning: Incompatible color definition on input line 30.
 
 
 Overfull \vbox (2.60004pt too high) has occurred while \output is active []
@@ -1137,12 +1163,12 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 Package xcolor Warning: Incompatible color definition on input line 21.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 21--230
+Underfull \hbox (badness 10000) in paragraph at lines 21--232
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--230
+Underfull \hbox (badness 10000) in paragraph at lines 21--232
 
  []
 
@@ -1181,17 +1207,17 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 ])
-Underfull \hbox (badness 10000) in paragraph at lines 20--232
+Underfull \hbox (badness 10000) in paragraph at lines 20--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--232
+Underfull \hbox (badness 10000) in paragraph at lines 20--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--232
+Underfull \hbox (badness 10000) in paragraph at lines 20--234
 
  []
 
@@ -1273,23 +1299,23 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 [10])
-Overfull \hbox (0.10431pt too wide) in paragraph at lines 109--234
+Overfull \hbox (0.10431pt too wide) in paragraph at lines 109--236
 \T1/ptm/m/n/12 mHealth apps dif-fer in some way from gen-eral (mo-bile) ap-pli-
 ca-tions but also from eHealth
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--234
+Underfull \hbox (badness 10000) in paragraph at lines 109--236
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--234
+Underfull \hbox (badness 10000) in paragraph at lines 109--236
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--234
+Underfull \hbox (badness 10000) in paragraph at lines 109--236
 
  []
 
@@ -1324,17 +1350,37 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 22--36
+Overfull \hbox (8.49939pt too wide) in paragraph at lines 42--64
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--36
+Underfull \hbox (badness 10000) in paragraph at lines 22--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--36
+Underfull \hbox (badness 10000) in paragraph at lines 22--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--131
 
  []
 
@@ -1343,7 +1389,15 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 40--46
+Overfull \vbox (11.09991pt too high) has occurred while \output is active []
+
+
+[15]
+Overfull \vbox (11.09991pt too high) has occurred while \output is active []
+
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 136--142
 
  []
 
@@ -1351,68 +1405,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--46
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[15])
+[17]
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[16] (./chapters/5-lessonsLearned.tex)
+[18])
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[17
+[19] (./chapters/5-lessonsLearned.tex)
+Overfull \vbox (11.09991pt too high) has occurred while \output is active []
+
+
+[20
 
 
 ] (./chapters/6-conclusion.tex)
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[18
+[21
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
 
-Overfull \hbox (0.709pt too wide) in paragraph at lines 250--250
+Overfull \hbox (0.709pt too wide) in paragraph at lines 252--252
 \T1/ptm/m/n/12 Bun-desregierung der Bun-desre-pub-lik Deutsch-land: Telekom-mu-
 nika-tion-s-ge-setz: TKG,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
 
-Overfull \hbox (8.37537pt too wide) in paragraph at lines 250--250
+Overfull \hbox (8.37537pt too wide) in paragraph at lines 252--252
 \T1/ptm/m/n/12 To-bias Dehling, Ali Sun-yaev: In-for-ma-tion Se-cu-rity and Pri
 -vacy Im-pli-ca-tions of mHealth
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
@@ -1420,41 +1478,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 250--250
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[19
+[22
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
 
-Overfull \hbox (5.25835pt too wide) in paragraph at lines 250--250
+Overfull \hbox (5.25835pt too wide) in paragraph at lines 252--252
 \T1/ptm/m/n/12 Nico d'Heureuse, Fe-lipe Huici, Mayu-tan Aru-maithu-rai, Mo-hame
 d Ahmed, Kon-stantina
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
@@ -1462,58 +1520,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 250--250
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[20]
-Overfull \hbox (5.29547pt too wide) in paragraph at lines 250--250
+[23]
+Overfull \hbox (5.29547pt too wide) in paragraph at lines 252--252
 \T1/ptm/m/n/12 Borja Martínez-Pérez, de la Torre-Díez, Is-abel, Miguel López-Co
 ronado: Mo-bile health
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
-
- []
-
-
-Overfull \vbox (11.09991pt too high) has occurred while \output is active []
-
-
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
@@ -1521,7 +1560,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 250--250
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[22] (./titlepages/erklaerung.tex
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+
+ []
+
+
+Overfull \vbox (11.09991pt too high) has occurred while \output is active []
+
+
+[25] (./titlepages/erklaerung.tex
 Overfull \hbox (3.21236pt too wide) in paragraph at lines 4--7
 \T1/ptm/m/n/12 ohne die Be-nutzung an-derer als der angegebe-nen Hil-f-s-mit-te
 l ange-fer-tigt habe. Alle Stellen,
@@ -1531,10 +1589,10 @@ l ange-fer-tigt habe. Alle Stellen,
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[23
+[26
 
 ] (./titlepages/lebenslauf.tex
-<figures/passfoto.jpg, id=523, 803.0pt x 942.52126pt>
+<figures/passfoto.jpg, id=617, 803.0pt x 942.52126pt>
 File: figures/passfoto.jpg Graphic file (type jpg)
 
 <use figures/passfoto.jpg>
@@ -1558,33 +1616,75 @@ Overfull \hbox (11.20865pt too wide) in paragraph at lines 48--57
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[24
+[27
 
 
  <./figures/passfoto.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 260.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 260.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
 
 (/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 260.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 260.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 260.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 262.
  ) 
 Here is how much of TeX's memory you used:
- 15962 strings out of 493311
- 250596 string characters out of 6137850
- 728247 words of memory out of 5000000
- 19002 multiletter control sequences out of 15000+600000
+ 16308 strings out of 493311
+ 256109 string characters out of 6137850
+ 745224 words of memory out of 5000000
+ 19305 multiletter control sequences out of 15000+600000
  33723 words of font info for 42 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  43i,14n,57p,2876b,1603s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.50} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.64} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.63} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.62} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.61} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.60} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.59} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.58} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.57} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.55} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.56} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.54} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.53} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.52} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.51} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.50} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.49} has been referenced but does not exis
 t, replaced by a fixed one
@@ -1738,10 +1838,10 @@ live/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
 Output written on /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.pdf
- (29 pages, 324501 bytes).
+ (32 pages, 334343 bytes).
 PDF statistics:
- 571 PDF objects out of 1000 (max. 8388607)
- 495 compressed objects within 5 object streams
- 132 named destinations out of 1000 (max. 500000)
+ 673 PDF objects out of 1000 (max. 8388607)
+ 589 compressed objects within 6 object streams
+ 171 named destinations out of 1000 (max. 500000)
  262 words of extra memory for PDF output out of 10000 (max. 10000000)
 

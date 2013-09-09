@@ -22,7 +22,7 @@ The World Wide Web Consortium (W3C) has published a document in 2008, which stat
 This document focuses on mobile web development\footnote{cf. \cite{WorldWideWebConsortium.2008}, Abstract}, which has of course differences to native app development (e.g. the usage of frames and the accessibility of the device's specific features), most of the best practices are applicable in both development environments.
 \\
 \\
-For this specific project, which does not need more specific device capabilities, like positioning and navigation features, we can focus on best practices related to the user interface, input and navigation methods as well as general best practices. Depending on the framework chosen, some of the best practices are already dealt with by the framework or at least supported. E.g. a thematic consistency\footnote{cf. \cite{WorldWideWebConsortium.2008}, 1.} is provided by native apps by default and by frameworks such as the TouchKit for Vaadin as well. Although they can be overridden, they provide a consistent theme.
+For this specific project, which does not need more specific device capabilities, like positioning and navigation features, we can focus on best practices related to the user interface, input and navigation methods as well as general best practices. Depending on the framework chosen, some of the best practices are already dealt with by the framework or at least supported. E.g. a thematic consistency\footnote{cf. \cite{WorldWideWebConsortium.2008}, 1.} is provided by native apps by default and by frameworks such as the TouchKit for Vaadin as well. Although they can be overridden, they provide a consistent theme. \cite{Wessels.2011} support the importance of a consistent appearance, also in comparison to a desktop application, if existent\footnote{cf. \cite{Wessels.2011}, p. 2}. \cite{Lica.2010} further limits this to specific elements and points out, that mobile apps should provide just enough functionality to be useful and should not replicate the desktop optimized website\footnote{cf. \cite{Lica.2010}, p. 66}.
 \\
 Other best practices like utilizing a navigation bar at the page's top\footnote{cf. \cite{WorldWideWebConsortium.2008}, 8.} for the main navigation have already become a standard across different platforms and frameworks.
 \\
@@ -30,8 +30,87 @@ Other best practices like utilizing a navigation bar at the page's top\footnote{
 Best practices which are mainly determined by implementations of the developer, like the usage of colors\footnote{cf. \cite{WorldWideWebConsortium.2008}, 26., 27} or the chosen input methods\footnote{cf.\cite{WorldWideWebConsortium.2008}, 55., 56., 57.} are often supported by the different platforms or frameworks but cannot be guaranteed by those. Even if different input methods like a number pad for numeric inputs are provided by the framework or platform still need to be adapted and utilized by the developer to act in line with the best practices.
 \\
 \\
-\cite{Wessels.2011}, \cite{Nicolaou.2013}, \cite{AyobNurulZakiahbinti.2009}, \cite{Dahanayake.2010}, \cite{Lica.2010}
-\subsubsection{Internal requirements}\subsection{Analysis}\subsubsection{Assignment of a mHealth App Category}
+\cite{WorldWideWebConsortium.2008} furthermore specifies a "Default Delivery Context"\footnote{cf. \cite{WorldWideWebConsortium.2008}, 3.7 Default Delivery Context}, which defines the minimal capabilities for mobile devices which should be supported. \ref{tab:DefaultDeliveryContext} illustrates the minimal capabilities suggested by W3C.
+\\
+Nowadays it will be hard to match all of the requirements. E.g. a total maximum page weight of 20 kilobytes corresponds to the average file size of a 200 by 120 pixel JPEG-compressed file is abut 10 kilobytes\footnote{Tested with 60\% compression rate and a random photograph} and two images would already exceed the maximum page weight. With mobile devices like a Samsung Galaxy S3 which has a minimum of 720 pixel wide display, 120 pixels are far too less.
+\\
+Also nearly any mobile browser supports client side scripting (e.g. JavaScript). For more detail, \url{http://caniuse.com} has compatibility lists of different browser features for nearly any browser. The parsing of JavaScript Object Notation (JSON) for example is supported by 93.41\% of all mobile browsers\footnote{cf. \url{http://caniuse.com/\#cats=JS_API}, JSON parsing}.
+\begin{table}[!tb]
+    \center
+    \begin{tabular}{l | p{22.5em}}
+        \textbf{Parameter} & \textbf{Value} \\
+        \hline
+        Usable Screen Width & 120px \\
+        \hline
+        Markup Language Support & XHTML Basic 1.1 delivered with content type application/xhtml+xml. \\
+        \hline
+        Character Encoding & UTF-8 \\
+        \hline
+        Image Format Support & JPEG. \\
+        & GIF 89a. \\
+        \hline
+        Maximum Total Page Weight & 20 kilobytes. \\
+        \hline
+        Colors & 256 Colors, minimum. \\
+        \hline
+        Style Sheet Support & CSS Level 1. In addition, CSS Level 2 @media rule together with the handheld and all media types. \\
+        \hline
+        HTTP & HTTP/1.0 or more recent. \\
+        \hline
+        Script & No support for client side scripting. \\
+    \end{tabular}
+    \caption[Mobile Default Delivery Context]{Default Delivery Context\footnotemark}
+    \label{tab:DefaultDeliveryContext}
+\end{table}
+\footnotetext{cf. \cite{WorldWideWebConsortium.2008}, 3.7 Default Delivery Context}
+\\
+Nevertheless, minimizing the total page size is still a concern. \cite{Wessels.2011} points out, that smaller pages lead to faster load times and therefor provide a more efficient experience for the user\footnote{cf. \cite{Wessels.2011}, p. 1}. \cite{Nicolaou.2013} suggests different approaches to reduce page size as well as load time: Scripts and markup should be minified\footnote{cf. \cite{Nicolaou.2013}, p. 49} and included inline\footnote{cf. \cite{Nicolaou.2013}, p. 50} where possible. Preloading components and reducing DNS lookups can also result in a faster user experience\footnote{cf. \cite{Nicolaou.2013}, pp. 48, 49}.
+\\
+Generally, \cite{Nicolaou.2013} recommends using a Content Delivery System (CDN), putting style sheets at the page's bottom and scripts at the bottom and using resized images rather than scaling them via HTML or CSS\footnote{cf. \cite{Nicolaou.2013}, pp. 49, 50}.
+\\
+\\
+A study by \cite{Dahanayake.2010} came to the result, that 71\% of all responding web developers knew about the best practices, but only 11\% said, that they understand these, 56\% have a vague understanding and 33\% do not under stand the best practices \footnote{cf. \cite{Dahanayake.2010}, p. 85}.
+\\
+\\
+\cite{AyobNurulZakiahbinti.2009} adjusted and combined four different guidelines for application development, namely Shneiderman’s Golden Rules of Interface Design, Seven Usability Guideline for Mobile Device (Abid Warsi, 2007), Human-Centred Design (ISO Standard 13407) and Mobile Web Best Practices 1.0 (W3C). From those guidelines, they developed the Three Layers Design Guideline for Mobile Application\footnote{cf. \cite{AyobNurulZakiahbinti.2009}, p. 430}. This guideline consists of three phases, which themselves represent different contexts, namely analysis (and the context of use), design (the context of medium) and testing (the context of evaluation). \ref{tab:ThreeLayersDesignGuideline} illustrates this guideline.
+\\
+\\
+This thesis will follow the Three Layers Design Guideline, as it is the latest guideline and combines multiple approved other guidelines. The third phase will likely be shortened due to the temporal restrictions for this thesis. The exact process we followed will be outlined in the following sections \ref{sec:Analysis}, \ref{sec:Planning}, \ref{sec:Design}, \ref{sec:Implementation} and \ref{sec:Validation} and the experiences made will be discussed in section \ref{sec:LessonsLearned}.
+\begin{table}[!htb]
+    \center
+    \begin{tabular}{c | c | p{22.5em}}
+        \multicolumn{2}{c | }{\textbf{Phase}} & \textbf{Context of Use and Activities} \\
+        \hline
+        1 & Analysis & \textbf{Use}: Specify user and organizational requirements \\
+        \cline{3-3}
+        & & 
+            \begin{enumerate}
+                \item Identify and document user’s tasks                \item Identify and document organizational environment                \item Define the use of the system
+            \end{enumerate} 
+        \\
+        \hline
+        2 & Design & \textbf{Medium}: Produce design solution \\
+        \cline{3-3}
+        & & 
+            \begin{enumerate}
+                \item Enable frequent users to use shortcuts                \item Offer informative feedback                \item Consistency                \item Reversal of actions                \item Error prevention and simple error handling                \item Reduce short-term memory load                \item Design for multiple and dynamic contexts                \item Design for small devices                \item Design for speed and recovery                \item Design for “top-down” interaction                \item Allow for personalization                \item Don't repeat the navigation on every page                \item Clearly distinguish selected items
+            \end{enumerate}
+        \\
+        \hline
+        3 & Testing & \textbf{Evaluation}: Evaluate design against user requirements \\
+        \cline{3-3}
+        & & 
+            \begin{enumerate}
+                \item Quick approach                \item Usability testing                \item Field studies                \item Predictive evaluation
+            \end{enumerate}
+        \\
+    \end{tabular}
+    \caption[Three Layers Design Guideline for Mobile Application]{Three Layers Design Guideline for Mobile Application\footnotemark}
+    \label{tab:ThreeLayersDesignGuideline}
+\end{table}
+\footnotetext{cf. \cite{AyobNurulZakiahbinti.2009}, p. 430, Table IV}
+\subsubsection{Internal requirements}\subsection{Analysis}
+\label{sec:Analysis}\subsubsection{Assignment of a mHealth App Category}
 The mobile app does not differ from the web application in terms of privacy risks, content or connectivity because it has exactly the same functions and does also not store any data and serves the same purpose for connectivity.
 \\
 We plan to implement every request to the server to be optimized for SSL-encryption as soon as the server is capable of accepting and responding with SSL-encryption. 
@@ -41,5 +120,9 @@ Therefor we would suggest to categorize the ePill mobile application as a low pr
 
 \subsubsection{The different Operation Systems}\paragraph{Android}\paragraph{iOS}\paragraph{Windows Phone 7 and 8}\paragraph{other}\subsubsection{Possible Frameworks and Technologies}
 \paragraph{Xamarin}\paragraph{Vaadin}\paragraph{HTML 5, jQuery mobile and Phone Gap}
-\paragraph{Completely native}\subsubsection{The Choice for Framework XYZ}\subsection{The Planning Process}\subsection{(The Design Process)}\subsection{The Implementation Process}
+\paragraph{Completely native}\subsubsection{The Choice for Framework XYZ}\subsection{The Planning Process}
+\label{sec:Planning}\subsection{(The Design Process)}
+\label{sec:Design}\subsection{The Implementation Process}
+\label{sec:Implementation}
 \subsection{Validation of the mobile Client}
+\label{sec:Validation}
