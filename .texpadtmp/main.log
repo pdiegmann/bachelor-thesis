@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  9 SEP 2013 19:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  9 SEP 2013 21:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1162,6 +1162,9 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 Package xcolor Warning: Incompatible color definition on input line 21.
 
+
+Package xcolor Warning: Incompatible color definition on input line 31.
+
 )
 Underfull \hbox (badness 10000) in paragraph at lines 21--232
 
@@ -1833,7 +1836,7 @@ live/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
 Output written on /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.pdf
- (32 pages, 334355 bytes).
+ (32 pages, 334474 bytes).
 PDF statistics:
  673 PDF objects out of 1000 (max. 8388607)
  589 compressed objects within 6 object streams
