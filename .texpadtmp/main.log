@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  9 SEP 2013 21:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  10 SEP 2013 09:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1077,36 +1077,15 @@ Overfull \vbox (2.60004pt too high) has occurred while \output is active []
 [2
 
 ] (./titlepages/acronyms.tex
-LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 7.
-
-
-Package xcolor Warning: Incompatible color definition on input line 7.
-
-
-Package xcolor Warning: Incompatible color definition on input line 8.
-
-
-Package xcolor Warning: Incompatible color definition on input line 9.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 11.
-
-Package xcolor Warning: Incompatible color definition on input line 16.
-
-
-Package xcolor Warning: Incompatible color definition on input line 18.
-
-
-Package xcolor Warning: Incompatible color definition on input line 21.
+LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 29.
 
 
 Package xcolor Warning: Incompatible color definition on input line 29.
-
-
-Package xcolor Warning: Incompatible color definition on input line 30.
 
 
 Overfull \vbox (2.60004pt too high) has occurred while \output is active []
@@ -1395,7 +1374,15 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 137--143
+
+Package xcolor Warning: Incompatible color definition on input line 138.
+
+
+Overfull \vbox (11.09991pt too high) has occurred while \output is active []
+
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 142--148
 
  []
 
@@ -1403,26 +1390,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--143
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[17]
-Overfull \vbox (11.09991pt too high) has occurred while \output is active []
-
-
 [18])
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[19] (./chapters/5-lessonsLearned.tex)
+[19]
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[20
+[20] (./chapters/5-lessonsLearned.tex)
+Overfull \vbox (11.09991pt too high) has occurred while \output is active []
+
+
+[21
 
 
 ] (./chapters/6-conclusion.tex)
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[21
+[22
 
 
 ]
@@ -1476,7 +1463,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--252
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[22
+[23
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 252--252
@@ -1518,7 +1505,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--252
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[23]
+[24]
 Overfull \hbox (5.29547pt too wide) in paragraph at lines 252--252
 \T1/ptm/m/n/12 Borja Martínez-Pérez, de la Torre-Díez, Is-abel, Miguel López-Co
 ronado: Mo-bile health
@@ -1558,7 +1545,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--252
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[24]
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
@@ -1577,7 +1564,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--252
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[25] (./titlepages/erklaerung.tex
+[26] (./titlepages/erklaerung.tex
 Overfull \hbox (3.21236pt too wide) in paragraph at lines 4--7
 \T1/ptm/m/n/12 ohne die Be-nutzung an-derer als der angegebe-nen Hil-f-s-mit-te
 l ange-fer-tigt habe. Alle Stellen,
@@ -1587,10 +1574,10 @@ l ange-fer-tigt habe. Alle Stellen,
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[26
+[27
 
 ] (./titlepages/lebenslauf.tex
-<figures/passfoto.jpg, id=617, 803.0pt x 942.52126pt>
+<figures/passfoto.jpg, id=624, 803.0pt x 942.52126pt>
 File: figures/passfoto.jpg Graphic file (type jpg)
 
 <use figures/passfoto.jpg>
@@ -1614,7 +1601,7 @@ Overfull \hbox (11.20865pt too wide) in paragraph at lines 48--57
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[27
+[28
 
 
  <./figures/passfoto.jpg>]
@@ -1632,15 +1619,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 262.
  ) 
 Here is how much of TeX's memory you used:
- 16308 strings out of 493311
- 256109 string characters out of 6137850
+ 16310 strings out of 493311
+ 256128 string characters out of 6137850
  739224 words of memory out of 5000000
  19305 multiletter control sequences out of 15000+600000
  33723 words of font info for 42 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  43i,14n,57p,2876b,1603s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.64} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.65} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.64} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.63} has been referenced but does not exis
 t, replaced by a fixed one
@@ -1660,13 +1650,13 @@ t, replaced by a fixed one
 pdfTeX warning (dest): name{Hfootnote.58} has been referenced but does not exis
 t, replaced by a fixed one
 
+pdfTeX warning (dest): name{Hfootnote.56} has been referenced but does not exis
+t, replaced by a fixed one
+
 pdfTeX warning (dest): name{Hfootnote.57} has been referenced but does not exis
 t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.55} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.56} has been referenced but does not exis
 t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.54} has been referenced but does not exis
@@ -1836,10 +1826,10 @@ live/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
 Output written on /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.pdf
- (32 pages, 334474 bytes).
+ (33 pages, 335952 bytes).
 PDF statistics:
- 673 PDF objects out of 1000 (max. 8388607)
- 589 compressed objects within 6 object streams
- 171 named destinations out of 1000 (max. 500000)
+ 680 PDF objects out of 1000 (max. 8388607)
+ 595 compressed objects within 6 object streams
+ 173 named destinations out of 1000 (max. 500000)
  262 words of extra memory for PDF output out of 10000 (max. 10000000)
 
