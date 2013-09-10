@@ -57,11 +57,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Completely native}{19}{subsubsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{HTML 5, jQuery mobile and Phone Gap}{19}{subsubsection.4.2.3}
+\contentsline {paragraph}{HTML 5, jQuery mobile and Phone Gap}{20}{subsubsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Xamarin}{19}{subsubsection.4.2.3}
+\contentsline {paragraph}{Xamarin}{20}{subsubsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Vaadin}{19}{subsubsection.4.2.3}
+\contentsline {paragraph}{Vaadin}{20}{subsubsection.4.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.4}The Choice for Framework XYZ}{20}{subsubsection.4.2.4}
 \defcounter {refsection}{0}\relax 
