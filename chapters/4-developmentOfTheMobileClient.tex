@@ -1,6 +1,6 @@
 \section{The Development of the mobile Client}
 \subsection{Preconditions}\subsubsection{Norms for mobile Apps}
-As already mentioned, ePill is currently only used in Germany, therefor we will focus on laws applicable in Germany. These laws are namely the \TKGns, the \TMGns, the \REG as well as the \DPA of \NRWns. The \TKG and \TMG are laws by state, whereas \REG is a european directive, specified by the respective Member States. 
+As already mentioned, ePill is currently only used in Germany, therefor we will focus on laws applicable in Germany. These laws are namely the \TKGns, the \TMGns, the \REG as well as the \DPA of \NRWns. The \TKG and \TMG are laws by state, whereas \REG is an european directive, specified by the respective Member States. 
 \\
 German federal states have their own \DPAsns. In this thesis we will focus on the \DPA of \NRW as ePill is located in \NRWns.
 \\
@@ -12,12 +12,12 @@ This is refined by the the \TMGns. § 13, section (1) states, that the controlle
 \\
 §§ 91, 93 and 94 of the \TKG states the same laws\footnote{cf. \cite{BundesregierungderBundesrepublikDeutschland.01.08.1996}, Section 2, §§ 91, 93, 94}.
 \\
-Also the \DPA of \NRW constitutes the same laws\footnote{cf. \cite{DerInnenministerdesLandesNordrheinWestfalen.09.06.2000}, Section 1, §§ 2, 4, 5}, with the only restrictions, that its scope is limited to \NRWns.
+Also the \DPA of \NRW constitutes the same laws\footnote{cf. \cite{DerInnenministerdesLandesNordrheinWestfalen.09.06.2000}, Section 1, §§ 2, 4, 5} with the only restrictions, that its scope is limited to \NRWns.
 \\
 \\
 Therefor ePill should explicitly inform the user that no data is stored and only anonymized transacted to find matching results, to comply with the stated laws.
 \subsubsection{Best Practices}
-The World Wide Web Consortium (W3C) has published a document in 2008, which states the basic best practices for developing for the mobile web. This document states 60 best practices, which shall ensure a minimum quality level for mobile web applications. These best practices emphasize the need of regard of the device's capabilities and supported technologies\footnote{cf. \cite{WorldWideWebConsortium.2008}, e.g. 2., 11., 21., 42.}. 
+The World Wide Web Consortium (W3C) has published a document in 2008 which states the basic best practices for developing for the mobile web. This document states 60 best practices, which shall ensure a minimum quality level for mobile web applications. These best practices emphasize the need of regard of the device's capabilities and supported technologies\footnote{cf. \cite{WorldWideWebConsortium.2008}, e.g. 2., 11., 21., 42.}. 
 \\
 This document focuses on mobile web development\footnote{cf. \cite{WorldWideWebConsortium.2008}, Abstract}, which has of course differences to native app development (e.g. the usage of frames and the accessibility of the device's specific features), most of the best practices are applicable in both development environments.
 \\
@@ -27,12 +27,12 @@ For this specific project, which does not need more specific device capabilities
 Other best practices like utilizing a navigation bar at the page's top\footnote{cf. \cite{WorldWideWebConsortium.2008}, 8.} for the main navigation have already become a standard across different platforms and frameworks.
 \\
 \\
-Best practices which are mainly determined by implementations of the developer, like the usage of colors\footnote{cf. \cite{WorldWideWebConsortium.2008}, 26., 27} or the chosen input methods\footnote{cf.\cite{WorldWideWebConsortium.2008}, 55., 56., 57.} are often supported by the different platforms or frameworks but cannot be guaranteed by those. Even if different input methods like a number pad for numeric inputs are provided by the framework or platform still need to be adapted and utilized by the developer to act in line with the best practices.
+Best practices which are mainly determined by implementations of the developer, like the usage of colors\footnote{cf. \cite{WorldWideWebConsortium.2008}, 26., 27} or the chosen input methods\footnote{cf.\cite{WorldWideWebConsortium.2008}, 55., 56., 57.} are often supported by the different platforms or frameworks but cannot be guaranteed by those. Even if different input methods like a number pad for numeric inputs are provided by the framework or platform they still need to be adapted and utilized by the developer to act in line with the best practices.
 \\
 \\
 \cite{WorldWideWebConsortium.2008} furthermore specifies a "Default Delivery Context"\footnote{cf. \cite{WorldWideWebConsortium.2008}, 3.7 Default Delivery Context}, which defines the minimal capabilities for mobile devices which should be supported. \ref{tab:DefaultDeliveryContext} illustrates the minimal capabilities suggested by W3C.
 \\
-Nowadays it will be hard to match all of the requirements. E.g. a total maximum page weight of 20 kilobytes corresponds to the average file size of a 200 by 120 pixel JPEG-compressed file is abut 10 kilobytes\footnote{Tested with 60\% compression rate and a random photograph} and two images would already exceed the maximum page weight. With mobile devices like a Samsung Galaxy S3 which has a minimum of 720 pixel wide display, 120 pixels are far too less.
+Nowadays it will be hard to match all of the requirements. E.g. a total maximum page weight of 20 kilobytes corresponds to the average file size of a 200 by 120 pixel JPEG-compressed file is about 10 kilobytes\footnote{Tested with 60\% compression rate and a random photograph} and two images would already exceed the maximum page weight. With mobile devices like a Samsung Galaxy S3 which has a minimum of 720 pixel wide display, 120 pixels are far too less.
 \\
 Also nearly any mobile browser supports client side scripting (e.g. JavaScript). For more detail, \url{http://caniuse.com} has compatibility lists of different browser features for nearly any browser. The parsing of JavaScript Object Notation (JSON) for example is supported by 93.41\% of all mobile browsers\footnote{cf. \url{http://caniuse.com/\#cats=JS_API}, JSON parsing}.
 \begin{table}[!tb]
@@ -64,12 +64,12 @@ Also nearly any mobile browser supports client side scripting (e.g. JavaScript).
 \end{table}
 \footnotetext{cf. \cite{WorldWideWebConsortium.2008}, 3.7 Default Delivery Context}
 \\
-Nevertheless, minimizing the total page size is still a concern. \cite{Wessels.2011} points out, that smaller pages lead to faster load times and therefor provide a more efficient experience for the user\footnote{cf. \cite{Wessels.2011}, p. 1}. \cite{Nicolaou.2013} suggests different approaches to reduce page size as well as load time: Scripts and markup should be minified\footnote{cf. \cite{Nicolaou.2013}, p. 49} and included inline\footnote{cf. \cite{Nicolaou.2013}, p. 50} where possible. Preloading components and reducing DNS lookups can also result in a faster user experience\footnote{cf. \cite{Nicolaou.2013}, pp. 48, 49}.
+Nevertheless, minimizing the total page size is still a concern. \cite{Wessels.2011} points out, that smaller pages lead to faster load times and therefor provide a more efficient experience for the user\footnote{cf. \cite{Wessels.2011}, p. 1}. \cite{Nicolaou.2013} suggests different approaches to reduce page size as well as load time: Scripts and markup should be minified\footnote{cf. \cite{Nicolaou.2013}, p. 49} and included inline\footnote{cf. \cite{Nicolaou.2013}, p. 50} where it is possible. Preloading components and reducing DNS lookups can also result in a faster user experience\footnote{cf. \cite{Nicolaou.2013}, pp. 48, 49}.
 \\
-Generally, \cite{Nicolaou.2013} recommends using a Content Delivery System (CDN), putting style sheets at the page's bottom and scripts at the bottom and using resized images rather than scaling them via HTML or CSS\footnote{cf. \cite{Nicolaou.2013}, pp. 49, 50}.
+Generally, \cite{Nicolaou.2013} recommends using a Content Delivery System (CDN), putting style sheets at the page's top and scripts at the bottom and using resized images rather than scaling them via HTML or CSS\footnote{cf. \cite{Nicolaou.2013}, pp. 49, 50}.
 \\
 \\
-A study by \cite{Dahanayake.2010} came to the result, that 71\% of all responding web developers knew about the best practices, but only 11\% said, that they understand these, 56\% have a vague understanding and 33\% do not under stand the best practices \footnote{cf. \cite{Dahanayake.2010}, p. 85}.
+A study by \cite{Dahanayake.2010} came to the result, that 71\% of all responding web developers knew about the best practices, but only 11\% said, that they understand these, 56\% have a vague understanding and 33\% do not understand the best practices \footnote{cf. \cite{Dahanayake.2010}, p. 85}.
 \\
 \\
 \cite{AyobNurulZakiahbinti.2009} adjusted and combined four different guidelines for application development, namely Shneiderman’s Golden Rules of Interface Design, Seven Usability Guideline for Mobile Device (Abid Warsi, 2007), Human-Centred Design (ISO Standard 13407) and Mobile Web Best Practices 1.0 (W3C). From those guidelines, they developed the Three Layers Design Guideline for Mobile Application\footnote{cf. \cite{AyobNurulZakiahbinti.2009}, p. 430}. This guideline consists of three phases, which themselves represent different contexts, namely analysis (and the context of use), design (the context of medium) and testing (the context of evaluation). \ref{tab:ThreeLayersDesignGuideline} illustrates this guideline.
