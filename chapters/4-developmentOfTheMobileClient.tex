@@ -129,12 +129,48 @@ Therefor we would suggest to categorize the ePill mobile application as a low pr
 \\
 Possible future features might change the classification (e.g. the addressed barcode scanning) if data handling or storage might be altered and therefor other privacy risks may arise.
 
-\subsubsection{The different Operation Systems}\paragraph{Android}\paragraph{iOS}\paragraph{Windows Phone 7 and 8}\paragraph{other}
+\subsubsection{The different Operation Systems}\paragraph{Android}$\;$
+
+\vspace{0.75em}
+Android is a mobile OS developed by the Open Handset Alliance\footnote{\url{http://www.openhandsetalliance.com}}, with Google being one of the biggest members. It is linux based and was unveiled in 2007. Android is released by Google under the Apache License and is therefor Open Source.\footnote{cf. \url{http://source.android.com/source/licenses.html}} Developing for Android requires the Android SDK (or NDK). With the SDK developing apps is done by writing Java code and writing the layout in specific XML\footnote{cf. for further details \url{http://developer.android.com}}. Android apps are by default executed in the Dalvik managed runtime\footnote{cf. \url{http://source.android.com/devices/tech/dalvik/index.html}}, except if they utilize the NDK. With the NDK apps can be (partly) written in C or C++ and are executed outside the Dalvik runtime\footnote{cf. \url{http://developer.android.com/tools/sdk/ndk/index.html}}.
+\\
+\\
+While Android is adapted by many manufacturers and is also widely adapted by users, a fragmentation is clearly visible. A version released 2010 (2.3 "Gingerbread") has still a distribution of around 30.7\%\footnote{cf. \url{http://developer.android.com/about/dashboards/index.html}, visited 09/09/2013}. Also a fragmentation of hardware capabilities is visible: 
+\paragraph{iOS}$\;$
+
+\vspace{0.75em}
+
+\paragraph{Windows Phone 7 and 8}$\;$
+
+\vspace{0.75em}
+
+\paragraph{other}$\;$
+
+\vspace{0.75em}
+Depending on the source for statistics, different OS are the respective market share leaders. Nevertheless other OS, e.g. Symbian, which was a important OS in 2008 with 47\% market share of smartphone OS\footnote{cf. "Canalys research release 2008/112" cited by \cite{Lin.2009}, p. 622, Figure 1}, is nowadays not listed at all or with less than 10\% market share\footnote{\url{http://gs.statcounter.com/\#mobile_os-ww-yearly-2008-2013}}\footnote{\url{http://www.idc.com/getdoc.jsp?containerId=prUS24257413}}\footnote{\url{http://blogs.strategyanalytics.com/WSS/post/2013/08/01/Strategy-Analytics-Android-Captures-Record-80-Percent-Share-of-Global-Smartphone-Shipments-in-Q2-2013.aspx}, Exhibit 1}.
+\\
+Therefor we will not take these OS into account, whose combined marketshare is around only 10\%. This would require too much additional effort.
 \subsubsection{Possible Frameworks and Technologies}
-\paragraph{Completely native}\paragraph{HTML 5, jQuery mobile and Phone Gap}
-\paragraph{Xamarin}
-\paragraph{Vaadin}
-\subsubsection{The Choice for Framework XYZ}
+\paragraph{Completely native}$\;$
+
+\vspace{0.75em}
+\paragraph{HTML 5, jQuery mobile and Phone Gap}$\;$
+
+\vspace{0.75em}
+
+\paragraph{Xamarin}$\;$
+
+\vspace{0.75em}
+
+\paragraph{Vaadin and TouchKit}$\;$
+
+\vspace{0.75em}
+
+\subsubsection{The Choice for Vaadin and TouchKit}
+Finally we chose Vaadin and the TouchKit Add-On as framework for the mobile frontend. The main reason is the lack of a web service in Vaadin itself. Without a web service, we would first have had to build a web service to have a connection from the mobile frontend to the database and the application's logic. Independently from the framework chosen for the frontend this would have been a large additional effort which we could not have completed before the end of this thesis.
+\\
+\\
+Furthermore we wanted the complete system to be as homogenous as possible. The web application uses Vaadin as main framework. Utilizing the TouchKit Add-On for Vaadin, we utilized as much as possible from the existing code and infrastructure by only adding another layer. This results in a much improved maintainability as the coding style is the same as for the web application and no additional IDEs or frameworks need to be included or maintained.
 \subsection{The Planning Process}
 \label{sec:Planning}
 \subsection{(The Design Process)}

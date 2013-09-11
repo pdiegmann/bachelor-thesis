@@ -18,12 +18,13 @@
 ]{article}
 
 % Meta Information festlegen
-\usepackage[
+\PassOptionsToPackage{hyphens}{url}\usepackage[
 	pdftitle={Systematic Development of mHealth Apps: Lessons Learned During Development of a Mobile Frontend for ePill},
 	pdfsubject={Bachelor Thesis August 2013},
 	pdfauthor={Phil Diegmann},
 	pdfkeywords={},
-	colorlinks=false
+	colorlinks=false,
+	breaklinks=true
 ]{hyperref}
 
 \usepackage{times}            % Times New Roman
@@ -190,6 +191,8 @@
 \newcommand{\note}[1]{\textbf{\textsc{\textcolor{Cyan}{NOTE: #1}}}}
 \renewcommand{\contentsname}{Table of Contents}
 \renewcommand{\arraystretch}{1.5}
+
+\setcounter{secnumdepth}{5}
 
 \pagenumbering{Roman}
 

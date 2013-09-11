@@ -45,41 +45,41 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.2}The different Operation Systems}{19}{subsubsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Android}{19}{subsubsection.4.2.2}
+\contentsline {paragraph}{\numberline {4.2.2.1}Android}{19}{paragraph.4.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{iOS}{19}{subsubsection.4.2.2}
+\contentsline {paragraph}{\numberline {4.2.2.2}iOS}{20}{paragraph.4.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Windows Phone 7 and 8}{19}{subsubsection.4.2.2}
+\contentsline {paragraph}{\numberline {4.2.2.3}Windows Phone 7 and 8}{20}{paragraph.4.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{other}{19}{subsubsection.4.2.2}
+\contentsline {paragraph}{\numberline {4.2.2.4}other}{20}{paragraph.4.2.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3}Possible Frameworks and Technologies}{19}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3}Possible Frameworks and Technologies}{20}{subsubsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Completely native}{19}{subsubsection.4.2.3}
+\contentsline {paragraph}{\numberline {4.2.3.1}Completely native}{20}{paragraph.4.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{HTML 5, jQuery mobile and Phone Gap}{20}{subsubsection.4.2.3}
+\contentsline {paragraph}{\numberline {4.2.3.2}HTML 5, jQuery mobile and Phone Gap}{21}{paragraph.4.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Xamarin}{20}{subsubsection.4.2.3}
+\contentsline {paragraph}{\numberline {4.2.3.3}Xamarin}{21}{paragraph.4.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Vaadin}{20}{subsubsection.4.2.3}
+\contentsline {paragraph}{\numberline {4.2.3.4}Vaadin and TouchKit}{21}{paragraph.4.2.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.4}The Choice for Framework XYZ}{20}{subsubsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.4}The Choice for Vaadin and TouchKit}{21}{subsubsection.4.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}The Planning Process}{20}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.3}The Planning Process}{21}{subsection.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}(The Design Process)}{20}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.4}(The Design Process)}{21}{subsection.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5}The Implementation Process}{20}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.5}The Implementation Process}{21}{subsection.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6}Validation of the mobile Client}{20}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.6}Validation of the mobile Client}{21}{subsection.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Lessons Learned}{21}{section.5}
+\contentsline {section}{\numberline {5}Lessons Learned}{22}{section.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Conclusion}{22}{section.6}
+\contentsline {section}{\numberline {6}Conclusion}{23}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Bibliography}{26}{section.6}
+\contentsline {section}{Bibliography}{27}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Erkl\IeC {\"a}rung}{27}{section.6}
+\contentsline {section}{Erkl\IeC {\"a}rung}{28}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Curriculum Vitae}{28}{section.6}
+\contentsline {section}{Curriculum Vitae}{29}{section.6}
 \contentsfinish 

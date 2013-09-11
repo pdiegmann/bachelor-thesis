@@ -1,14 +1,16 @@
 [0] Config.pm:425> INFO - This is Biber 1.7
 [0] Config.pm:428> INFO - Logfile is '/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.blg'
-[76] biber-darwin:252> INFO - === Tue Sep 10, 2013, 12:24:47
-[77] Biber.pm:333> INFO - Reading '/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bcf'
-[148] Biber.pm:630> INFO - Found 22 citekeys in bib section 0
-[166] Biber.pm:2997> INFO - Processing section 0
-[180] Biber.pm:3134> INFO - Looking for bibtex format file 'literature.bib' for section 0
-[192] bibtex.pm:911> INFO - Decoding LaTeX character macros into UTF-8
-[203] bibtex.pm:786> INFO - Found BibTeX data source 'literature.bib'
-[437] Biber.pm:2883> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[437] Biber.pm:2889> INFO - Sorting 'entry' list 'nty' keys
-[437] Biber.pm:2893> INFO - No sort tailoring available for locale 'en_US.UTF-8'
-[635] bbl.pm:479> INFO - Writing '/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bbl' with encoding 'UTF-8'
-[640] bbl.pm:552> INFO - Output to /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bbl
+[77] biber-darwin:252> INFO - === Tue Sep 10, 2013, 12:57:24
+[78] Biber.pm:333> INFO - Reading '/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bcf'
+[154] Biber.pm:630> INFO - Found 23 citekeys in bib section 0
+[172] Biber.pm:2997> INFO - Processing section 0
+[190] Biber.pm:3134> INFO - Looking for bibtex format file 'literature.bib' for section 0
+[205] bibtex.pm:911> INFO - Decoding LaTeX character macros into UTF-8
+[219] bibtex.pm:786> INFO - Found BibTeX data source 'literature.bib'
+[225] Utils.pm:169> WARN - Duplicate entry key: '.2009' in file 'literature.bib', skipping ...
+[470] Biber.pm:2883> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[470] Biber.pm:2889> INFO - Sorting 'entry' list 'nty' keys
+[470] Biber.pm:2893> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[680] bbl.pm:479> INFO - Writing '/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bbl' with encoding 'UTF-8'
+[685] bbl.pm:552> INFO - Output to /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bbl
+[685] Biber.pm:105> INFO - WARNINGS: 1

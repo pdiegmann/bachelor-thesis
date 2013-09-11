@@ -361,6 +361,39 @@
       \endverb
       \keyw{Best practice;Cellular telephones;COMPUTERS;SOCIAL networks;Studies;SYSTEMS design;Systems development}
     \endentry
+    \entry{Lin.2009}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=1994cf73211b036c2bbc83382c8a1099}{Lin}{L\bibinitperiod}{Feida}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9065ccdb9821efadae9892106394f12e}{Ye}{Y\bibinitperiod}{Weiguo}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=1994cf73211b036c2bbc83382c8a1099}{Lin}{L\bibinitperiod}{Feida}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9065ccdb9821efadae9892106394f12e}{Ye}{Y\bibinitperiod}{Weiguo}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{3}{%
+        {Los Alamitos}%
+        {CA}%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Computer Society}%
+      }
+      \strng{namehash}{23f6e6705648930d9b719c54c3cc0379}
+      \strng{fullhash}{23f6e6705648930d9b719c54c3cc0379}
+      \field{sortinit}{L}
+      \field{labelyear}{2009}
+      \field{labeltitle}{Operating System Battle in the Ecosystem of Smartphone Industry}
+      \field{abstract}{Consumers' need for multi-function cell phones drives the development of smartphones and their operating systems. Although the competition among smartphone operating systems is lasting for years, there is little research on this topic. This study aims to analysis the smartphone OS market in an ecosystem perspective. We first compare food webs of major smartphone OS companies and the role of OS in their business models, and then summarize unique features of the competition. We point out key resources for competition in the smartphone OS market based on network effect, and draw some implications for new business opportunities.}
+      \field{booktitle}{Information Engineering and Electronic Commerce, International Symposium on}
+      \field{isbn}{978-0-7695-3686-6}
+      \field{title}{Operating System Battle in the Ecosystem of Smartphone Industry}
+      \field{year}{2009}
+      \field{pages}{617\bibrangedash 621}
+      \verb{doi}
+      \verb 10.1109/IEEC.2009.136
+      \endverb
+      \keyw{ecosystem;food web;network effect;operating system}
+    \endentry
     \entry{MartinezPerez.2013}{article}{}
       \name{labelname}{3}{}{%
         {{uniquename=0,hash=3fa279fc294c47c5cfd06ecf529a6c2b}{Martínez-Pérez}{M\bibinithyphendelim P\bibinitperiod}{Borja}{B\bibinitperiod}{}{}{}{}}%
