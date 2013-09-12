@@ -116,9 +116,7 @@ For developing a mobile frontend for ePill, it is important to us, that the main
 Another top priority is the accessibility of the app for as many users as possible. Therefor it is needed to provide a cross-platform app to be accessible for as many mobile platforms as possible and to have an intuitive user interface which also enables e.g. elderly people to use it efficiently.
 \\
 \\
-Modularity and flexibility is another important factor. ePill is designed to be flexible and scalable and the mobile client should incorporate the same idea. E.g. a scanning of barcodes on the packaging of pharmaceuticals could be implemented on a later stage to even further ease the use and increase the effectiveness.
-\\
-\todo{More?}\subsection{Analysis}
+Modularity and flexibility is another important factor. ePill is designed to be flexible and scalable and the mobile client should incorporate the same idea. E.g. a scanning of barcodes on the packaging of pharmaceuticals could be implemented on a later stage to even further ease the use and increase the effectiveness.\subsection{Analysis}
 \label{sec:Analysis}\subsubsection{Assignment of a mHealth App Category}
 The mobile app does not differ from the web application in terms of privacy risks, content or connectivity. The mobile app aims to provide the same main functionality as the web application optimized for mobile devices. Therefor it also belongs to the same connectivity category, the medical connectivity, as the web application. Also no data is stored on the device and no additional information is sent to the server. 
 \\
@@ -135,15 +133,33 @@ Possible future features might change the classification (e.g. the addressed bar
 Android is a mobile OS developed by the Open Handset Alliance\footnote{\url{http://www.openhandsetalliance.com}}, with Google being one of the biggest members. It is linux based and was unveiled in 2007. Android is released by Google under the Apache License and is therefor Open Source.\footnote{cf. \url{http://source.android.com/source/licenses.html}} Developing for Android requires the Android SDK (or NDK). With the SDK developing apps is done by writing Java code and writing the layout in specific XML\footnote{cf. for further details \url{http://developer.android.com}}. Android apps are by default executed in the Dalvik managed runtime\footnote{cf. \url{http://source.android.com/devices/tech/dalvik/index.html}}, except if they utilize the NDK. With the NDK apps can be (partly) written in C or C++ and are executed outside the Dalvik runtime\footnote{cf. \url{http://developer.android.com/tools/sdk/ndk/index.html}}.
 \\
 \\
-While Android is adapted by many manufacturers and is also widely adapted by users, a fragmentation is clearly visible. A version released 2010 (2.3 "Gingerbread") has still a distribution of around 30.7\%\footnote{cf. \url{http://developer.android.com/about/dashboards/index.html}, visited 09/09/2013}. Also a fragmentation of hardware capabilities is visible: 
+While Android is adapted by many manufacturers and is also widely adapted by users, a software-based and a hardware-based fragmentation is clearly visible\footnote{cf. for this and the next two following sentence \cite{DanHan.2012}, pp. 83, 92}. This fragmentation offers the user the choice to find exactly what he is looking for and enables more personalization. This fragmentation may lead to non-consistent applications on different devices as well as delays in updates. According to Google, an Android version released 2010 (2.3 "Gingerbread") has still a distribution of around 30.7\%\footnote{cf. \url{http://developer.android.com/about/dashboards/index.html}, visited 09/09/2013}. This also implies than developers do not only need to regard latest versions of the OS, but also older versions, which in return means that developers cannot always take full advantages of new capabilities as well as they need to pay much more attention to backwards compatibility.
+\\
+\\
+For Android, multiple IDEs are available. Eclipse\footnote{\url{http://www.eclipse.org}} is one of the most popular and was one of the first, which supported the Android SDK. Android Studio, a for Android optimized version of IntelliJ IDEA\footnote{\url{http://www.jetbrains.com/idea/}}, is still in development but already a stable IDE and greatly supported by Google\footnote{cf. \url{http://developer.android.com/sdk/installing/studio.html}}.
+\\
+\\
+Apps can be distributed directly or via an app store, like the Google Play Store\footnote{\url{https://play.google.com/store}}. The Google Play Store has some guidelines, which must be followed\footnote{\url{https://play.google.com/about/developer-content-policy.html}}, but no review process is performed.
 \paragraph{iOS}$\;$
 
 \vspace{0.75em}
-
+iOS is the proprietary OS developed by Apple for mobile devices. It was first introduced in 2008. In contrast to the Android OS, only Apple develops hardware and software. According to Apple, 94\% of all active iOS devices run the latest version of iOS 6\footnote{cf. for this and the first following sentence \url{https://developer.apple.com/devcenter/ios/checklist/}, last visited on 09/11/2013}. Compared to Android, all versions of iOS released before 2011 have a cumulative distribution of only 1\%. Hardware-based fragmentation on iOS is mainly based on the screen size: Two different for the phones and one for the tablets.
+\\
+\\
+iOS apps can only be developed on Xcode\footnote{\url{https://developer.apple.com/xcode/}}, which is only available for Apple Mac. Xcode combines user interface design and coding. Coding is mainly done by writing Objective-C code but also supports native code like C or C++. Designing interfaces is done by a user interface.
+\\
+\\
+In contrast to Android, iOS apps can only be published via the Apple App Store\footnote{\url{http://appstore.com}}, or on registered devices with a special license by Apple\footnote{cf. \url{https://developer.apple.com/programs/ios/enterprise/}, last visited 09/11/2013}. For submitting apps to the Apple App Store, one must obtain a developer license by Apple\footnote{cf. \url{https://developer.apple.com/programs/ios/}, last visited 09/11/2013}. After submitting, all apps are reviewed and compared to Apple's guidelines\footnote{\url{https://developer.apple.com/appstore/guidelines.html}}.
 \paragraph{Windows Phone 7 and 8}$\;$
 
 \vspace{0.75em}
-
+\todo{General!}
+\\
+\\
+Development for Windows Phone requires Visual Studio\footnote{\url{http://www.microsoft.com/visualstudio/}} as IDE. Visual Studio is only available for Windows. C\# or Visual Basic are the main programming languages and XAML is used for user interface design\footnote{cf. for this and the first following sentence \url{http://msdn.microsoft.com/en-US/library/windowsphone/develop/ff402529(v=vs.105).aspx}, last visited 09/11/2013}. C++ can be utilized for graphic intensive applications.
+\\
+\\
+\todo{App Store!}
 \paragraph{other}$\;$
 
 \vspace{0.75em}

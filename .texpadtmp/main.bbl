@@ -167,6 +167,37 @@
       \endverb
       \keyw{Computers--Information Science And Information Theory;Impact analysis;Quality standards;Studies;Web content delivery;Web sites}
     \endentry
+    \entry{DanHan.2012}{article}{}
+      \name{labelname}{6}{}{%
+        {{uniquename=0,hash=1551e2517bd38492431a34af918b36c8}{{Dan\bibnamedelimb Han}}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=4a1270efb0f9308a4b00853d8e412d07}{{Chenlei\bibnamedelimb Zhang}}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=d95e70e3b69b534abc466bd4ba3019ce}{{Xiaochao\bibnamedelimb Fan}}{X\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=559a3770c111c0bebd409dc34abbe1d5}{{Abram\bibnamedelimb Hindle}}{A\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=6814aff4b4960ebe1979e42562dd3feb}{{Kenny\bibnamedelimb Wong}}{K\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=6e9cbc6d625c45077a053bd657da81dc}{{Eleni\bibnamedelimb Stroulia}}{E\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=1551e2517bd38492431a34af918b36c8}{{Dan\bibnamedelimb Han}}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=4a1270efb0f9308a4b00853d8e412d07}{{Chenlei\bibnamedelimb Zhang}}{C\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=d95e70e3b69b534abc466bd4ba3019ce}{{Xiaochao\bibnamedelimb Fan}}{X\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=559a3770c111c0bebd409dc34abbe1d5}{{Abram\bibnamedelimb Hindle}}{A\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=6814aff4b4960ebe1979e42562dd3feb}{{Kenny\bibnamedelimb Wong}}{K\bibinitperiod}{}{}{}{}{}{}}%
+        {{uniquename=0,hash=6e9cbc6d625c45077a053bd657da81dc}{{Eleni\bibnamedelimb Stroulia}}{E\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{6126bb964bb56ad6830137d9677ac63b}
+      \strng{fullhash}{90196a1612b0d76150674f491801b5af}
+      \field{sortinit}{D}
+      \field{labelyear}{2012}
+      \field{labeltitle}{Understanding Android Fragmentation with Topic Analysis of Vendor-Specific Bugs}
+      \field{issn}{1095-1350}
+      \field{journaltitle}{Reverse Engineering, Working Conference on}
+      \field{title}{Understanding Android Fragmentation with Topic Analysis of Vendor-Specific Bugs}
+      \field{year}{2012}
+      \field{pages}{83\bibrangedash 92}
+      \verb{doi}
+      \verb 10.1109/WCRE.2012.18
+      \endverb
+    \endentry
     \entry{Dehling.2012}{article}{}
       \name{labelname}{2}{}{%
         {{uniquename=0,hash=97ca1de0ff6a0a6e4a793f28b19fa9ea}{Dehling}{D\bibinitperiod}{Tobias}{T\bibinitperiod}{}{}{}{}}%
