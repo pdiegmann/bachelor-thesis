@@ -170,18 +170,42 @@ Therefor we will not take these OS into account, whose combined marketshare is a
 \paragraph{Completely native}$\;$
 
 \vspace{0.75em}
+Building native apps for supporting Android, iOS and Windows Phone, means maintaining three different projects in three different programming languages and three different user interface definitions. But native apps offer the most seamless user interface integration into the OS and the best performance. 
+\\
+While the seamless user interface integration could help people using the app in a familiar context, performance is not an issue for the ePill project. The costs for learning the specific aspects of those frameworks, developing and maintaining the three implementations are not reasonable for the given time frame of this thesis.
+\\
+\\
+Additionally, we do not have an existing web service which the app could utilize to receive data from the server. The current utilized framework Vaadin does not offer an easy way to provide a web service with the logic already implemented. This additional effort is definitely a decisive argument.
 \paragraph{HTML 5, jQuery mobile and Phone Gap}$\;$
 
 \vspace{0.75em}
+Providing an app for nearly any mobile device is possible with a web app. Based on web technologies like HTML, CSS and JavaScript, apps can be brought to nearly any mobile OS with only one implementation.
+\\
+As most mobile devices support HTML 5\footnote{\url{http://www.w3.org/TR/2012/WD-html51-20121217/}} and JavaScript, frameworks like jQuery mobile\footnote{\url{http://jquerymobile.com}} provide a common looking user interface without much additional effort. PhoneGap\footnote{\url{http://phonegap.com/}} enables web-based apps to access the device's capabilities like the camera or local storage\footnote{for a detailed overview: \url{http://phonegap.com/about/feature/}}.
+\\
+\\
+Still, with this approach we would need a web service, which we could consume with jQuery. The web app approach lessens the effort by developing only one app but still has the time consuming need for a new web service.
 
 \paragraph{Xamarin}$\;$
 
 \vspace{0.75em}
+Xamarin\footnote{\url{http://xamarin.com}}, also known as MonoTouch, is an IDE and framework, which produces native apps for Android, iOS and Windows Phone from just a single C\# code basis. Different user interface definitions are still needed, but it combines the advantages of native apps and web apps. 
+\\
+Xamarin utilizes C\# and can be used with Visual Studio or Xamarin Studio. The later is available for both Windows and Mac OS X.
+\\
+\\
+But also apps developed with Xamarin would need an additional web service, which we cannot provide in the given time. Additionally, Xamarin is only with specific requirements, so probably it would be more expensive than providing a web app.
 
 \paragraph{Vaadin and TouchKit}$\;$
 
 \vspace{0.75em}
-
+Vaadin\footnote{\url{https://vaadin.com}} is a Java framework, with which the developer does only need to write code and define a user interface, the framework builds the user interface and handles all communication between the client and the server. TouchKit\footnote{\url{https://vaadin.com/touchkit}} enables a Vaadin project to easily add a mobile web client. It provides various controls which were optimized for mobile devices. It also provides access to the device's capabilities, like positioning, offline storage or camera.
+\\
+\\
+TouchKit supports iOS 5 or newer, Android 2.3 or newer and Windows Phone 8. Vaadin is focused on WebKit\footnote{\url{http://webkit.org}}-based browsers\footnote{cf. \url{https://vaadin.com/book/-/page/mobile.considerations.html}, last visited 09/11/2013}, still it is compatible to most of the mobile browsers.
+\\
+\\
+Using Vaadin and TouchKit for ePill has the great advantage, that we would not need an additional web service, we could use the existing code and just add a TouchKit-based user interface, which seamlessly adapts to the existing code.
 \subsubsection{The Choice for Vaadin and TouchKit}
 Finally we chose Vaadin and the TouchKit Add-On as framework for the mobile frontend. The main reason is the lack of a web service in Vaadin itself. Without a web service, we would first have had to build a web service to have a connection from the mobile frontend to the database and the application's logic. Independently from the framework chosen for the frontend this would have been a large additional effort which we could not have completed before the end of this thesis.
 \\
