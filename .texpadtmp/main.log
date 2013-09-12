@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  12 SEP 2013 10:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  12 SEP 2013 12:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1426,12 +1426,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--177
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 181.
-
-
-Package xcolor Warning: Incompatible color definition on input line 187.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 181--188
 
  []
@@ -1452,15 +1446,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--192
  []
 
 
+Overfull \vbox (11.09991pt too high) has occurred while \output is active []
+
+
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 215--219
 
  []
 
-
-Overfull \vbox (11.09991pt too high) has occurred while \output is active []
-
-
-[22])
+)
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
@@ -1653,7 +1647,7 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 [30
 
 ] (./titlepages/lebenslauf.tex
-<figures/passfoto.jpg, id=724, 803.0pt x 942.52126pt>
+<figures/passfoto.jpg, id=730, 803.0pt x 942.52126pt>
 File: figures/passfoto.jpg Graphic file (type jpg)
 
 <use figures/passfoto.jpg>
@@ -1695,15 +1689,21 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 265.
  ) 
 Here is how much of TeX's memory you used:
- 16355 strings out of 493311
- 256772 string characters out of 6137850
+ 16357 strings out of 493311
+ 256796 string characters out of 6137850
  739360 words of memory out of 5000000
  19312 multiletter control sequences out of 15000+600000
  33723 words of font info for 42 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  43i,14n,57p,2876b,1603s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.90} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.92} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.91} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.90} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.89} has been referenced but does not exis
 t, replaced by a fixed one
@@ -1977,10 +1977,10 @@ live/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
 Output written on /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.pdf
- (36 pages, 347143 bytes).
+ (36 pages, 347870 bytes).
 PDF statistics:
- 788 PDF objects out of 1000 (max. 8388607)
- 699 compressed objects within 7 object streams
- 211 named destinations out of 1000 (max. 500000)
+ 795 PDF objects out of 1000 (max. 8388607)
+ 705 compressed objects within 8 object streams
+ 213 named destinations out of 1000 (max. 500000)
  262 words of extra memory for PDF output out of 10000 (max. 10000000)
 
