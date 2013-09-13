@@ -75,7 +75,7 @@ A study by \cite{Dahanayake.2010} came to the result, that 71\% of all respondin
 \cite{AyobNurulZakiahbinti.2009} adjusted and combined four different guidelines for application development, namely Shneiderman’s Golden Rules of Interface Design, Seven Usability Guideline for Mobile Device (Abid Warsi, 2007), Human-Centred Design (ISO Standard 13407) and Mobile Web Best Practices 1.0 (W3C). From those guidelines, they developed the Three Layers Design Guideline for Mobile Application\footnote{cf. \cite{AyobNurulZakiahbinti.2009}, p. 430}. This guideline consists of three phases, which themselves represent different contexts, namely analysis (and the context of use), design (the context of medium) and testing (the context of evaluation). \ref{tab:ThreeLayersDesignGuideline} illustrates this guideline.
 \\
 \\
-This thesis will follow the Three Layers Design Guideline, as it is the latest guideline and combines multiple approved other guidelines. The third phase will likely be shortened due to the temporal restrictions for this thesis. The exact process we followed will be outlined in the following sections \ref{sec:Analysis}, \ref{sec:Planning}, \ref{sec:Design}, \ref{sec:Implementation} and \ref{sec:Validation} and the experiences made will be discussed in section \ref{sec:LessonsLearned}.
+This thesis will follow the Three Layers Design Guideline, as it is the latest guideline and combines multiple approved other guidelines. The third phase will likely be shortened due to the temporal restrictions for this thesis. The exact process we followed will be outlined in the following subsections \ref{subsec:Analysis} \nameref{subsec:Analysis}, \ref{subsec:Planning} \nameref{subsec:Planning}, \ref{subsec:Implementation} \nameref{subsec:Implementation} and \ref{subsec:Validation} \nameref{subsec:Validation} and the experiences made will be discussed in section \ref{sec:LessonsLearned} \nameref{sec:LessonsLearned}.
 
 \begin{table}[!htb]
     \center
@@ -117,7 +117,7 @@ Another top priority is the accessibility of the app for as many users as possib
 \\
 \\
 Modularity and flexibility is another important factor. ePill is designed to be flexible and scalable and the mobile client should incorporate the same idea. E.g. a scanning of barcodes on the packaging of pharmaceuticals could be implemented on a later stage to even further ease the use and increase the effectiveness.\subsection{Analysis}
-\label{sec:Analysis}\subsubsection{Assignment of a mHealth App Category}
+\label{subsec:Analysis}\subsubsection{Assignment of a mHealth App Category}
 The mobile app does not differ from the web application in terms of privacy risks, content or connectivity. The mobile app aims to provide the same main functionality as the web application optimized for mobile devices. Therefor it also belongs to the same connectivity category, the medical connectivity, as the web application. Also no data is stored on the device and no additional information is sent to the server. 
 \\
 We plan to implement every request to the server to be optimized for SSL-encryption as soon as the server is capable of accepting and responding with SSL-encryption. 
@@ -207,16 +207,21 @@ TouchKit supports iOS 5 or newer, Android 2.3 or newer and Windows Phone 8. Vaad
 \\
 Using Vaadin and TouchKit for ePill has the great advantage, that we would not need an additional web service, we could use the existing code and just add a TouchKit-based user interface, which seamlessly adapts to the existing code.
 \subsubsection{The Choice for Vaadin and TouchKit}
-Finally we chose Vaadin and the TouchKit Add-On as framework for the mobile frontend. The main reason is the lack of a web service in Vaadin itself. Without a web service, we would first have had to build a web service to have a connection from the mobile frontend to the database and the application's logic. Independently from the framework chosen for the frontend this would have been a large additional effort which we could not have completed before the end of this thesis.
+Finally we chose Vaadin and the TouchKit Add-On as framework for the mobile frontend. The main reason is the lack of a easy accessible web service in Vaadin itself. Without a web service, we would first have had to build a web service to have a connection from the mobile frontend to the database and the application's logic. Independently from the framework chosen for the frontend this would have been a large additional effort which we could not have completed before the end of this thesis.
 \\
 \\
-Furthermore we wanted the complete system to be as homogenous as possible. The web application uses Vaadin as main framework. Utilizing the TouchKit Add-On for Vaadin, we utilized as much as possible from the existing code and infrastructure by only adding another layer. This results in a much improved maintainability as the coding style is the same as for the web application and no additional IDEs or frameworks need to be included or maintained.
+Furthermore we wanted the complete system to be as homogenous as possible. The web application uses Vaadin as main framework. Utilizing the TouchKit Add-On for Vaadin, we reused as much existing code as possible and infrastructure by only adding another layer. This results in a much improved maintainability as the coding style is the same for the web application and the mobile application. Additionally no additional IDEs or frameworks need to be included or maintained.
 \subsection{The Planning Process}
-\label{sec:Planning}
-\subsection{(The Design Process)}
-\label{sec:Design}
+\label{subsec:Planning}
+As already mentioned, the ePill system is already a functional prototype and the yet to develop mobile frontend is mostly an additional user-interface. Therefor no system-wide planning is needed, only data handling and user interfaces have to be planned.
+\\
+\\
+Having the already existing application logic in mind, the planning of data handling is reduced to a functional planning. To be able to have the functions available at the right time for the user, we have to combine the planning of the functional aspects with the user interface. Therefor we will plan the user's flow through the application (user flow), which pays attention to the accessibility of the functions in the right context, and hence combines functional and user interface planning.
+\\
+\\
+The three major functions of ePill (Search, Display and Supplementing Services) should be accessible as fast as possible. Of course, the display functionality and some supplementing services (e.g. the term explanation functionality) are only able to present results, if a pharmaceutical is selected. Therefor 
 \subsection{The Implementation Process}
-\label{sec:Implementation}
+\label{subsec:Implementation}
 
 \subsection{Validation of the mobile Client}
-\label{sec:Validation}
+\label{subsec:Validation}

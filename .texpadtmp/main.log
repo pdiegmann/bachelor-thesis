@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  12 SEP 2013 13:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  13 SEP 2013 11:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1027,14 +1027,21 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bbl)
+ (/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                p. 5
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 171.
 Package biblatex Info: Reference segment=0 on input line 171.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: longtable package is loaded.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/ltcaption.sty
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
@@ -1487,22 +1494,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--243
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[24])
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 246--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--253
+
+ []
+
+)
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[25] (./chapters/5-lessonsLearned.tex)
+[25]
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[26
+[26] (./chapters/5-lessonsLearned.tex)
+Overfull \vbox (11.09991pt too high) has occurred while \output is active []
+
+
+[27
 
 
 ] (./chapters/6-conclusion.tex)
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[27
+[28
 
 
 ]
@@ -1550,9 +1571,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--255
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[28
+[29
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
+
+ []
+
+
 Overfull \hbox (8.37537pt too wide) in paragraph at lines 255--255
 \T1/ptm/m/n/12 To-bias Dehling, Ali Sun-yaev: In-for-ma-tion Se-cu-rity and Pri
 -vacy Im-pli-ca-tions of mHealth
@@ -1590,15 +1616,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--255
  []
 
 
+Overfull \vbox (11.09991pt too high) has occurred while \output is active []
+
+
+[30]
 Underfull \hbox (badness 10000) in paragraph at lines 255--255
 
  []
 
 
-Overfull \vbox (11.09991pt too high) has occurred while \output is active []
-
-
-[29]
 Underfull \hbox (badness 10000) in paragraph at lines 255--255
 
  []
@@ -1630,6 +1656,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--255
  []
 
 
+Overfull \vbox (11.09991pt too high) has occurred while \output is active []
+
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 255--255
 
  []
@@ -1643,31 +1693,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--255
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 255--255
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--255
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--255
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--255
-
- []
-
-
+[32]
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[31] (./titlepages/erklaerung.tex
+[33] (./titlepages/erklaerung.tex
 Overfull \hbox (3.21236pt too wide) in paragraph at lines 4--7
 \T1/ptm/m/n/12 ohne die Be-nutzung an-derer als der angegebe-nen Hil-f-s-mit-te
 l ange-fer-tigt habe. Alle Stellen,
@@ -1677,10 +1707,10 @@ l ange-fer-tigt habe. Alle Stellen,
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[32
+[34
 
 ] (./titlepages/lebenslauf.tex
-<figures/passfoto.jpg, id=766, 803.0pt x 942.52126pt>
+<figures/passfoto.jpg, id=775, 803.0pt x 942.52126pt>
 File: figures/passfoto.jpg Graphic file (type jpg)
 
 <use figures/passfoto.jpg>
@@ -1704,7 +1734,7 @@ Overfull \hbox (11.20865pt too wide) in paragraph at lines 48--57
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[33
+[35
 
 
  <./figures/passfoto.jpg>]
@@ -1722,10 +1752,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 265.
  ) 
 Here is how much of TeX's memory you used:
- 16368 strings out of 493311
- 256920 string characters out of 6137850
- 739370 words of memory out of 5000000
- 19312 multiletter control sequences out of 15000+600000
+ 16371 strings out of 493311
+ 256984 string characters out of 6137850
+ 739247 words of memory out of 5000000
+ 19313 multiletter control sequences out of 15000+600000
  33723 words of font info for 42 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  43i,14n,57p,2876b,1603s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2037,10 +2067,10 @@ live/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
 Output written on /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.pdf
- (38 pages, 352513 bytes).
+ (40 pages, 353788 bytes).
 PDF statistics:
- 838 PDF objects out of 1000 (max. 8388607)
- 746 compressed objects within 8 object streams
- 224 named destinations out of 1000 (max. 500000)
- 262 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 847 PDF objects out of 1000 (max. 8388607)
+ 754 compressed objects within 8 object streams
+ 226 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 

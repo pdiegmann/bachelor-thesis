@@ -210,6 +210,7 @@
       \strng{namehash}{4927171b608c83e1a94953a8bb263f62}
       \strng{fullhash}{4927171b608c83e1a94953a8bb263f62}
       \field{sortinit}{D}
+      \field{extrayear}{1}
       \field{labelyear}{2012}
       \field{labeltitle}{Architecture and Design of a Patient-Friendly eHealth Web Application: Patient Information Leaflets and Supplementary Services}
       \field{journaltitle}{AMCIS 2012 Proceedings}
@@ -219,6 +220,26 @@
       \verb{url}
       \verb http://aisel.aisnet.org/amcis2012/proceedings/ISHealthcare/5
       \endverb
+    \endentry
+    \entry{Dehling.2012b}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=97ca1de0ff6a0a6e4a793f28b19fa9ea}{Dehling}{D\bibinitperiod}{Tobias}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0aace507a7fdfb4a9fb1cef030e81151}{Sunyaev}{S\bibinitperiod}{Ali}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=97ca1de0ff6a0a6e4a793f28b19fa9ea}{Dehling}{D\bibinitperiod}{Tobias}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0aace507a7fdfb4a9fb1cef030e81151}{Sunyaev}{S\bibinitperiod}{Ali}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4927171b608c83e1a94953a8bb263f62}
+      \strng{fullhash}{4927171b608c83e1a94953a8bb263f62}
+      \field{sortinit}{D}
+      \field{extrayear}{2}
+      \field{labelyear}{2012}
+      \field{labeltitle}{Improved Medication Compliance through Health IT: Design and Mixed Methods Evaluation of the Application ePill: Research-in-Progress}
+      \field{journaltitle}{Thirty Fourth International Conference on Information Systems, Milan}
+      \field{title}{Improved Medication Compliance through Health IT: Design and Mixed Methods Evaluation of the Application ePill: Research-in-Progress}
+      \field{year}{2012}
+      \field{pages}{1\bibrangedash 11}
     \endentry
     \entry{Dehling.2013}{article}{}
       \name{labelname}{2}{}{%
@@ -670,6 +691,7 @@
       \keyw{MEDICAL libraries;INFORMATION retrieval;INTERVIEWING;WEB development;T-test (Statistics);USER interfaces (Computer systems);WIRELESS communication systems;COLORADO}
     \endentry
   \endsortlist
+  \missing{p. 5}
 \endrefsection
 \endinput
 
