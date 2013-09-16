@@ -264,6 +264,7 @@ The web application has rich customization possibilities. One can adjust the fon
 \\
 \\
 The current list is a concept added to the mobile application and derived from a view in the web application. The web application offers a view in which pharmaceuticals can be added and afterwards, via a button click, aggregated information, like adverse reactions, can be listed. Because we have much less available screen space in the mobile app, we decided to have the list globally available throughout the entire app. E.g. if one searched for a pharmaceutical and has selected one to display detailed information, one can easily via a button in the toolbar add this pharmaceutical to one's current list. If one now selects e.g. the side effects functionality in the main screen, one sees his current list and can add more to it. This screen is illustrated in \ref{fig:CurrentListScreen}. If one decides to do so, one is presented a search input screen but can in the search result screen only tick on those pharmaceuticals one wants to add to one's current list and not see the pharmaceutical details on click. This is illustrated in \ref{fig:AlternativeListScreen}.
+\\
 \begin{figure}[!tb]
     \begin{minipage}[b]{0.45\linewidth}
         \centering
@@ -279,8 +280,35 @@ The current list is a concept added to the mobile application and derived from a
         \label{fig:AlternativeListScreen}
     \end{minipage}
 \end{figure}
+\\
+\ref{fig:CurrentListScreen} also highlights the toolbar. The leftmost button scrolls back to the top, whereas on the right side, we have on the one hand an add button, which brings up the already discussed search view and the trash button, which clears the current list. 
+\\
+The button on the top right corner labeled "Go" starts the currently selected function, e.g. adverse reactions on the current list.
+\\
+\begin{figure}[!tb]
+    \begin{minipage}[b]{0.45\linewidth}
+        \centering
+        \includegraphics[width=0.8025\linewidth]{figures/Screen_3a_bw.jpg}
+        \caption[Confirm Action Dialog]{Confirm Action Dialog}
+        \label{fig:ConfirmDialog}
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[b]{0.45\linewidth}
+        \centering
+        \includegraphics[width=0.8025\linewidth]{figures/Screen_4_bw.jpg}
+        \caption[Pharmaceutical Details Screen]{Details Screen}
+        \label{fig:DetailsScreen}
+    \end{minipage}
+\end{figure}
+\\
+To prevent users from faulty operations, we will add dialogs asking to confirm the chosen operation where adequate. This currently only fits to the delete operation of the current list, as illustrated in \ref{fig:ConfirmDialog}.
+\\
+\ref{fig:DetailsScreen} illustrates the pharmaceuticals details screen. This screen presents all information for a specific pharmaceutical, e.g. after the selection of one pharmaceutical in the search results screen or from the current list as illustrated in \ref{fig:CurrentListScreen}. Basically, this screen consists of the back navigation button in the top left corner, the toolbar in the bottom and the centered main content area as most of the mobile app's screens. While the main content area displays the leaflet information segmented and only those informations as chosen, the toolbar offers different operations. On the lower right corner, the add button allows the user to add this specific pharmaceutical to his current list. The left side of the toolbar offers on the one hand a back to top button just like the current list screen and on the other hand a navigation button, enabling the user to jump to any of the sections by which the main content is segmented. A click on this button reveals a list of the sections through which the user can scroll and select one to jump to. Another click on this button closes the list as well as the selection of a section.
 \subsection{The Implementation Process}
 \label{subsec:Implementation}
+The implementation of the planned user flow was struggling at the beginning because of some differences of Vaadin and TouchKit to other frameworks we worked with beforehand. E.g. TouchKit does not provide a search bar which can be attached to the navigation bar as planned in the mockups. Furthermore the ePill web application is currently based in Vaadin 6, whereas TouchKit 3 is based on Vaadin 7. We tried to utilize Vaadin 6 and TouchKit 2 for the mobile app but as it turned out, TouchKit 2 has many drawbacks in comparison to TouchKit 3, like far less documentation, tutorials and example projects. The choice for Vaadin 7 and TouchKit 3 had the result, that we could not just include the ePill web application and directly access the business logic, as some adjustments were needed to upgrade a Vaadin 6 project. 
+\\
+Because time was still a matter to us, we decided to include as much as possible from the web application and copy and modify as less as possible. During further development, when the web application is upgraded to Vaadin 7, both projects can be merged together and code redundancies can be removed.
 
 \subsection{Validation of the mobile App}
 \label{subsec:Validation}
