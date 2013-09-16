@@ -213,14 +213,13 @@ Finally we chose Vaadin and the TouchKit Add-On as framework for the mobile fron
 Furthermore we wanted the complete system to be as homogenous as possible. The web application uses Vaadin as main framework. Utilizing the TouchKit Add-On for Vaadin, we reused as much existing code as possible and infrastructure by only adding another layer. This results in a much improved maintainability as the coding style is the same for the web application and the mobile application. Additionally no additional IDEs or frameworks need to be included or maintained.
 \subsection{The Planning Process}
 \label{subsec:Planning}
+\todo{Replace Images}
 As already mentioned, the ePill system is already a functional prototype and the yet to develop mobile frontend is mostly an additional user-interface. Therefor no system-wide planning is needed, only data handling and user interfaces have to be planned.
 \\
 \\
-Having the already existing application logic in mind, the planning of data handling is reduced to a functional planning. To be able to have the functions available at the right time for the user, we have to combine the planning of the functional aspects with the user interface. Therefor we will plan the user's flow through the application (user flow), which pays attention to the accessibility of the functions in the right context, and hence combines functional and user interface planning.
+Having the already existing application logic in mind, the planning of data handling is reduced to a functional planning. To be able to have the functions available at the right time for the user, we have to combine the planning of the functional aspects with the user interface. Therefor we will plan the user's flow through the application (user flow), which pays attention to the accessibility of the functions in the right context, and hence combines functional and user interface planning. For the ease of explanation, we added some mockups and screenshots. We decided to print them uncolored to prevent distraction from highlighting colors and because the color scheme is not final yet. We decided to focus on smaller mobile devices like phones and not on tablets, because smaller user interfaces can be expanded and are still usable but the reverse is not always true. We will optimize the app's implementation for different layout depending on the device's screen size, but probably we will not implement different layouts during this thesis' timeframe.
 \\
-\\
-The three major functions of ePill (Search, Display and Supplementing Services) should be accessible as fast as possible. Of course, the display functionality and some supplementing services (e.g. the term explanation functionality) are only able to present results, if a pharmaceutical is selected. So we designed \ref{fig:Mockup} as a stripped down starting screen with every main function quickly available. Due to some missing generic controls provided by Vaadin TouchKit, like the search bar, we finally implemented the start screen as illustrated in \ref{fig:FinalMainScreen}. \todo{Replace with correct Image} This resulted furthermore in a more separated presentation of search string input view and result view, as presented in \ref{fig:SearchInputScreen} and \ref{fig:SearchResultScreen}. \todo{Replace with correct Image}
-\begin{figure}[!tb]
+\begin{figure}[!ptbh]
     \begin{minipage}[b]{0.45\linewidth}
         \centering
         \includegraphics[width=0.8025\linewidth]{figures/Screen_1_bw.jpg}
@@ -236,9 +235,9 @@ The three major functions of ePill (Search, Display and Supplementing Services) 
         \label{fig:FinalMainScreen}
 
     \end{minipage}
-\end{figure}
-
-\begin{figure}[!htb]
+    \\
+    \\
+    \\
     \begin{minipage}[b]{0.45\linewidth}
         \centering
         \includegraphics[width=0.8025\linewidth]{figures/Screen_1_bw.jpg}
@@ -255,15 +254,39 @@ The three major functions of ePill (Search, Display and Supplementing Services) 
 
     \end{minipage}
 \end{figure}
-
+\\
+The three major functions of ePill (Search, Display and Supplementing Services) should be accessible as fast as possible. Of course, the display functionality and some supplementing services (e.g. the term explanation functionality) are only able to present results, if a pharmaceutical is selected. So we designed \ref{fig:Mockup} as a stripped down starting screen with every main function quickly available. Due to some missing generic controls provided by Vaadin TouchKit, like the search bar, we finally implemented the start screen as illustrated in \ref{fig:FinalMainScreen}. This resulted furthermore in a more separated presentation of search string input view and result view, as presented in \ref{fig:SearchInputScreen} and \ref{fig:SearchResultScreen}.
+\\
+\\
 Throughout the planning and designing we tried to reproduce common patterns and user controls. Therefor we utilized the navigation back on the top left corner, illustrated by a leftwards oriented arrow-shaped button. Central navigation which specified the view, e.g. main function selection or the selection of a specific pharmaceutical from e.g. a search result list, is centered in the main content area in the screen's center.
 \\
-Most of the views offer a toolbar at the screen's bottom. This toolbar contains controls which are used only
+\\
+Most of the views offer a toolbar at the screen's bottom. This toolbar contains controls which are used for navigation inside the screen's center view, e.g. go back to top or navigate to a specific header. Especially in the pharmaceutical details view with much information visible, it can be very handy to jump right to the header one is interested in. Additionally, some controls are added in the toolbar which enable further interaction with the information displayed, e.g. adding the currently visible pharmaceutical to the current list, which I will discuss later.
 \\
 \\
-The web application has rich customization possibilities. One can adjust the font size, the details of pharmaceuticals to be displayed and the layout of the web application itself. As it turned out, it is not applicable for the user to change the mobile clients layout, because the user interface so too compact to add additional elements and too few elements are visible to hide any element.
+The web application has rich customization possibilities. One can adjust the font size, the details of pharmaceuticals to be displayed and the layout of the web application itself. As it turned out, it is not applicable for the user to change the mobile apps layout, because the user interface so too compact to add additional elements and too few elements are visible to hide any element.
+\\
+\\
+The current list is a concept added to the mobile application and derived from a view in the web application. The web application offers a view in which pharmaceuticals can be added and afterwards, via a button click, aggregated information, like adverse reactions, can be listed. Because we have much less available screen space in the mobile app, we decided to have the list globally available throughout the entire app. E.g. if one searched for a pharmaceutical and has selected one to display detailed information, one can easily via a button in the toolbar add this pharmaceutical to one's current list. If one now selects e.g. the side effects functionality in the main screen, one sees his current list and can add more to it. This screen is illustrated in \ref{fig:CurrentListScreen}. If one decides to do so, one is presented a search input screen but can in the search result screen only tick on those pharmaceuticals one wants to add to one's current list and not see the pharmaceutical details on click. This is illustrated in \ref{fig:AlternativeListScreen}.
+\begin{figure}[!tb]
+    \begin{minipage}[b]{0.45\linewidth}
+        \centering
+        \includegraphics[width=0.8025\linewidth]{figures/Screen_2_bw.jpg}
+        \caption[Current List Screen]{Current List Screen}
+        \label{fig:CurrentListScreen}
+
+    \end{minipage}
+    \hspace{0.5cm}
+    \begin{minipage}[b]{0.45\linewidth}
+        \centering
+        \includegraphics[width=0.8025\linewidth]{figures/Screen_3_bw.jpg}
+        \caption[List Screen to add to Current List]{Alternative List Screen}
+        \label{fig:AlternativeListScreen}
+
+    \end{minipage}
+\end{figure}
 \subsection{The Implementation Process}
 \label{subsec:Implementation}
 
-\subsection{Validation of the mobile Client}
+\subsection{Validation of the mobile App}
 \label{subsec:Validation}

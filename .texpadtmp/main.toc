@@ -69,17 +69,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3}The Planning Process}{25}{subsection.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}The Implementation Process}{27}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.4}The Implementation Process}{28}{subsection.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5}Validation of the mobile Client}{27}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.5}Validation of the mobile App}{28}{subsection.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Lessons Learned}{28}{section.5}
+\contentsline {section}{\numberline {5}Lessons Learned}{29}{section.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Conclusion}{29}{section.6}
+\contentsline {section}{\numberline {6}Conclusion}{30}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Bibliography}{34}{section.6}
+\contentsline {section}{Bibliography}{35}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Erkl\IeC {\"a}rung}{35}{section.6}
+\contentsline {section}{Erkl\IeC {\"a}rung}{36}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Curriculum Vitae}{36}{section.6}
+\contentsline {section}{Curriculum Vitae}{37}{section.6}
 \contentsfinish 
