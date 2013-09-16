@@ -309,6 +309,12 @@ To prevent users from faulty operations, we will add dialogs asking to confirm t
 The implementation of the planned user flow was struggling at the beginning because of some differences of Vaadin and TouchKit to other frameworks we worked with beforehand. E.g. TouchKit does not provide a search bar which can be attached to the navigation bar as planned in the mockups. Furthermore the ePill web application is currently based in Vaadin 6, whereas TouchKit 3 is based on Vaadin 7. We tried to utilize Vaadin 6 and TouchKit 2 for the mobile app but as it turned out, TouchKit 2 has many drawbacks in comparison to TouchKit 3, like far less documentation, tutorials and example projects. The choice for Vaadin 7 and TouchKit 3 had the result, that we could not just include the ePill web application and directly access the business logic, as some adjustments were needed to upgrade a Vaadin 6 project. 
 \\
 Because time was still a matter to us, we decided to include as much as possible from the web application and copy and modify as less as possible. During further development, when the web application is upgraded to Vaadin 7, both projects can be merged together and code redundancies can be removed.
+\\
+\\
+After having set the stage for the implementation, we discovered that Vaadin does not seem to have a community as big and as active as e.g. Node.js\footnote{\url{http://nodejs.org}} or django\footnote{\url{https://djangoproject.com}}. While we made the experience that to most issues an answer can be found in the related forums, mailing lists or community pages as well as on more general websites like Stack Overflow\footnote{\url{http://stackoverflow.com}}, only very few answers and questions were found on Stack Overflow regarding Vaadin or TouchKit. A direct comparison between the official django mailing list\footnote{\url{https://groups.google.com/forum/\#!forum/django-users}} and the Vaadin forum\footnote{\url{http://vaadin.com/forum}} revealed, that while the django mailing list had 40,367 topics\footnote{last visited on 09/16/2013}, the Vaadin forum had 14,523 threads\footnote{last visited on 09/16/2013}, including news and forum guidelines. Nevertheless, the Vaadin forum was often helpful.
+\\
+\\
+All in all the implementation in Vaadin was easy after the first steps into the framework were succeeded. The coding style supposed by the framework was consistent and helped achieving the desired results. 
 
 \subsection{Validation of the mobile App}
 \label{subsec:Validation}

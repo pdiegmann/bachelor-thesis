@@ -71,15 +71,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4}The Implementation Process}{29}{subsection.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5}Validation of the mobile App}{30}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.5}Validation of the mobile App}{31}{subsection.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Lessons Learned}{31}{section.5}
+\contentsline {section}{\numberline {5}Lessons Learned}{32}{section.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Conclusion}{32}{section.6}
+\contentsline {section}{\numberline {6}Conclusion}{33}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Bibliography}{37}{section.6}
+\contentsline {section}{Bibliography}{38}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Erkl\IeC {\"a}rung}{38}{section.6}
+\contentsline {section}{Erkl\IeC {\"a}rung}{39}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Curriculum Vitae}{39}{section.6}
+\contentsline {section}{Curriculum Vitae}{40}{section.6}
 \contentsfinish 
