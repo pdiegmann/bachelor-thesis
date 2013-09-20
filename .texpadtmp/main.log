@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  16 SEP 2013 13:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  20 SEP 2013 12:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1597,12 +1597,17 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 [28 <./figures/Screen_2_bw.jpg> <./figures/Screen_3_bw.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 340--349
+Underfull \hbox (badness 10000) in paragraph at lines 340--354
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--349
+Underfull \hbox (badness 10000) in paragraph at lines 340--354
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--354
 
  []
 
@@ -1610,11 +1615,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 340--349
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[29 <./figures/Screen_3a_bw.jpg> <./figures/Screen_4_bw.jpg>])
+[29 <./figures/Screen_3a_bw.jpg> <./figures/Screen_4_bw.jpg>]
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[30]
+[30])
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
@@ -2194,7 +2199,7 @@ live/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
 Output written on /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.pdf
- (46 pages, 597184 bytes).
+ (46 pages, 598138 bytes).
 PDF statistics:
  934 PDF objects out of 1000 (max. 8388607)
  820 compressed objects within 9 object streams

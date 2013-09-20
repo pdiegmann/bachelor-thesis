@@ -314,7 +314,12 @@ Because time was still a matter to us, we decided to include as much as possible
 After having set the stage for the implementation, we discovered that Vaadin does not seem to have a community as big and as active as e.g. Node.js\footnote{\url{http://nodejs.org}} or django\footnote{\url{https://djangoproject.com}}. While we made the experience that to most issues an answer can be found in the related forums, mailing lists or community pages as well as on more general websites like Stack Overflow\footnote{\url{http://stackoverflow.com}}, only very few answers and questions were found on Stack Overflow regarding Vaadin or TouchKit. A direct comparison between the official django mailing list\footnote{\url{https://groups.google.com/forum/\#!forum/django-users}} and the Vaadin forum\footnote{\url{http://vaadin.com/forum}} revealed, that while the django mailing list had 40,367 topics\footnote{last visited on 09/16/2013}, the Vaadin forum had 14,523 threads\footnote{last visited on 09/16/2013}, including news and forum guidelines. Nevertheless, the Vaadin forum was often helpful.
 \\
 \\
-All in all the implementation in Vaadin was easy after the first steps into the framework were succeeded. The coding style supposed by the framework was consistent and helped achieving the desired results. 
+Programming with Vaadin is easy after the first steps into the framework are succeeded. The coding style supposed by the framework was consistent and helped achieving fast results. Nevertheless, missing controls are a drawback and the inflexibility of the framework is both an advantage and disadvantage. 
+\\
+\\
+The lack of components like alert- and confirm-dialogs or search bars is compensable. During the development, we utilized popovers to imitate the well known appearance of dialogs in most of the mobile OS. Vaadin's popover component is functional, as it provides an overlay with a responsive layout for different screen sizes but is not completely customizable, e.g. the bar at the popover's top cannot be customized and buttons cannot be added to this bar.
+\\
+We implemented a workaround for the missing search bar attached to the navigation bar by adding an additional view. As stated beforehand, we planed to attach the search bar directly beneath the navigation bar to enable the user to quickly access the search functionality. Results were planned to be displayed as an overlaid list. We had to abandon the idea of an overlaid list as well because the Vaadin TouchKit framework did not have the needed functionality at hand. Overlays looked either unfamiliar or complicated the use of the app, especially for dismissing the results.
 
 \subsection{Validation of the mobile App}
 \label{subsec:Validation}
