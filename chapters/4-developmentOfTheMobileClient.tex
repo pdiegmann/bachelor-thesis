@@ -327,6 +327,9 @@ Another issue we discovered was the drop for dynamic style sheets and themes in 
 \\
 \\
 The Vaadin framework did help to get fast results. E.g. the settings screen for customizing the displayed leaflet information could be implemented in a short time thanks to the automatic handling of references between the client- and the server-side. Nevertheless it was not possible to receive specific events like a "will appear" or "did appear" for views. These events are needed for refreshing the view or specific controls if needed. Java and Vaadin offer listeners for "value changed" events but those still need a reference for the controls, which have to be passed along through the views. The main screen contains a toolbar at the screen's bottom to select a preset of visible information on leaflets. If now the user decides to change the preset in a lower view, this toolbar needs to be updated as well. Additionally to the increased reference count this method has the drawback that the toolbar gets updated on every value change, although it is not visible. With a "will appear" event the update would have been done only once directly before the toolbar becomes visible.
+\\
+\\
+Much of the layout from the web application could be reused with only minor adjustments, thanks to Vaadin's seamless TouchKit integration. 
 
 \subsection{Validation of the mobile App}
 \label{subsec:Validation}
