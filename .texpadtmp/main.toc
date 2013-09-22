@@ -73,13 +73,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5}Validation of the Mobile App}{32}{subsection.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Lessons Learned}{33}{section.5}
+\contentsline {section}{\numberline {5}Lessons Learned}{35}{section.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Conclusion}{34}{section.6}
+\contentsline {section}{\numberline {6}Conclusion}{36}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Bibliography}{39}{section.6}
+\contentsline {section}{Bibliography}{41}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Erkl\IeC {\"a}rung}{40}{section.6}
+\contentsline {section}{Erkl\IeC {\"a}rung}{42}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Curriculum Vitae}{41}{section.6}
+\contentsline {section}{Curriculum Vitae}{43}{section.6}
 \contentsfinish 
