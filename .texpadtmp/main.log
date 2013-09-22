@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  21 SEP 2013 10:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  22 SEP 2013 10:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1150,9 +1150,6 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 Package xcolor Warning: Incompatible color definition on input line 20.
 
-
-Package xcolor Warning: Incompatible color definition on input line 30.
-
 )
 Underfull \hbox (badness 10000) in paragraph at lines 20--241
 
@@ -1172,10 +1169,6 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 [3] (./chapters/2-ePill.tex
-
-Package xcolor Warning: Incompatible color definition on input line 14.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 3--17
 
  []
@@ -1197,7 +1190,11 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 [4
 
 
-])
+]
+
+Package xcolor Warning: Incompatible color definition on input line 22.
+
+)
 Underfull \hbox (badness 10000) in paragraph at lines 19--243
 
  []
@@ -1225,6 +1222,9 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 Package xcolor Warning: Incompatible color definition on input line 3.
 
 
+Package xcolor Warning: Incompatible color definition on input line 14.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 3--43
 
  []
@@ -1247,6 +1247,10 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 ]
+
+Package xcolor Warning: Incompatible color definition on input line 45.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 45--88
 
  []
@@ -1331,6 +1335,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--20
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--20
 
+ []
+
+
+Overfull \hbox (3.38075pt too wide) in paragraph at lines 4--20
+\T1/ptm/m/n/12 Therefore ePill should ex-plic-itly in-form the user that no dat
+a is stored and only anonymized
  []
 
 
@@ -2223,7 +2233,7 @@ live/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
 Output written on /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.pdf
- (47 pages, 600588 bytes).
+ (47 pages, 600993 bytes).
 PDF statistics:
  938 PDF objects out of 1000 (max. 8388607)
  823 compressed objects within 9 object streams

@@ -1,11 +1,11 @@
-\section{The Development of the mobile Client}
-\subsection{Preconditions}\subsubsection{Norms for mobile Apps}
-As already mentioned, ePill is currently only used in Germany, therefor we will focus on laws applicable in Germany. These laws are namely the \TKGns, the \TMGns, the \REG as well as the \DPA of \NRWns. The \TKG and \TMG are laws by state, whereas \REG is an european directive, specified by the respective Member States. 
+\section{The Development of the Mobile Client}
+\subsection{Preconditions}\subsubsection{Norms for Mobile Apps}
+As already mentioned, ePill is currently only used in Germany, therefore we will focus on laws applicable in Germany. These laws are namely the \TKGns, the \TMGns, the \REG as well as the \DPA of \NRWns. The \TKG and \TMG are laws by state, whereas \REG is an european directive, specified by the respective Member States. 
 \\
 German federal states have their own \DPAsns. In this thesis we will focus on the \DPA of \NRW as ePill is located in \NRWns.
 \\
 \\
-As the topmost layer of laws, the \REG defines more general directives. Article 4 defines national law applicable, if the natural or legal person, the controller\footnote{cf. \cite{TheEuropeanParliamentandtheCounciloftheEuropeanUnion.24.10.1995}, Article 2, (d)}, is located on a Member State's territory\footnote{cf. \cite{TheEuropeanParliamentandtheCounciloftheEuropeanUnion.24.10.1995}, Article 4, 1., (a) and (b)} or if any of the processing takes place on a Member State's territory\footnote{cf. \cite{TheEuropeanParliamentandtheCounciloftheEuropeanUnion.24.10.1995}, Article 4, 1., (c)}. Furthermore it is required, that the controller asks the user to consent to the use and collection of data\footnote{cf. \cite{TheEuropeanParliamentandtheCounciloftheEuropeanUnion.24.10.1995}, Article 7, (a)}, explicitly "data concerning health and sex life"\footnote{\cite{TheEuropeanParliamentandtheCounciloftheEuropeanUnion.24.10.1995}, Article 8, 1.} shall not be processed. Only if the user consents explicitly\footnote{cf. \cite{TheEuropeanParliamentandtheCounciloftheEuropeanUnion.24.10.1995}, Article 8, 2., (a)} or if the processing is done by a healthcare professional under national law and for preventive medicine, medical diagnosis or treatment or for the management of health-care services\footnote{cf. \cite{TheEuropeanParliamentandtheCounciloftheEuropeanUnion.24.10.1995}, Article 8, 3.}. 
+As the topmost layer of laws, the \REG defines more general directives. Article 4 defines national law applicable, if the natural or legal person, the controller\footnote{cf. \cite{TheEuropeanParliamentandtheCounciloftheEuropeanUnion.24.10.1995}, Article 2, (d)}, is located on a Member State's territory\footnote{cf. \cite{TheEuropeanParliamentandtheCounciloftheEuropeanUnion.24.10.1995}, Article 4, 1., (a) and (b)} or if any of the processing takes place on a Member State's territory\footnote{cf. \cite{TheEuropeanParliamentandtheCounciloftheEuropeanUnion.24.10.1995}, Article 4, 1., (c)}. Furthermore, it is required, that the controller asks the user to consent to the use and collection of data\footnote{cf. \cite{TheEuropeanParliamentandtheCounciloftheEuropeanUnion.24.10.1995}, Article 7, (a)}. Explicitly, "data concerning health and sex life"\footnote{\cite{TheEuropeanParliamentandtheCounciloftheEuropeanUnion.24.10.1995}, Article 8, 1.} shall not be processed, only if the user consent explicitly\footnote{cf. \cite{TheEuropeanParliamentandtheCounciloftheEuropeanUnion.24.10.1995}, Article 8, 2., (a)}, or if the processing is done by a healthcare professional under national law and for preventive medicine, medical diagnosis or treatment or for the management of health-care services\footnote{cf. \cite{TheEuropeanParliamentandtheCounciloftheEuropeanUnion.24.10.1995}, Article 8, 3.}. 
 \\
 \\
 This is refined by the the \TMGns. § 13, section (1) states, that the controller has to inform the user in a commonly understandable manner about the data which is collected and the form of processing of this data\footnote{cf. \cite{BundesregierungderBundesrepublikDeutschland.01.03.2007}, § 13, section (1)}. For a legal consent, the controller has to ensure, that the user is aware of his consent, that the consent is minuted, that the content of the consent is always available to the user and that the user can revoke his consent\footnote{cf. \cite{BundesregierungderBundesrepublikDeutschland.01.03.2007}, § 13, section (2)}.
@@ -15,14 +15,14 @@ This is refined by the the \TMGns. § 13, section (1) states, that the controlle
 Also the \DPA of \NRW constitutes the same laws\footnote{cf. \cite{DerInnenministerdesLandesNordrheinWestfalen.09.06.2000}, Section 1, §§ 2, 4, 5} with the only restrictions, that its scope is limited to \NRWns.
 \\
 \\
-Therefor ePill should explicitly inform the user that no data is stored and only anonymized transacted to find matching results, to comply with the stated laws.
+Therefore ePill should explicitly inform the user that no data is stored and only anonymized transacted to find matching results, to comply with the stated laws.
 \subsubsection{Best Practices}
 The World Wide Web Consortium (W3C) has published a document in 2008 which states the basic best practices for developing for the mobile web. This document states 60 best practices, which shall ensure a minimum quality level for mobile web applications. These best practices emphasize the need of regard of the device's capabilities and supported technologies\footnote{cf. \cite{WorldWideWebConsortium.2008}, e.g. 2., 11., 21., 42.}. 
 \\
-This document focuses on mobile web development\footnote{cf. \cite{WorldWideWebConsortium.2008}, Abstract}, which has of course differences to native app development (e.g. the usage of frames and the accessibility of the device's specific features), most of the best practices are applicable in both development environments.
+This document focuses on mobile web development\footnote{cf. \cite{WorldWideWebConsortium.2008}, Abstract}, which has of course differences to native app development (e.g. the usage of frames and the accessibility of the device's specific features). Most of the best practices are applicable in both development environments.
 \\
 \\
-For this specific project, which does not need more specific device capabilities, like positioning and navigation features, we can focus on best practices related to the user interface, input and navigation methods as well as general best practices. Depending on the framework chosen, some of the best practices are already dealt with by the framework or at least supported. E.g. a thematic consistency\footnote{cf. \cite{WorldWideWebConsortium.2008}, 1.} is provided by native apps by default and by frameworks such as the TouchKit for Vaadin as well. Although they can be overridden, they provide a consistent theme. \cite{Wessels.2011} support the importance of a consistent appearance, also in comparison to a desktop application, if existent\footnote{cf. \cite{Wessels.2011}, p. 2}. \cite{Lica.2010} further limits this to specific elements and points out, that mobile apps should provide just enough functionality to be useful and should not replicate the desktop optimized website\footnote{cf. \cite{Lica.2010}, p. 66}.
+For this specific project, which does not need more specific device capabilities, like positioning and navigation features, we can focus on best practices related to the user interface, input and navigation methods as well as general best practices. Depending on the framework chosen, some of the best practices are already dealt with by the framework or at least supported. I.e. a thematic consistency\footnote{cf. \cite{WorldWideWebConsortium.2008}, 1.} is provided by native apps by default and by frameworks such as the TouchKit for Vaadin as well. Although they can be overridden, they provide a consistent theme. \cite{Wessels.2011} support the importance of a consistent appearance, also in comparison to a desktop application, if existent\footnote{cf. \cite{Wessels.2011}, p. 2}. \cite{Lica.2010} further limits this to specific elements and points out, that mobile apps should provide just enough functionality to be useful and should not replicate the desktop optimized website\footnote{cf. \cite{Lica.2010}, p. 66}.
 \\
 Other best practices like utilizing a navigation bar at the page's top\footnote{cf. \cite{WorldWideWebConsortium.2008}, 8.} for the main navigation have already become a standard across different platforms and frameworks.
 \\
@@ -110,7 +110,7 @@ This thesis will follow the Three Layers Design Guideline, as it is the latest g
     \label{tab:ThreeLayersDesignGuideline}
 \end{table}
 \footnotetext{cf. \cite{AyobNurulZakiahbinti.2009}, p. 430, Table IV}
-\subsubsection{Internal requirements}
+\subsubsection{Internal Requirements}
 For developing a mobile frontend for ePill, it is important to us, that the main functionality of the web client is optimized but not reduced. Therefor a good user interface is indispensable. All functionality should be accessible easily and without confusion for the user. Interactive elements like buttons should be visibly salient and have an immediate response to reduce the user's uncertainty. The general design, the color scheme and the fonts should be used in line with the web application to improve the recognition value. 
 \\
 Another top priority is the accessibility of the app for as many users as possible. Therefor it is needed to provide a cross-platform app to be accessible for as many mobile platforms as possible and to have an intuitive user interface which also enables e.g. elderly people to use it efficiently.
@@ -127,7 +127,7 @@ Therefor we would suggest to categorize the ePill mobile application as a low pr
 \\
 Possible future features might change the classification (e.g. the addressed barcode scanning) if data handling or storage might be altered and therefor other privacy risks may arise.
 
-\subsubsection{The different Operation Systems}\paragraph{Android}$\;$
+\subsubsection{The Different Operation Systems}\paragraph{Android}$\;$
 
 \vspace{0.75em}
 Android is a mobile OS developed by the Open Handset Alliance\footnote{\url{http://www.openhandsetalliance.com}}, with Google being one of the biggest members. It is linux based and was unveiled in 2007. Android is released by Google under the Apache License and is therefor Open Source.\footnote{cf. \url{http://source.android.com/source/licenses.html}} Developing for Android requires the Android SDK (or NDK). With the SDK developing apps is done by writing Java code and writing the layout in specific XML\footnote{cf. for further details \url{http://developer.android.com}}. Android apps are by default executed in the Dalvik managed runtime\footnote{cf. \url{http://source.android.com/devices/tech/dalvik/index.html}}, except if they utilize the NDK. With the NDK apps can be (partly) written in C or C++ and are executed outside the Dalvik runtime\footnote{cf. \url{http://developer.android.com/tools/sdk/ndk/index.html}}.
@@ -199,7 +199,7 @@ But also apps developed with Xamarin would need an additional web service, which
 \paragraph{Vaadin and TouchKit}$\;$
 
 \vspace{0.75em}
-Vaadin\footnote{\url{https://vaadin.com}} is a Java framework, with which the developer does only need to write code and define a user interface, the framework builds the user interface and handles all communication between the client and the server. TouchKit\footnote{\url{https://vaadin.com/touchkit}} enables a Vaadin project to easily add a mobile web client. It provides various controls which were optimized for mobile devices. It also provides access to the device's capabilities, like positioning, offline storage or camera.
+Vaadin\footnote{\url{https://vaadin.com}} is a Java framework, with which the developer does only need to write code and define a user interface. The framework builds the user interface and handles all communication between the client and the server. TouchKit\footnote{\url{https://vaadin.com/touchkit}} enables a Vaadin project to easily add a mobile web client. It provides various controls which were optimized for mobile devices. It also provides access to the device's capabilities, like positioning, offline storage or camera.
 \\
 \\
 TouchKit supports iOS 5 or newer, Android 2.3 or newer and Windows Phone 8. Vaadin is focused on WebKit\footnote{\url{http://webkit.org}}-based browsers\footnote{cf. \url{https://vaadin.com/book/-/page/mobile.considerations.html}, last visited 09/11/2013}, still it is compatible to most of the mobile browsers.
@@ -207,7 +207,7 @@ TouchKit supports iOS 5 or newer, Android 2.3 or newer and Windows Phone 8. Vaad
 \\
 Using Vaadin and TouchKit for ePill has the great advantage, that we would not need an additional web service, we could use the existing code and just add a TouchKit-based user interface, which seamlessly adapts to the existing code.
 \subsubsection{The Choice for Vaadin and TouchKit}
-Finally we chose Vaadin and the TouchKit Add-On as framework for the mobile frontend. The main reason is the lack of a easy accessible web service in Vaadin itself. Without a web service, we would first have had to build a web service to have a connection from the mobile frontend to the database and the application's logic. Independently from the framework chosen for the frontend this would have been a large additional effort which we could not have completed before the end of this thesis.
+Finally we chose Vaadin and the TouchKit Add-On as framework for the mobile frontend. The main reason is the lack of an easy accessible web service in Vaadin itself. Without a web service, we would first have had to build a web service to have a connection from the mobile frontend to the database and the application's logic. Independently from the framework chosen for the frontend this would have been a large additional effort which we could not have completed before the end of this thesis.
 \\
 \\
 Furthermore we wanted the complete system to be as homogenous as possible. The web application uses Vaadin as main framework. Utilizing the TouchKit Add-On for Vaadin, we reused as much existing code as possible and infrastructure by only adding another layer. This results in a much improved maintainability as the coding style is the same for the web application and the mobile application. Additionally no additional IDEs or frameworks need to be included or maintained.
@@ -331,5 +331,5 @@ The Vaadin framework did help to get fast results. E.g. the settings screen for 
 \\
 Much of the layout from the web application could be reused with only minor adjustments, thanks to Vaadin's seamless TouchKit integration. The comparison functionality is still an issue. Comparing two pharmaceuticals can only be effective, if related information is presented closely. During the development we experimented with a vertical instead a horizontal layout, meaning that each related information of the two pharmaceuticals are presented beneath each other, not side by side, but it became very confusing because of the doubled page length. For now we concluded that a horizontal layout and a landscape orientation will be best in this case.
 
-\subsection{Validation of the mobile App}
+\subsection{Validation of the Mobile App}
 \label{subsec:Validation}
