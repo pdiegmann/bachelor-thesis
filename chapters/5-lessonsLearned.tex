@@ -1,2 +1,10 @@
 \section{Lessons Learned}
 \label{sec:LessonsLearned}
+We learned very different lessons during development. mHealth apps do have some similar requirements as any app, but have to deal with much stronger information security concerns compared to casual apps. They also need to pay more attention to usability and availability than casual apps by definition. 
+\\
+In the case of ePill information security is not an issue because no user related information is stored and with the web-based mobile app ePill is available on nearly any mobile device. But developing with Vaadin as framework was not always a good choice. Vaadin simplified the development process but slowed down at the very beginning and had a price to pay: The app is not as perfectly designed as it could have been with more influence on the client-side, especially on the user interface in terms of available controls.
+\\
+\\
+Starting with Vaadin is not really hard but takes some time to getting started. We had some trouble getting started with Vaadin's installation because our installed version of Eclipse IDE was not compatible, the same happened to our installed version of Maven. After having read the Vaadin's Beginner Guide\footnote{\url{https://vaadin.com/tutorial}} we only had minor issues understanding Vaadins architecture and development went mostly quick and easy. As already stated, some missing controls were a drawback to us and workarounds had to be found, but all in all it is a good solution for a quick development without the need of further knowledge in HTML, CSS or JavaScript. Having not to deal with cross-browser-optimizations was a relieve.
+\\
+After the development of the mobile app we would nevertheless propose a different approach. If Vaadin is already utilized in the existing system, it is good to reuse the code. But if not, or if a web service is available, we would propose native applications, maybe developed with Xamarin. This offers the possibility to fine tune the user interface much more, offer a much more familiar look on the different OS and much more controls are available.
