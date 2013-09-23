@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  23 SEP 2013 20:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  23 SEP 2013 21:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1495,28 +1495,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--247
 
  []
 
-<figures/Screen_1_bw.jpg, id=757, 663.47874pt x 1161.33875pt>
+<figures/Screen_1_bw.jpg, id=756, 663.47874pt x 1161.33875pt>
 File: figures/Screen_1_bw.jpg Graphic file (type jpg)
 
 <use figures/Screen_1_bw.jpg>
 Package pdftex.def Info: figures/Screen_1_bw.jpg used on input line 258.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-<figures/Main_Screen_bw.jpg, id=758, 663.47874pt x 1161.33875pt>
+<figures/Main_Screen_bw.jpg, id=757, 663.47874pt x 1161.33875pt>
 File: figures/Main_Screen_bw.jpg Graphic file (type jpg)
 
 <use figures/Main_Screen_bw.jpg>
 Package pdftex.def Info: figures/Main_Screen_bw.jpg used on input line 265.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-<figures/Search_bw.jpg, id=759, 663.47874pt x 1161.33875pt>
+<figures/Search_bw.jpg, id=758, 663.47874pt x 1161.33875pt>
 File: figures/Search_bw.jpg Graphic file (type jpg)
 
 <use figures/Search_bw.jpg>
 Package pdftex.def Info: figures/Search_bw.jpg used on input line 274.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-<figures/Results_bw.jpg, id=760, 663.47874pt x 1161.33875pt>
+<figures/Results_bw.jpg, id=759, 663.47874pt x 1161.33875pt>
 File: figures/Results_bw.jpg Graphic file (type jpg)
 
 <use figures/Results_bw.jpg>
@@ -1532,28 +1532,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 256--285
 
  []
 
-<figures/Screen_2_bw.jpg, id=767, 663.47874pt x 1161.33875pt>
+<figures/Screen_2_bw.jpg, id=766, 663.47874pt x 1161.33875pt>
 File: figures/Screen_2_bw.jpg Graphic file (type jpg)
 
 <use figures/Screen_2_bw.jpg>
 Package pdftex.def Info: figures/Screen_2_bw.jpg used on input line 304.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-<figures/Screen_3_bw.jpg, id=768, 663.47874pt x 1161.33875pt>
+<figures/Screen_3_bw.jpg, id=767, 663.47874pt x 1161.33875pt>
 File: figures/Screen_3_bw.jpg Graphic file (type jpg)
 
 <use figures/Screen_3_bw.jpg>
 Package pdftex.def Info: figures/Screen_3_bw.jpg used on input line 311.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-<figures/List_bw.jpg, id=769, 663.47874pt x 1161.33875pt>
+<figures/List_bw.jpg, id=768, 663.47874pt x 1161.33875pt>
 File: figures/List_bw.jpg Graphic file (type jpg)
 
 <use figures/List_bw.jpg>
 Package pdftex.def Info: figures/List_bw.jpg used on input line 320.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-<figures/Results_Alt_bw.jpg, id=770, 663.47874pt x 1161.33875pt>
+<figures/Results_Alt_bw.jpg, id=769, 663.47874pt x 1161.33875pt>
 File: figures/Results_Alt_bw.jpg Graphic file (type jpg)
 
 <use figures/Results_Alt_bw.jpg>
@@ -1569,28 +1569,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 302--331
 
  []
 
-<figures/Screen_3a_bw.jpg, id=772, 663.47874pt x 1161.33875pt>
+<figures/Screen_3a_bw.jpg, id=771, 663.47874pt x 1161.33875pt>
 File: figures/Screen_3a_bw.jpg Graphic file (type jpg)
 
 <use figures/Screen_3a_bw.jpg>
 Package pdftex.def Info: figures/Screen_3a_bw.jpg used on input line 340.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-<figures/Screen_4_bw.jpg, id=773, 663.47874pt x 1161.33875pt>
+<figures/Screen_4_bw.jpg, id=772, 663.47874pt x 1161.33875pt>
 File: figures/Screen_4_bw.jpg Graphic file (type jpg)
 
 <use figures/Screen_4_bw.jpg>
 Package pdftex.def Info: figures/Screen_4_bw.jpg used on input line 347.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-<figures/Dialog_bw.jpg, id=774, 663.47874pt x 1161.33875pt>
+<figures/Dialog_bw.jpg, id=773, 663.47874pt x 1161.33875pt>
 File: figures/Dialog_bw.jpg Graphic file (type jpg)
 
 <use figures/Dialog_bw.jpg>
 Package pdftex.def Info: figures/Dialog_bw.jpg used on input line 356.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-<figures/Detail_bw.jpg, id=775, 663.47874pt x 1161.33875pt>
+<figures/Detail_bw.jpg, id=774, 663.47874pt x 1161.33875pt>
 File: figures/Detail_bw.jpg Graphic file (type jpg)
 
 <use figures/Detail_bw.jpg>
@@ -1985,7 +1985,7 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 [45
 
 ] (./titlepages/lebenslauf.tex
-<figures/passfoto.jpg, id=952, 803.0pt x 942.52126pt>
+<figures/passfoto.jpg, id=951, 803.0pt x 942.52126pt>
 File: figures/passfoto.jpg Graphic file (type jpg)
 
 <use figures/passfoto.jpg>
@@ -2390,10 +2390,10 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 live/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 Output written on /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.pdf
- (52 pages, 1193164 bytes).
+ (52 pages, 1193198 bytes).
 PDF statistics:
- 1027 PDF objects out of 1200 (max. 8388607)
- 897 compressed objects within 9 object streams
+ 1026 PDF objects out of 1200 (max. 8388607)
+ 896 compressed objects within 9 object streams
  256 named destinations out of 1000 (max. 500000)
  322 words of extra memory for PDF output out of 10000 (max. 10000000)
 
