@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  23 SEP 2013 12:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  23 SEP 2013 14:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1990,7 +1990,7 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 [45
 
 ] (./titlepages/lebenslauf.tex
-<figures/passfoto.jpg, id=954, 803.0pt x 942.52126pt>
+<figures/passfoto.jpg, id=953, 803.0pt x 942.52126pt>
 File: figures/passfoto.jpg Graphic file (type jpg)
 
 <use figures/passfoto.jpg>
@@ -2396,10 +2396,10 @@ live/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
 Output written on /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.pdf
- (52 pages, 1205036 bytes).
+ (52 pages, 1204872 bytes).
 PDF statistics:
- 1033 PDF objects out of 1200 (max. 8388607)
- 901 compressed objects within 10 object streams
+ 1031 PDF objects out of 1200 (max. 8388607)
+ 900 compressed objects within 9 object streams
  256 named destinations out of 1000 (max. 500000)
  322 words of extra memory for PDF output out of 10000 (max. 10000000)
 

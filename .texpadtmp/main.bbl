@@ -277,7 +277,7 @@
       \field{urlyear}{2013}
       \field{year}{2000}
       \verb{url}
-      \verb https://recht.nrw.de/lmi/owa/br_bes_text?anw_nr=2%5C&gld_nr=2%5C&ugl_nr=20061%5C&bes_id=4908%5C&aufgehoben=N%5C&menu=1%5C&sg=0
+      \verb https://recht.nrw.de/lmi/owa/br_bes_text?anw_nr=2&gld_nr=2&ugl_nr=20061&bes_id=4908&aufgehoben=N&menu=1&sg=0
       \endverb
     \endentry
     \entry{dHeureuse.2012}{article}{}
@@ -332,7 +332,7 @@
       \field{journaltitle}{Future of Privacy Forum and the Center for Democracy {\&} Technology}
       \field{title}{Best Practices for Mobile Application Developers: App Privacy Guidelines}
       \field{year}{2011}
-      \field{pages}{1\bibrangedash 20}
+      \field{pages}{I\bibrangedash 17}
     \endentry
     \entry{Istepanian.2004}{article}{}
       \name{labelname}{3}{}{%
@@ -469,7 +469,7 @@
       \field{title}{Mobile health applications for the most prevalent conditions by the World Health Organization: review and analysis}
       \field{volume}{15}
       \field{year}{2013}
-      \field{pages}{e120}
+      \field{pages}{1\bibrangedash 16}
       \verb{doi}
       \verb 10.2196/jmir.2600
       \endverb
@@ -635,6 +635,7 @@
       \field{urlmonth}{08}
       \field{urlyear}{2013}
       \field{year}{2011}
+      \field{pages}{I\bibrangedash 103}
       \verb{url}
       \verb http://whqlibdoc.who.int/publications/2011/9789241564250_eng.pdf
       \endverb
