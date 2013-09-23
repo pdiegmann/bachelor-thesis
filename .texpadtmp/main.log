@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  23 SEP 2013 11:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  23 SEP 2013 11:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1094,12 +1094,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 10.
-LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 29.
-
-
-Package xcolor Warning: Incompatible color definition on input line 29.
-
 
 Overfull \vbox (2.60004pt too high) has occurred while \output is active []
 
@@ -1194,11 +1188,7 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 [4
 
 
-]
-
-Package xcolor Warning: Incompatible color definition on input line 22.
-
-)
+])
 Underfull \hbox (badness 10000) in paragraph at lines 19--243
 
  []
@@ -1222,10 +1212,6 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 [6] (./chapters/3-mHealth.tex
-
-Package xcolor Warning: Incompatible color definition on input line 12.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 3--41
 
  []
@@ -1248,10 +1234,6 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 ]
-
-Package xcolor Warning: Incompatible color definition on input line 43.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 43--86
 
  []
@@ -1754,6 +1736,9 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 [36] (./chapters/5-lessonsLearned.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 18.
+
 
 Package xcolor Warning: Incompatible color definition on input line 18.
 
@@ -2380,7 +2365,7 @@ live/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
 Output written on /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.pdf
- (52 pages, 1203747 bytes).
+ (52 pages, 1203088 bytes).
 PDF statistics:
  1024 PDF objects out of 1200 (max. 8388607)
  893 compressed objects within 9 object streams
