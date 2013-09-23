@@ -1,16 +1,16 @@
 [0] Config.pm:425> INFO - This is Biber 1.7
 [0] Config.pm:428> INFO - Logfile is '/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.blg'
-[76] biber-darwin:252> INFO - === Mon Sep 23, 2013, 18:18:54
-[77] Biber.pm:333> INFO - Reading '/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bcf'
-[148] Biber.pm:630> INFO - Found 25 citekeys in bib section 0
-[166] Biber.pm:2997> INFO - Processing section 0
-[181] Biber.pm:3134> INFO - Looking for bibtex format file 'literature.bib' for section 0
-[192] bibtex.pm:911> INFO - Decoding LaTeX character macros into UTF-8
-[205] bibtex.pm:786> INFO - Found BibTeX data source 'literature.bib'
-[210] Utils.pm:169> WARN - Duplicate entry key: '.2009' in file 'literature.bib', skipping ...
-[487] Biber.pm:2883> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[487] Biber.pm:2889> INFO - Sorting 'entry' list 'nty' keys
-[488] Biber.pm:2893> INFO - No sort tailoring available for locale 'en_US.UTF-8'
-[718] bbl.pm:479> INFO - Writing '/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bbl' with encoding 'UTF-8'
-[723] bbl.pm:552> INFO - Output to /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bbl
-[724] Biber.pm:105> INFO - WARNINGS: 1
+[85] biber-darwin:252> INFO - === Mon Sep 23, 2013, 20:22:22
+[85] Biber.pm:333> INFO - Reading '/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bcf'
+[161] Biber.pm:630> INFO - Found 25 citekeys in bib section 0
+[180] Biber.pm:2997> INFO - Processing section 0
+[195] Biber.pm:3134> INFO - Looking for bibtex format file 'literature.bib' for section 0
+[206] bibtex.pm:911> INFO - Decoding LaTeX character macros into UTF-8
+[217] bibtex.pm:786> INFO - Found BibTeX data source 'literature.bib'
+[221] Utils.pm:169> WARN - Duplicate entry key: '.2009' in file 'literature.bib', skipping ...
+[495] Biber.pm:2883> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[495] Biber.pm:2889> INFO - Sorting 'entry' list 'nty' keys
+[495] Biber.pm:2893> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[741] bbl.pm:479> INFO - Writing '/Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bbl' with encoding 'UTF-8'
+[746] bbl.pm:552> INFO - Output to /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.bbl
+[746] Biber.pm:105> INFO - WARNINGS: 1
