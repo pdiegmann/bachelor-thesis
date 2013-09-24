@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  24 SEP 2013 16:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  24 SEP 2013 19:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1586,6 +1586,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 258--287
 
  []
 
+
+Package xcolor Warning: Incompatible color definition on input line 301.
+
+
+Package xcolor Warning: Incompatible color definition on input line 301.
+
 <figures/Screen_2_bw.jpg, id=816, 663.47874pt x 1161.33875pt>
 File: figures/Screen_2_bw.jpg Graphic file (type jpg)
 
@@ -1704,50 +1710,52 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 [29 <./figures/Screen_2_bw.jpg> <./figures/Screen_3_bw.jpg> <./figures/List_bw.
 jpg> <./figures/Results_Alt_bw.jpg>]
+
+Package xcolor Warning: Incompatible color definition on input line 385.
+
+
+Package xcolor Warning: Incompatible color definition on input line 400.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--401
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--401
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--401
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--401
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--401
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--401
+
+ []
+
+
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[30 <./figures/Screen_3a_bw.jpg> <./figures/Screen_4_bw.jpg> <./figures/Dialog_
+[30]
+Overfull \vbox (11.09991pt too high) has occurred while \output is active []
+
+
+[31 <./figures/Screen_3a_bw.jpg> <./figures/Screen_4_bw.jpg> <./figures/Dialog_
 bw.jpg> <./figures/Detail_bw.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 377--401
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--401
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--401
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--401
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--401
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--401
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--401
-
- []
-
-
-Overfull \vbox (11.09991pt too high) has occurred while \output is active []
-
-
-[31]
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
@@ -1755,7 +1763,20 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[33])
+[33]
+
+Package xcolor Warning: Incompatible color definition on input line 419.
+
+
+Package xcolor Warning: Incompatible color definition on input line 419.
+
+
+Package xcolor Warning: Incompatible color definition on input line 424.
+
+
+Package xcolor Warning: Incompatible color definition on input line 427.
+
+)
 Underfull \hbox (badness 10000) in paragraph at lines 404--247
 
  []
@@ -1792,7 +1813,11 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[36] (./chapters/5-lessonsLearned.tex)
+[36] (./chapters/5-lessonsLearned.tex
+
+Package xcolor Warning: Incompatible color definition on input line 12.
+
+)
 Underfull \hbox (badness 10000) in paragraph at lines 3--249
 
  []
@@ -2035,7 +2060,7 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 [45
 
 ] (./titlepages/lebenslauf.tex
-<figures/passfoto.jpg, id=995, 803.0pt x 942.52126pt>
+<figures/passfoto.jpg, id=980, 803.0pt x 942.52126pt>
 File: figures/passfoto.jpg Graphic file (type jpg)
 
 <use figures/passfoto.jpg>
@@ -2046,12 +2071,12 @@ Overfull \vbox (31.58244pt too high) detected at line 8
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 []|\T1/ptm/m/n/12 Forschungsgruppe In-for-ma-tion-ssys-teme und Lern-
  []
 
 
-Overfull \hbox (11.20865pt too wide) in paragraph at lines 48--57
+Overfull \hbox (11.20865pt too wide) in paragraph at lines 47--56
 [][]  
  []
 
@@ -2081,30 +2106,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 271.
  ) 
 Here is how much of TeX's memory you used:
- 16519 strings out of 493311
- 259886 string characters out of 6137850
- 742412 words of memory out of 5000000
- 19401 multiletter control sequences out of 15000+600000
+ 16517 strings out of 493311
+ 259863 string characters out of 6137850
+ 742427 words of memory out of 5000000
+ 19404 multiletter control sequences out of 15000+600000
  30875 words of font info for 40 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  43i,14n,57p,2876b,1603s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.133} has been referenced but does not e
+pdfTeX warning (dest): name{Hfootnote.128} has been referenced but does not e
 xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.132} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.131} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.130} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.129} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.128} has been referenced but does not exi
-st, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.127} has been referenced but does not exi
 st, replaced by a fixed one
@@ -2491,10 +2501,10 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 live/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 Output written on /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.pdf
- (52 pages, 1197381 bytes).
+ (52 pages, 1198496 bytes).
 PDF statistics:
- 1074 PDF objects out of 1200 (max. 8388607)
- 943 compressed objects within 10 object streams
- 273 named destinations out of 1000 (max. 500000)
+ 1058 PDF objects out of 1200 (max. 8388607)
+ 927 compressed objects within 10 object streams
+ 268 named destinations out of 1000 (max. 500000)
  322 words of extra memory for PDF output out of 10000 (max. 10000000)
 

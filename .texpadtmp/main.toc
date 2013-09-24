@@ -69,7 +69,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3}The Planning Process}{26}{subsection.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}The Implementation Process}{31}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.4}The Implementation Process}{30}{subsection.4.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5}Validation of the Mobile App}{34}{subsection.4.5}
 \defcounter {refsection}{0}\relax 
