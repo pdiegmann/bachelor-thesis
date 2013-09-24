@@ -27,7 +27,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}mHealth App Categories}{8}{subsection.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Classification of the ePill Web Application}{9}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.3}Classification of the ePill Web Application}{10}{subsection.3.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4}Why is a special Focus on mHealth Apps warranted?}{11}{subsection.3.4}
 \defcounter {refsection}{0}\relax 
