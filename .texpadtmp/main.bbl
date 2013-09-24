@@ -334,6 +334,35 @@
       \field{year}{2011}
       \field{pages}{I\bibrangedash 17}
     \endentry
+    \entry{Hasan2011}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=ec9ef08738e193068bb7603e85b5277d}{Hasan}{H\bibinitperiod}{S.S.}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9b9c0a0ec1a248d149855cfe65506e8a}{Isaac}{I\bibinitperiod}{R.K.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=ec9ef08738e193068bb7603e85b5277d}{Hasan}{H\bibinitperiod}{S.S.}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9b9c0a0ec1a248d149855cfe65506e8a}{Isaac}{I\bibinitperiod}{R.K.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fe34a863b3d968d4553112d991fefe48}
+      \strng{fullhash}{fe34a863b3d968d4553112d991fefe48}
+      \field{sortinit}{H}
+      \field{labelyear}{2011}
+      \field{labeltitle}{An integrated approach of MAS-CommonKADS, Model– View–Controller and web application optimization strategies for web-based expert system development}
+      \field{issn}{0957-4174}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{number}{1}
+      \field{title}{An integrated approach of MAS-CommonKADS, Model– View–Controller and web application optimization strategies for web-based expert system development}
+      \field{volume}{38}
+      \field{year}{2011}
+      \field{pages}{417\bibrangedash 428}
+      \verb{doi}
+      \verb http://dx.doi.org/10.1016/j.eswa.2010.06.080
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0957417410005841
+      \endverb
+      \keyw{Web usability}
+    \endentry
     \entry{Istepanian.2004}{article}{}
       \name{labelname}{3}{}{%
         {{uniquename=0,hash=76d6cd2016d3b302c327c9922a11d24f}{Istepanian}{I\bibinitperiod}{R.S.H.}{R\bibinitperiod}{}{}{}{}}%
@@ -521,6 +550,29 @@
       \field{title}{Technical Analysis of the Data Practices and Privacy Risks of 43 Popular Mobile Health and Fitness Applications}
       \field{year}{2013}
       \field{pages}{1\bibrangedash 31}
+    \endentry
+    \entry{Norman2002}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=fbc071a51443b2cd78f1f10c73b5078d}{Norman}{N\bibinitperiod}{D.A.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=fbc071a51443b2cd78f1f10c73b5078d}{Norman}{N\bibinitperiod}{D.A.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Basic Books}%
+      }
+      \strng{namehash}{fbc071a51443b2cd78f1f10c73b5078d}
+      \strng{fullhash}{fbc071a51443b2cd78f1f10c73b5078d}
+      \field{sortinit}{N}
+      \field{labelyear}{2002}
+      \field{labeltitle}{The Design of Everyday Things}
+      \field{isbn}{9780465067107}
+      \field{title}{The Design of Everyday Things}
+      \field{year}{2002}
+      \field{pages}{1\bibrangedash 256}
+      \verb{url}
+      \verb http://books.google.de/books?id=w8pM72p%5C_dpoC
+      \endverb
     \endentry
     \entry{TheEuropeanParliamentandtheCounciloftheEuropeanUnion.24.10.1995}{misc}{}
       \name{labelname}{1}{}{%
