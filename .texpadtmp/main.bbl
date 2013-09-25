@@ -503,6 +503,73 @@
       \verb 10.2196/jmir.2600
       \endverb
     \endentry
+    \entry{Mayer.2012}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=0a50644df7099f8a9bb4b576806d5994}{Mayer}{M\bibinitperiod}{Jörg\bibnamedelima H.}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9d6be37fa5ca9bb4c97042a72e694f30}{Weitzel}{W\bibinitperiod}{Timm}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=0a50644df7099f8a9bb4b576806d5994}{Mayer}{M\bibinitperiod}{Jörg\bibnamedelima H.}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9d6be37fa5ca9bb4c97042a72e694f30}{Weitzel}{W\bibinitperiod}{Timm}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{3}{%
+        {Los Alamitos}%
+        {CA}%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Computer Society}%
+      }
+      \strng{namehash}{686fe33334470189f417a14751443ccf}
+      \strng{fullhash}{686fe33334470189f417a14751443ccf}
+      \field{sortinit}{M}
+      \field{labelyear}{2012}
+      \field{labeltitle}{Appropriate Interface Designs for Mobile End-User Devices--Up Close and Personalized Executive Information Systems as an Example}
+      \field{abstract}{This article develops interface designs for increasingly important mobile end-user devices. Such interfaces make {\dq}up close and personalized{\dq} executive information systems possible. Based on a multidimensional literature review, we propose ten design guidelines for {\dq}analyst{\dq}- and {\dq}consumer{\dq}-type executives and the different devices they use. Then, we validate the guidelines with an expert focus group and demonstrate their utility with a first instantiation.}
+      \field{booktitle}{2013 46th Hawaii International Conference on System Sciences}
+      \field{isbn}{978-0-7695-4525-7}
+      \field{title}{Appropriate Interface Designs for Mobile End-User Devices--Up Close and Personalized Executive Information Systems as an Example}
+      \field{year}{2012}
+      \field{pages}{1677\bibrangedash 1686}
+      \verb{doi}
+      \verb 10.1109/HICSS.2012.5
+      \endverb
+      \keyw{end-user devices;executive information systems (eis);information systems (is) analysis;design;user-interface design}
+    \endentry
+    \entry{Moore.2012}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=775af4b1cf243b46876a38df4a639c18}{Moore}{M\bibinitperiod}{Justin}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2b05babdaa1bfabd90adf709ce42e8bc}{Kackley}{K\bibinitperiod}{Jeremy}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3fc0f0873e749c1c97cce3f4464e3f26}{Wahjudi}{W\bibinitperiod}{Paulus}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=28f5f5b6bae46c433afec5ac360ad8f7}{Ali}{A\bibinitperiod}{Dia}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=775af4b1cf243b46876a38df4a639c18}{Moore}{M\bibinitperiod}{Justin}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2b05babdaa1bfabd90adf709ce42e8bc}{Kackley}{K\bibinitperiod}{Jeremy}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3fc0f0873e749c1c97cce3f4464e3f26}{Wahjudi}{W\bibinitperiod}{Paulus}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=28f5f5b6bae46c433afec5ac360ad8f7}{Ali}{A\bibinitperiod}{Dia}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{2}{%
+        {tURLOCK}%
+        {United States}%
+      }
+      \list{publisher}{1}{%
+        {International Conference on Industry, Engineering, {\&} Management Systems}%
+      }
+      \strng{namehash}{090c7d7c98c3de49cb8cef5ab6530c2b}
+      \strng{fullhash}{c82a54c92a67af432049336cdb0b639f}
+      \field{sortinit}{M}
+      \field{labelyear}{2012}
+      \field{labeltitle}{Android Threat Classification Matrix}
+      \field{booktitle}{Journal of Management {\&} Engineering Integration}
+      \field{title}{Android Threat Classification Matrix}
+      \field{year}{2012}
+      \field{pages}{14\bibrangedash 19}
+      \verb{url}
+      \verb http://search.proquest.com/abicomplete/docview/1327964944/13FD6BCF97A11F6E0DB/50?accountid=10218
+      \endverb
+      \keyw{Business And Economics--Management;Engineering}
+    \endentry
     \entry{Nicolaou.2013}{article}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=8daa213bb4f7e6283aefe7712a6d8d7f}{Nicolaou}{N\bibinitperiod}{Alex}{A\bibinitperiod}{}{}{}{}}%
