@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  25 SEP 2013 09:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  25 SEP 2013 12:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1509,33 +1509,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 242--248
 
  []
 
-LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 254.
-
-Package xcolor Warning: Incompatible color definition on input line 254.
-
-<figures/Screen_1_bw.jpg, id=817, 663.47874pt x 1161.33875pt>
+<figures/Screen_1_bw.jpg, id=821, 663.47874pt x 1161.33875pt>
 File: figures/Screen_1_bw.jpg Graphic file (type jpg)
 
 <use figures/Screen_1_bw.jpg>
 Package pdftex.def Info: figures/Screen_1_bw.jpg used on input line 259.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-<figures/Main_Screen_bw.jpg, id=818, 663.47874pt x 1161.33875pt>
+<figures/Main_Screen_bw.jpg, id=822, 663.47874pt x 1161.33875pt>
 File: figures/Main_Screen_bw.jpg Graphic file (type jpg)
 
 <use figures/Main_Screen_bw.jpg>
 Package pdftex.def Info: figures/Main_Screen_bw.jpg used on input line 266.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-<figures/Search_bw.jpg, id=819, 663.47874pt x 1161.33875pt>
+<figures/Search_bw.jpg, id=823, 663.47874pt x 1161.33875pt>
 File: figures/Search_bw.jpg Graphic file (type jpg)
 
 <use figures/Search_bw.jpg>
 Package pdftex.def Info: figures/Search_bw.jpg used on input line 275.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-<figures/Results_bw.jpg, id=820, 663.47874pt x 1161.33875pt>
+<figures/Results_bw.jpg, id=824, 663.47874pt x 1161.33875pt>
 File: figures/Results_bw.jpg Graphic file (type jpg)
 
 <use figures/Results_bw.jpg>
@@ -1551,28 +1546,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 257--286
 
  []
 
-<figures/Screen_2_bw.jpg, id=827, 663.47874pt x 1161.33875pt>
+<figures/Screen_2_bw.jpg, id=831, 663.47874pt x 1161.33875pt>
 File: figures/Screen_2_bw.jpg Graphic file (type jpg)
 
 <use figures/Screen_2_bw.jpg>
 Package pdftex.def Info: figures/Screen_2_bw.jpg used on input line 305.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-<figures/Screen_3_bw.jpg, id=828, 663.47874pt x 1161.33875pt>
+<figures/Screen_3_bw.jpg, id=832, 663.47874pt x 1161.33875pt>
 File: figures/Screen_3_bw.jpg Graphic file (type jpg)
 
 <use figures/Screen_3_bw.jpg>
 Package pdftex.def Info: figures/Screen_3_bw.jpg used on input line 312.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-<figures/List_bw.jpg, id=829, 663.47874pt x 1161.33875pt>
+<figures/List_bw.jpg, id=833, 663.47874pt x 1161.33875pt>
 File: figures/List_bw.jpg Graphic file (type jpg)
 
 <use figures/List_bw.jpg>
 Package pdftex.def Info: figures/List_bw.jpg used on input line 321.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-<figures/Results_Alt_bw.jpg, id=830, 663.47874pt x 1161.33875pt>
+<figures/Results_Alt_bw.jpg, id=834, 663.47874pt x 1161.33875pt>
 File: figures/Results_Alt_bw.jpg Graphic file (type jpg)
 
 <use figures/Results_Alt_bw.jpg>
@@ -1588,28 +1583,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 303--332
 
  []
 
-<figures/Screen_3a_bw.jpg, id=831, 663.47874pt x 1161.33875pt>
+<figures/Screen_3a_bw.jpg, id=835, 663.47874pt x 1161.33875pt>
 File: figures/Screen_3a_bw.jpg Graphic file (type jpg)
 
 <use figures/Screen_3a_bw.jpg>
 Package pdftex.def Info: figures/Screen_3a_bw.jpg used on input line 337.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-<figures/Screen_4_bw.jpg, id=832, 663.47874pt x 1161.33875pt>
+<figures/Screen_4_bw.jpg, id=836, 663.47874pt x 1161.33875pt>
 File: figures/Screen_4_bw.jpg Graphic file (type jpg)
 
 <use figures/Screen_4_bw.jpg>
 Package pdftex.def Info: figures/Screen_4_bw.jpg used on input line 344.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-<figures/Dialog_bw.jpg, id=833, 663.47874pt x 1161.33875pt>
+<figures/Dialog_bw.jpg, id=837, 663.47874pt x 1161.33875pt>
 File: figures/Dialog_bw.jpg Graphic file (type jpg)
 
 <use figures/Dialog_bw.jpg>
 Package pdftex.def Info: figures/Dialog_bw.jpg used on input line 353.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-<figures/Detail_bw.jpg, id=834, 663.47874pt x 1161.33875pt>
+<figures/Detail_bw.jpg, id=838, 663.47874pt x 1161.33875pt>
 File: figures/Detail_bw.jpg Graphic file (type jpg)
 
 <use figures/Detail_bw.jpg>
@@ -1720,8 +1715,8 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 [33]
-
-Package xcolor Warning: Incompatible color definition on input line 418.
+LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 423.
 
 
 Package xcolor Warning: Incompatible color definition on input line 423.
@@ -1799,11 +1794,7 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[38] (./chapters/6-conclusion.tex
-
-Package xcolor Warning: Incompatible color definition on input line 2.
-
-)
+[38] (./chapters/6-conclusion.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 2--251
 
  []
@@ -1831,12 +1822,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--251
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--251
 
- []
-
-
-Overfull \hbox (2.02457pt too wide) in paragraph at lines 2--251
-\T1/ptm/m/n/12 Adding and rat-ing the sub-goals, we come to the con-clu-sion th
-at this the-sis' goal is achieved
  []
 
 
@@ -2054,7 +2039,7 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 [46
 
 ] (./titlepages/lebenslauf.tex
-<figures/passfoto.jpg, id=1011, 803.0pt x 942.52126pt>
+<figures/passfoto.jpg, id=1020, 803.0pt x 942.52126pt>
 File: figures/passfoto.jpg Graphic file (type jpg)
 
 <use figures/passfoto.jpg>
@@ -2100,15 +2085,24 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 271.
  ) 
 Here is how much of TeX's memory you used:
- 16548 strings out of 493311
- 260485 string characters out of 6137850
- 743560 words of memory out of 5000000
- 19423 multiletter control sequences out of 15000+600000
+ 16555 strings out of 493311
+ 260574 string characters out of 6137850
+ 744580 words of memory out of 5000000
+ 19427 multiletter control sequences out of 15000+600000
  30875 words of font info for 40 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  43i,14n,57p,2876b,1603s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.135} has been referenced but does not e
+pdfTeX warning (dest): name{Hfootnote.138} has been referenced but does not e
 xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.137} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.136} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.135} has been referenced but does not exi
+st, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.134} has been referenced but does not exi
 st, replaced by a fixed one
@@ -2281,16 +2275,16 @@ t, replaced by a fixed one
 pdfTeX warning (dest): name{Hfootnote.78} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.77} has been referenced but does not exis
+pdfTeX warning (dest): name{Hfootnote.76} has been referenced but does not exis
 t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.75} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.74} has been referenced but does not exis
+pdfTeX warning (dest): name{Hfootnote.77} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.76} has been referenced but does not exis
+pdfTeX warning (dest): name{Hfootnote.74} has been referenced but does not exis
 t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.73} has been referenced but does not exis
@@ -2516,10 +2510,10 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 live/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 Output written on /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.pdf
- (53 pages, 1200242 bytes).
+ (53 pages, 1200685 bytes).
 PDF statistics:
- 1090 PDF objects out of 1200 (max. 8388607)
- 958 compressed objects within 10 object streams
- 280 named destinations out of 1000 (max. 500000)
+ 1100 PDF objects out of 1200 (max. 8388607)
+ 968 compressed objects within 10 object streams
+ 283 named destinations out of 1000 (max. 500000)
  322 words of extra memory for PDF output out of 10000 (max. 10000000)
 
