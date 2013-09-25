@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  25 SEP 2013 08:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.18)  25 SEP 2013 09:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1091,9 +1091,9 @@ Overfull \vbox (2.60004pt too high) has occurred while \output is active []
 
 ] (./titlepages/acronyms.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 10.
+(Font)              <7> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 10.
+(Font)              <5> on input line 11.
 
 Overfull \vbox (2.60004pt too high) has occurred while \output is active []
 
@@ -1490,18 +1490,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--229
 
  []
 
-LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 239.
 
-Package xcolor Warning: Incompatible color definition on input line 239.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 233--241
+Underfull \hbox (badness 10000) in paragraph at lines 233--240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--241
+Underfull \hbox (badness 10000) in paragraph at lines 233--240
 
  []
 
@@ -1510,47 +1505,49 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 243--249
+Underfull \hbox (badness 10000) in paragraph at lines 242--248
 
  []
 
+LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 254.
 
-Package xcolor Warning: Incompatible color definition on input line 255.
+Package xcolor Warning: Incompatible color definition on input line 254.
 
 <figures/Screen_1_bw.jpg, id=817, 663.47874pt x 1161.33875pt>
 File: figures/Screen_1_bw.jpg Graphic file (type jpg)
 
 <use figures/Screen_1_bw.jpg>
-Package pdftex.def Info: figures/Screen_1_bw.jpg used on input line 260.
+Package pdftex.def Info: figures/Screen_1_bw.jpg used on input line 259.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
 <figures/Main_Screen_bw.jpg, id=818, 663.47874pt x 1161.33875pt>
 File: figures/Main_Screen_bw.jpg Graphic file (type jpg)
 
 <use figures/Main_Screen_bw.jpg>
-Package pdftex.def Info: figures/Main_Screen_bw.jpg used on input line 267.
+Package pdftex.def Info: figures/Main_Screen_bw.jpg used on input line 266.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
 <figures/Search_bw.jpg, id=819, 663.47874pt x 1161.33875pt>
 File: figures/Search_bw.jpg Graphic file (type jpg)
 
 <use figures/Search_bw.jpg>
-Package pdftex.def Info: figures/Search_bw.jpg used on input line 276.
+Package pdftex.def Info: figures/Search_bw.jpg used on input line 275.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
 <figures/Results_bw.jpg, id=820, 663.47874pt x 1161.33875pt>
 File: figures/Results_bw.jpg Graphic file (type jpg)
 
 <use figures/Results_bw.jpg>
-Package pdftex.def Info: figures/Results_bw.jpg used on input line 283.
+Package pdftex.def Info: figures/Results_bw.jpg used on input line 282.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--287
+Underfull \hbox (badness 10000) in paragraph at lines 257--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--287
+Underfull \hbox (badness 10000) in paragraph at lines 257--286
 
  []
 
@@ -1558,98 +1555,98 @@ Underfull \hbox (badness 10000) in paragraph at lines 258--287
 File: figures/Screen_2_bw.jpg Graphic file (type jpg)
 
 <use figures/Screen_2_bw.jpg>
-Package pdftex.def Info: figures/Screen_2_bw.jpg used on input line 306.
+Package pdftex.def Info: figures/Screen_2_bw.jpg used on input line 305.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
 <figures/Screen_3_bw.jpg, id=828, 663.47874pt x 1161.33875pt>
 File: figures/Screen_3_bw.jpg Graphic file (type jpg)
 
 <use figures/Screen_3_bw.jpg>
-Package pdftex.def Info: figures/Screen_3_bw.jpg used on input line 313.
+Package pdftex.def Info: figures/Screen_3_bw.jpg used on input line 312.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
 <figures/List_bw.jpg, id=829, 663.47874pt x 1161.33875pt>
 File: figures/List_bw.jpg Graphic file (type jpg)
 
 <use figures/List_bw.jpg>
-Package pdftex.def Info: figures/List_bw.jpg used on input line 322.
+Package pdftex.def Info: figures/List_bw.jpg used on input line 321.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
 <figures/Results_Alt_bw.jpg, id=830, 663.47874pt x 1161.33875pt>
 File: figures/Results_Alt_bw.jpg Graphic file (type jpg)
 
 <use figures/Results_Alt_bw.jpg>
-Package pdftex.def Info: figures/Results_Alt_bw.jpg used on input line 329.
+Package pdftex.def Info: figures/Results_Alt_bw.jpg used on input line 328.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--333
+Underfull \hbox (badness 10000) in paragraph at lines 303--332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--333
+Underfull \hbox (badness 10000) in paragraph at lines 303--332
 
  []
 
-<figures/Screen_3a_bw.jpg, id=832, 663.47874pt x 1161.33875pt>
+<figures/Screen_3a_bw.jpg, id=831, 663.47874pt x 1161.33875pt>
 File: figures/Screen_3a_bw.jpg Graphic file (type jpg)
 
 <use figures/Screen_3a_bw.jpg>
-Package pdftex.def Info: figures/Screen_3a_bw.jpg used on input line 342.
+Package pdftex.def Info: figures/Screen_3a_bw.jpg used on input line 337.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-<figures/Screen_4_bw.jpg, id=833, 663.47874pt x 1161.33875pt>
+<figures/Screen_4_bw.jpg, id=832, 663.47874pt x 1161.33875pt>
 File: figures/Screen_4_bw.jpg Graphic file (type jpg)
 
 <use figures/Screen_4_bw.jpg>
-Package pdftex.def Info: figures/Screen_4_bw.jpg used on input line 349.
+Package pdftex.def Info: figures/Screen_4_bw.jpg used on input line 344.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-<figures/Dialog_bw.jpg, id=834, 663.47874pt x 1161.33875pt>
+<figures/Dialog_bw.jpg, id=833, 663.47874pt x 1161.33875pt>
 File: figures/Dialog_bw.jpg Graphic file (type jpg)
 
 <use figures/Dialog_bw.jpg>
-Package pdftex.def Info: figures/Dialog_bw.jpg used on input line 358.
+Package pdftex.def Info: figures/Dialog_bw.jpg used on input line 353.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-<figures/Detail_bw.jpg, id=835, 663.47874pt x 1161.33875pt>
+<figures/Detail_bw.jpg, id=834, 663.47874pt x 1161.33875pt>
 File: figures/Detail_bw.jpg Graphic file (type jpg)
 
 <use figures/Detail_bw.jpg>
-Package pdftex.def Info: figures/Detail_bw.jpg used on input line 365.
+Package pdftex.def Info: figures/Detail_bw.jpg used on input line 360.
 (pdftex.def)             Requested size: 154.12502pt x 269.7781pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--369
+Underfull \hbox (badness 10000) in paragraph at lines 335--364
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--369
+Underfull \hbox (badness 10000) in paragraph at lines 335--364
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--374
+Underfull \hbox (badness 10000) in paragraph at lines 251--373
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--374
+Underfull \hbox (badness 10000) in paragraph at lines 251--373
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--374
+Underfull \hbox (badness 10000) in paragraph at lines 251--373
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--374
+Underfull \hbox (badness 10000) in paragraph at lines 251--373
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--374
+Underfull \hbox (badness 10000) in paragraph at lines 251--373
 
  []
 
@@ -1681,39 +1678,32 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 [30 <./figures/Screen_3a_bw.jpg> <./figures/Screen_4_bw.jpg> <./figures/Dialog_
 bw.jpg> <./figures/Detail_bw.jpg>]
-
-Package xcolor Warning: Incompatible color definition on input line 385.
-
-
-Package xcolor Warning: Incompatible color definition on input line 400.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--401
+Underfull \hbox (badness 10000) in paragraph at lines 376--400
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--401
+Underfull \hbox (badness 10000) in paragraph at lines 376--400
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--401
+Underfull \hbox (badness 10000) in paragraph at lines 376--400
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--401
+Underfull \hbox (badness 10000) in paragraph at lines 376--400
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--401
+Underfull \hbox (badness 10000) in paragraph at lines 376--400
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--401
+Underfull \hbox (badness 10000) in paragraph at lines 376--400
 
  []
 
@@ -1726,48 +1716,45 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 [32]
-
-Package xcolor Warning: Incompatible color definition on input line 419.
-
-
-Package xcolor Warning: Incompatible color definition on input line 419.
-
-
-Package xcolor Warning: Incompatible color definition on input line 424.
-
-
-Package xcolor Warning: Incompatible color definition on input line 427.
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 404--247
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--247
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--247
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--247
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--247
-
- []
-
-
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 [33]
+
+Package xcolor Warning: Incompatible color definition on input line 418.
+
+
+Package xcolor Warning: Incompatible color definition on input line 423.
+
+
+Package xcolor Warning: Incompatible color definition on input line 426.
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 403--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--247
+
+ []
+
+
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
@@ -1780,8 +1767,16 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 [36] (./chapters/5-lessonsLearned.tex
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[][][]\T1/ptm/m/n/10 cf. []$https : / / developer . apple . com / library / ios
+ / documentation / iphone / conceptual /
+ []
 
-Package xcolor Warning: Incompatible color definition on input line 12.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+\T1/ptm/m/n/10 iphoneosprogrammingguide / ManagingYourApplicationsFlow / Managi
+ngYourApplicationsFlow . html$[],
+ []
 
 )
 Underfull \hbox (badness 10000) in paragraph at lines 3--249
@@ -1804,7 +1799,16 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[38] (./chapters/6-conclusion.tex)
+[38] (./chapters/6-conclusion.tex
+
+Package xcolor Warning: Incompatible color definition on input line 2.
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 2--251
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 2--251
 
  []
@@ -1843,6 +1847,10 @@ Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
 ]
+Overfull \vbox (11.09991pt too high) has occurred while \output is active []
+
+
+[40]
 Underfull \hbox (badness 10000) in paragraph at lines 261--261
 
  []
@@ -1887,7 +1895,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 261--261
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[40
+[41
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 261--261
@@ -1935,7 +1943,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 261--261
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[41]
+[42]
 Underfull \hbox (badness 10000) in paragraph at lines 261--261
 
  []
@@ -1975,45 +1983,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 261--261
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[42]
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-
- []
-
-
-Overfull \vbox (11.09991pt too high) has occurred while \output is active []
-
-
 [43]
 Underfull \hbox (badness 10000) in paragraph at lines 261--261
 
@@ -2030,10 +1999,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 261--261
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
+
+ []
+
+
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[44] (./titlepages/erklaerung.tex
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
+
+ []
+
+
+Overfull \vbox (11.09991pt too high) has occurred while \output is active []
+
+
+[45] (./titlepages/erklaerung.tex
 Overfull \hbox (3.21236pt too wide) in paragraph at lines 4--7
 \T1/ptm/m/n/12 ohne die Be-nutzung an-derer als der angegebe-nen Hil-f-s-mit-te
 l ange-fer-tigt habe. Alle Stellen,
@@ -2043,10 +2051,10 @@ l ange-fer-tigt habe. Alle Stellen,
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[45
+[46
 
 ] (./titlepages/lebenslauf.tex
-<figures/passfoto.jpg, id=999, 803.0pt x 942.52126pt>
+<figures/passfoto.jpg, id=1011, 803.0pt x 942.52126pt>
 File: figures/passfoto.jpg Graphic file (type jpg)
 
 <use figures/passfoto.jpg>
@@ -2070,7 +2078,7 @@ Overfull \hbox (11.20865pt too wide) in paragraph at lines 47--56
 Overfull \vbox (11.09991pt too high) has occurred while \output is active []
 
 
-[46
+[47
 
 
  <./figures/passfoto.jpg>]
@@ -2092,15 +2100,21 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 271.
  ) 
 Here is how much of TeX's memory you used:
- 16545 strings out of 493311
- 260452 string characters out of 6137850
+ 16548 strings out of 493311
+ 260485 string characters out of 6137850
  743560 words of memory out of 5000000
  19423 multiletter control sequences out of 15000+600000
  30875 words of font info for 40 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  43i,14n,57p,2876b,1603s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.133} has been referenced but does not e
+pdfTeX warning (dest): name{Hfootnote.135} has been referenced but does not e
 xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.134} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.133} has been referenced but does not exi
+st, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.132} has been referenced but does not exi
 st, replaced by a fixed one
@@ -2502,10 +2516,10 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 live/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 Output written on /Users/phil/Dropbox/Bachelorarbeit/Arbeit/.texpadtmp/main.pdf
- (52 pages, 1199398 bytes).
+ (53 pages, 1200242 bytes).
 PDF statistics:
- 1079 PDF objects out of 1200 (max. 8388607)
- 948 compressed objects within 10 object streams
- 277 named destinations out of 1000 (max. 500000)
+ 1090 PDF objects out of 1200 (max. 8388607)
+ 958 compressed objects within 10 object streams
+ 280 named destinations out of 1000 (max. 500000)
  322 words of extra memory for PDF output out of 10000 (max. 10000000)
 
